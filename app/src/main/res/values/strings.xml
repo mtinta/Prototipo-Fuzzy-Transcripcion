@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DHH Captions - Lógica Difusa</string>
+    <string name="notification_title">Transcripción DHH Activa</string>
+    <string name="notification_desc">Captura continua de audio del docente en curso.</string>
+</resources>

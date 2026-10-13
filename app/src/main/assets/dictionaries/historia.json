@@ -1,0 +1,18 @@
+[
+  {"term": "Tahuantinsuyo", "lemma": "Tahuantinsuyo", "subject": "HISTORIA", "category": "PROPN", "phonetic": "tawantinsuyo"},
+  {"term": "virreinato", "lemma": "virreinato", "subject": "HISTORIA", "category": "NOUN", "phonetic": "birreinato"},
+  {"term": "capitulación", "lemma": "capitulación", "subject": "HISTORIA", "category": "NOUN", "phonetic": "kapitulasion"},
+  {"term": "confederación", "lemma": "confederación", "subject": "HISTORIA", "category": "NOUN", "phonetic": "konfederasion"},
+  {"term": "encomienda", "lemma": "encomienda", "subject": "HISTORIA", "category": "NOUN", "phonetic": "enkomienda"},
+  {"term": "corregimiento", "lemma": "corregimiento", "subject": "HISTORIA", "category": "NOUN", "phonetic": "korreximiento"},
+  {"term": "emancipación", "lemma": "emancipación", "subject": "HISTORIA", "category": "NOUN", "phonetic": "emansipasion"},
+  {"term": "prehispánico", "lemma": "prehispánico", "subject": "HISTORIA", "category": "NOUN", "phonetic": "preispaniko"},
+  {"term": "reducciones", "lemma": "reducciones", "subject": "HISTORIA", "category": "NOUN", "phonetic": "reduksiones"},
+  {"term": "yanacona", "lemma": "yanacona", "subject": "HISTORIA", "category": "NOUN", "phonetic": "yanakona"},
+  {"term": "mita", "lemma": "mita", "subject": "HISTORIA", "category": "NOUN", "phonetic": "mita"},
+  {"term": "ayllu", "lemma": "ayllu", "subject": "HISTORIA", "category": "NOUN", "phonetic": "aillu"},
+  {"term": "curaca", "lemma": "curaca", "subject": "HISTORIA", "category": "NOUN", "phonetic": "kuraka"},
+  {"term": "real cédula", "lemma": "real cédula", "subject": "HISTORIA", "category": "NOUN", "phonetic": "real sedula"},
+  {"term": "cabildo", "lemma": "cabildo", "subject": "HISTORIA", "category": "NOUN", "phonetic": "kabildo"},
+  {"term": "independencia", "lemma": "independencia", "subject": "HISTORIA", "category": "NOUN", "phonetic": "independensia"}
+]

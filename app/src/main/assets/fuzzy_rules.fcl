@@ -1,0 +1,73 @@
+// ============================================================================
+// SISTEMA DE CONTROL DIFUSO MAMDANI (jFuzzyLogic / FCL)
+// Tesis: Mejora de Precisión Speech-to-Text mediante Lógica Difusa
+// Autor: Miguel Angel Tinta Aguilar - UNSA
+// ============================================================================
+
+FUNCTION_BLOCK CorreccionPostAsr
+
+VAR_INPUT
+    confianza : REAL;   // Puntuación de confianza acústica del ASR: C in [0.0, 1.0]
+    similitud : REAL;   // Similitud fonético-léxica de Levenshtein: D in [0.0, 1.0]
+END_VAR
+
+VAR_OUTPUT
+    justificacion : REAL; // Grado de Justificación de Corrección: y* in [0.0, 1.0]
+END_VAR
+
+FUZZIFY confianza
+    TERM Baja  := (0.0, 1.0) (0.35, 1.0) (0.60, 0.0);
+    TERM Media := (0.35, 0.0) (0.60, 1.0) (0.80, 0.0);
+    TERM Alta  := (0.65, 0.0) (0.85, 1.0) (1.0, 1.0);
+END_FUZZIFY
+
+FUZZIFY similitud
+    TERM Baja  := (0.0, 1.0) (0.40, 1.0) (0.65, 0.0);
+    TERM Media := (0.45, 0.0) (0.70, 1.0) (0.85, 0.0);
+    TERM Alta  := (0.75, 0.0) (0.90, 1.0) (1.0, 1.0);
+END_FUZZIFY
+
+DEFUZZIFY justificacion
+    TERM Baja  := (0.0, 1.0) (0.30, 1.0) (0.50, 0.0);
+    TERM Media := (0.35, 0.0) (0.55, 1.0) (0.75, 0.0);
+    TERM Alta  := (0.60, 0.0) (0.80, 1.0) (1.0, 1.0);
+    METHOD : COG; // Centroide de Gravedad
+    DEFAULT := 0.0;
+END_DEFUZZIFY
+
+RULEBLOCK ReglasCorreccion
+    AND : MIN;
+    OR  : MAX;
+    ACT : MIN;
+    ACCU : MAX;
+
+    // Regla 1: Ruido acústico alto (baja confianza) pero coincidencia léxica alta con el diccionario
+    // -> Corrección altamente justificada
+    RULE 1 : IF confianza IS Baja AND similitud IS Alta THEN justificacion IS Alta;
+
+    // Regla 2: Ruido acústico alto y similitud media -> Corrección justificada
+    RULE 2 : IF confianza IS Baja AND similitud IS Media THEN justificacion IS Alta;
+
+    // Regla 3: Ruido acústico alto y similitud baja -> Probablemente palabra desconocida o ruido ajeno
+    RULE 3 : IF confianza IS Baja AND similitud IS Baja THEN justificacion IS Baja;
+
+    // Regla 4: Confianza moderada y similitud alta con término técnico -> Corrección justificada
+    RULE 4 : IF confianza IS Media AND similitud IS Alta THEN justificacion IS Alta;
+
+    // Regla 5: Confianza moderada y similitud moderada
+    RULE 5 : IF confianza IS Media AND similitud IS Media THEN justificacion IS Media;
+
+    // Regla 6: Confianza moderada y similitud baja -> Conservar término original
+    RULE 6 : IF confianza IS Media AND similitud IS Baja THEN justificacion IS Baja;
+
+    // Regla 7: Alta confianza acústica y coincidencia exacta o casi exacta
+    RULE 7 : IF confianza IS Alta AND similitud IS Alta THEN justificacion IS Media;
+
+    // Regla 8: Alta confianza acústica y similitud media -> El docente probablemente pronunció otra palabra
+    RULE 8 : IF confianza IS Alta AND similitud IS Media THEN justificacion IS Baja;
+
+    // Regla 9: Alta confianza acústica y similitud baja -> Conservar palabra original
+    RULE 9 : IF confianza IS Alta AND similitud IS Baja THEN justificacion IS Baja;
+END_RULEBLOCK
+
+END_FUNCTION_BLOCK

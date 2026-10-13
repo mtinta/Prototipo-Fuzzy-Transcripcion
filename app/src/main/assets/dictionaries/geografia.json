@@ -1,0 +1,15 @@
+[
+  {"term": "troposfera", "lemma": "troposfera", "subject": "GEOGRAFIA", "category": "NOUN", "phonetic": "troposfera"},
+  {"term": "estratosfera", "lemma": "estratosfera", "subject": "GEOGRAFIA", "category": "NOUN", "phonetic": "estratosfera"},
+  {"term": "hidrografía", "lemma": "hidrografía", "subject": "GEOGRAFIA", "category": "NOUN", "phonetic": "idrografia"},
+  {"term": "cuenca hidrográfica", "lemma": "cuenca hidrográfica", "subject": "GEOGRAFIA", "category": "NOUN", "phonetic": "kuenka idrografika"},
+  {"term": "cordillera", "lemma": "cordillera", "subject": "GEOGRAFIA", "category": "NOUN", "phonetic": "kordillera"},
+  {"term": "meseta", "lemma": "meseta", "subject": "GEOGRAFIA", "category": "NOUN", "phonetic": "meseta"},
+  {"term": "altitud", "lemma": "altitud", "subject": "GEOGRAFIA", "category": "NOUN", "phonetic": "altitud"},
+  {"term": "relieve", "lemma": "relieve", "subject": "GEOGRAFIA", "category": "NOUN", "phonetic": "reliebe"},
+  {"term": "bioma", "lemma": "bioma", "subject": "GEOGRAFIA", "category": "NOUN", "phonetic": "bioma"},
+  {"term": "vertiente del pacífico", "lemma": "vertiente del pacífico", "subject": "GEOGRAFIA", "category": "NOUN", "phonetic": "bertiente del pasifiko"},
+  {"term": "climatología", "lemma": "climatología", "subject": "GEOGRAFIA", "category": "NOUN", "phonetic": "klimatologia"},
+  {"term": "placas tectónicas", "lemma": "placas tectónicas", "subject": "GEOGRAFIA", "category": "NOUN", "phonetic": "plakas tektonikas"},
+  {"term": "geomorfología", "lemma": "geomorfología", "subject": "GEOGRAFIA", "category": "NOUN", "phonetic": "xeomorfologia"}
+]
