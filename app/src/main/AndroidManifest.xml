@@ -2,12 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <!-- Permisos de captura de audio y Bluetooth SCO -->
+    <!-- Permisos de captura de audio y dispositivos USB externos (SX26 / Maxtron 2.4 GHz) -->
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
-    <uses-permission android:name="android.permission.BLUETOOTH" />
-    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
-    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-feature android:name="android.hardware.usb.host" android:required="false" />
 
     <!-- Permisos de Foreground Service persistente para clases de 45 a 90 min -->
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
@@ -20,8 +18,18 @@
         android:name="android.permission.WRITE_EXTERNAL_STORAGE"
         android:maxSdkVersion="28" />
 
+    <!-- Android 11+: visibilidad de los servicios de reconocimiento de voz (si no, isRecognitionAvailable puede dar falso) -->
+    <queries>
+        <intent>
+            <action android:name="android.speech.RecognitionService" />
+        </intent>
+    </queries>
+
     <application
         android:allowBackup="true"
+        android:fullBackupContent="@xml/backup_rules"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        tools:targetApi="31"
         android:icon="@android:drawable/ic_btn_speak_now"
         android:label="@string/app_name"
         android:roundIcon="@android:drawable/ic_btn_speak_now"

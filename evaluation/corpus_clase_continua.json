@@ -1,0 +1,190 @@
+[
+ {
+  "id": 1,
+  "subject": "BIOLOGIA",
+  "ground_truth": "hoy estudiaremos la mitosis",
+  "raw_asr": "hoy estudiaremos la mitocis",
+  "word_confidences": [
+   0.85,
+   0.85,
+   0.85,
+   0.45
+  ],
+  "gap_s": 8,
+  "nota": "Corpus SINTÉTICO de clase continua (unidad: división celular y luego genética molecular) para medir la memoria de la clase."
+ },
+ {
+  "id": 2,
+  "subject": "BIOLOGIA",
+  "ground_truth": "en la profase se duplica el centriolo",
+  "raw_asr": "en la profase se duplica el sentriolo",
+  "word_confidences": [
+   0.85,
+   0.85,
+   0.85,
+   0.85,
+   0.85,
+   0.85,
+   0.45
+  ],
+  "gap_s": 8,
+  "nota": "Corpus SINTÉTICO de clase continua (unidad: división celular y luego genética molecular) para medir la memoria de la clase."
+ },
+ {
+  "id": 3,
+  "subject": "BIOLOGIA",
+  "ground_truth": "luego viene la metafase",
+  "raw_asr": "luego viene la metafaze",
+  "word_confidences": [
+   0.85,
+   0.85,
+   0.85,
+   0.45
+  ],
+  "gap_s": 8,
+  "nota": "Corpus SINTÉTICO de clase continua (unidad: división celular y luego genética molecular) para medir la memoria de la clase."
+ },
+ {
+  "id": 4,
+  "subject": "BIOLOGIA",
+  "ground_truth": "despues la anafase",
+  "raw_asr": "despues la anafase",
+  "word_confidences": [
+   0.85,
+   0.85,
+   0.85
+  ],
+  "gap_s": 8,
+  "nota": "Corpus SINTÉTICO de clase continua (unidad: división celular y luego genética molecular) para medir la memoria de la clase."
+ },
+ {
+  "id": 5,
+  "subject": "BIOLOGIA",
+  "ground_truth": "y finalmente la telofase",
+  "raw_asr": "y finalmente la telofaze",
+  "word_confidences": [
+   0.85,
+   0.85,
+   0.85,
+   0.45
+  ],
+  "gap_s": 8,
+  "nota": "Corpus SINTÉTICO de clase continua (unidad: división celular y luego genética molecular) para medir la memoria de la clase."
+ },
+ {
+  "id": 6,
+  "subject": "BIOLOGIA",
+  "ground_truth": "se completa la citocinesis",
+  "raw_asr": "se completa la sitocinesis",
+  "word_confidences": [
+   0.85,
+   0.85,
+   0.85,
+   0.45
+  ],
+  "gap_s": 8,
+  "nota": "Corpus SINTÉTICO de clase continua (unidad: división celular y luego genética molecular) para medir la memoria de la clase."
+ },
+ {
+  "id": 7,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la meiosis produce gametos",
+  "raw_asr": "la meyosis produce gametos",
+  "word_confidences": [
+   0.85,
+   0.45,
+   0.85,
+   0.85
+  ],
+  "gap_s": 8,
+  "nota": "Corpus SINTÉTICO de clase continua (unidad: división celular y luego genética molecular) para medir la memoria de la clase."
+ },
+ {
+  "id": 8,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el gameto es haploide",
+  "raw_asr": "el gameto es aploide",
+  "word_confidences": [
+   0.85,
+   0.85,
+   0.85,
+   0.45
+  ],
+  "gap_s": 8,
+  "nota": "Corpus SINTÉTICO de clase continua (unidad: división celular y luego genética molecular) para medir la memoria de la clase."
+ },
+ {
+  "id": 9,
+  "subject": "BIOLOGIA",
+  "ground_truth": "ahora veremos la replicación",
+  "raw_asr": "ahora veremos la replicacion",
+  "word_confidences": [
+   0.85,
+   0.85,
+   0.85,
+   0.85
+  ],
+  "gap_s": 60,
+  "nota": "Corpus SINTÉTICO de clase continua (unidad: división celular y luego genética molecular) para medir la memoria de la clase."
+ },
+ {
+  "id": 10,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la transcripción copia el gen",
+  "raw_asr": "la transcrisión copia el gen",
+  "word_confidences": [
+   0.85,
+   0.45,
+   0.85,
+   0.85,
+   0.85
+  ],
+  "gap_s": 8,
+  "nota": "Corpus SINTÉTICO de clase continua (unidad: división celular y luego genética molecular) para medir la memoria de la clase."
+ },
+ {
+  "id": 11,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el codón tiene tres nucleótidos",
+  "raw_asr": "el codon tiene tres nucleotidos",
+  "word_confidences": [
+   0.85,
+   0.85,
+   0.85,
+   0.85,
+   0.85
+  ],
+  "gap_s": 8,
+  "nota": "Corpus SINTÉTICO de clase continua (unidad: división celular y luego genética molecular) para medir la memoria de la clase."
+ },
+ {
+  "id": 12,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el ribosoma realiza la traducción",
+  "raw_asr": "el rivosoma realiza la traduccion",
+  "word_confidences": [
+   0.85,
+   0.45,
+   0.85,
+   0.85,
+   0.85
+  ],
+  "gap_s": 8,
+  "nota": "Corpus SINTÉTICO de clase continua (unidad: división celular y luego genética molecular) para medir la memoria de la clase."
+ },
+ {
+  "id": 13,
+  "subject": "BIOLOGIA",
+  "ground_truth": "una mutación cambia el codón",
+  "raw_asr": "una mutasión cambia el codón",
+  "word_confidences": [
+   0.85,
+   0.45,
+   0.85,
+   0.85,
+   0.85
+  ],
+  "gap_s": 8,
+  "nota": "Corpus SINTÉTICO de clase continua (unidad: división celular y luego genética molecular) para medir la memoria de la clase."
+ }
+]

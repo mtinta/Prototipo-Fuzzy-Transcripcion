@@ -35,7 +35,7 @@ class OpenNlpPosTagger {
      * Retorna true si es candidato para cotejar contra el diccionario escolar.
      */
     fun isCandidateNoun(word: String): Boolean {
-        val clean = word.lowercase(Locale.ROOT).trim().replace(Regex("[^a-záéíóúüñ]"), "")
+        val clean = word.lowercase(Locale.ROOT).trim().replace(NON_LETTERS, "")
         if (clean.length < 3) return false
         if (stopWordsSpanish.contains(clean)) return false
 
@@ -64,5 +64,10 @@ class OpenNlpPosTagger {
             }
         }
         return candidates
+    }
+
+    private companion object {
+        /** Compilada una sola vez: se llama por cada palabra y por cada unión de palabras. */
+        val NON_LETTERS = Regex("[^a-záéíóúüñ]")
     }
 }

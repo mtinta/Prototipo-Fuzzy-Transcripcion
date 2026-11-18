@@ -24,7 +24,7 @@ import java.io.InputStreamReader
  */
 @Database(
     entities = [AcademicTerm::class, SessionLogEntity::class],
-    version = 1,
+    version = 2,
     exportSchema = false
 )
 abstract class AppRoomDatabase : RoomDatabase() {

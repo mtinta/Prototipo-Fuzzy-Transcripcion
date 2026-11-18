@@ -1,0 +1,2065 @@
+[
+ {
+  "id": 1,
+  "subject": "BIOLOGIA",
+  "ground_truth": "hoy vamos a ver una situación muy común con el ácido de la cocina",
+  "raw_asr": "hoy vamos a ver una situación muy común con el las sido de la cocina",
+  "word_confidences": [
+   0.8647,
+   0.9805,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.7722,
+   0.6005,
+   0.9544,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 2,
+  "subject": "BIOLOGIA",
+  "ground_truth": "han oído hablar de los óxidos que se forman en el hierro",
+  "raw_asr": "han oído hablar de los óxidos que se forman en el hierro",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 3,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la unión de dos átomos forma una molécula",
+  "raw_asr": "la unión de dos átomos forma una molecular",
+  "word_confidences": [
+   1.0,
+   0.9894,
+   1.0,
+   0.6093,
+   1.0,
+   0.9608,
+   1.0,
+   0.618
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 4,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la profesora tomó la muestra de carbonato y la puso en el tubo",
+  "raw_asr": "la profesora tomó la muestra de carbonato vila puso en el tubo",
+  "word_confidences": [
+   1.0,
+   1.0,
+   0.8544,
+   0.9789,
+   1.0,
+   1.0,
+   1.0,
+   0.4935,
+   1.0,
+   1.0,
+   0.8109,
+   0.7152
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 5,
+  "subject": "BIOLOGIA",
+  "ground_truth": "cada grupo tiene su propio estilo para escribir la fórmula",
+  "raw_asr": "cada grupo tiene su propio estilo para escribir la fórmula",
+  "word_confidences": [
+   1.0,
+   1.0,
+   0.8535,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 6,
+  "subject": "BIOLOGIA",
+  "ground_truth": "como está indicado en la guía el indicador cambia de color",
+  "raw_asr": "cómo está indicado en la liga el indicador cambia de color",
+  "word_confidences": [
+   0.7238,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.7157,
+   0.9664,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 7,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el carbón se usaba como combustible antes del petróleo",
+  "raw_asr": "el carbón se usaba como combustible antes del petróleo",
+  "word_confidences": [
+   1.0,
+   0.8723,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 8,
+  "subject": "BIOLOGIA",
+  "ground_truth": "este experimento funciona mejor con agua destilada",
+  "raw_asr": "este experimento funciona mejor con agua destilada",
+  "word_confidences": [
+   1.0,
+   0.632,
+   0.6886,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 9,
+  "subject": "BIOLOGIA",
+  "ground_truth": "vamos a mezclar el soluto con el solvente despacio",
+  "raw_asr": "vamos a mezclar el sólo con el solvente despacio",
+  "word_confidences": [
+   1.0,
+   0.9303,
+   1.0,
+   0.8956,
+   0.4801,
+   0.949,
+   0.9133,
+   1.0,
+   0.6534
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 10,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la tierra gira en su órbita y el agua del planeta cumple su ciclo",
+  "raw_asr": "la tierra gira en su órbita y del agua del planeta cumple su ciclo",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.8471,
+   0.578,
+   0.903,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.7961,
+   0.9894,
+   0.6326
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 11,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la fórmula molecular del agua tiene dos hidrógenos y un oxígeno",
+  "raw_asr": "la fórmula molecular del agua tiene dos hidrógeno según oxígeno",
+  "word_confidences": [
+   1.0,
+   1.0,
+   0.9773,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.5248,
+   0.921
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 12,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la conversación de hoy trata sobre la condensación del vapor",
+  "raw_asr": "la conversación de hoy trata sobre la condensación del vapor",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   0.9819,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 13,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la producción de energía en la combustión es muy grande",
+  "raw_asr": "la producción de energía en la combustión es muy grande",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.8554,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 14,
+  "subject": "BIOLOGIA",
+  "ground_truth": "por favor busquen un sitio en la mesa del laboratorio",
+  "raw_asr": "por favor busquen un sitio en la mesa del laboratorio",
+  "word_confidences": [
+   1.0,
+   1.0,
+   0.9776,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 15,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el metal cambia de color cuando se oxida",
+  "raw_asr": "el metal cambia de color cuando se oxida",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.9351,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 16,
+  "subject": "BIOLOGIA",
+  "ground_truth": "ese alumno alcanzó la mejor nota en el examen de química",
+  "raw_asr": "es alumno alcanzó la mejor nota en el examen de química",
+  "word_confidences": [
+   0.6113,
+   1.0,
+   0.9225,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.9728
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 17,
+  "subject": "BIOLOGIA",
+  "ground_truth": "no metan las manos en el ácido",
+  "raw_asr": "no me tan unas manos en el ha sido",
+  "word_confidences": [
+   1.0,
+   0.9278,
+   0.8561,
+   0.5321,
+   1.0,
+   1.0,
+   0.832,
+   0.5752,
+   0.8394
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 18,
+  "subject": "BIOLOGIA",
+  "ground_truth": "primero pesamos la muestra y luego medimos el volumen",
+  "raw_asr": "primero pues ambos la muestra y luego medimos el volumen",
+  "word_confidences": [
+   1.0,
+   0.8148,
+   0.5548,
+   1.0,
+   1.0,
+   0.9783,
+   0.9349,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 19,
+  "subject": "BIOLOGIA",
+  "ground_truth": "es suficiente con dos gotas del indicador",
+  "raw_asr": "es suficiente con dos gotas del indicador",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.5498,
+   0.9668,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 20,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la flor de la planta necesita nitrógeno y fósforo",
+  "raw_asr": "la flor de la planta necesita nitrógeno y fósforo",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 21,
+  "subject": "BIOLOGIA",
+  "ground_truth": "necesitamos apoyar el tubo de ensayo en la gradilla",
+  "raw_asr": "necesitamos apoyar el tubo de ensayo en la grady ya",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.9066,
+   0.7773,
+   0.5815,
+   0.5815
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 22,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el gusano ayuda a la descomposición de la materia orgánica",
+  "raw_asr": "el gusano ayuda a la descomposición de la materia orgánica",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   0.6321,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 23,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el grano de arroz contiene almidón",
+  "raw_asr": "el grano de arroz contiene almidón",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 24,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la lluvia cae del cielo y forma parte del ciclo del agua",
+  "raw_asr": "la lluvia cae del cielo y forma parte del ciclo del agua",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 25,
+  "subject": "BIOLOGIA",
+  "ground_truth": "su socio trabaja en una fábrica de detergente",
+  "raw_asr": "su socio trabaja en una fábrica de detergente",
+  "word_confidences": [
+   0.7294,
+   0.7899,
+   0.9665,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 26,
+  "subject": "BIOLOGIA",
+  "ground_truth": "estaba pensando en el problema de estequiometría",
+  "raw_asr": "estaba pensando en el problema de este que un metería",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.9605,
+   0.8343,
+   0.2713,
+   0.9914
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 27,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la educación ambiental nos enseña a cuidar el agua",
+  "raw_asr": "la educación ambiental nos enseña cuidar el agua",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 28,
+  "subject": "BIOLOGIA",
+  "ground_truth": "abran la ventana del laboratorio para que salga el gas",
+  "raw_asr": "abra la ventana del laboratorio para que salga el gas",
+  "word_confidences": [
+   0.6164,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 29,
+  "subject": "BIOLOGIA",
+  "ground_truth": "tienen que mirar el nivel del líquido en la probeta",
+  "raw_asr": "tienen que mirar el nivel del líquido en la probeta",
+  "word_confidences": [
+   0.5655,
+   0.7927,
+   0.9721,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.6352,
+   0.6508,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 30,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el octavo elemento de la tabla periódica es el oxígeno",
+  "raw_asr": "el octavo elemento de la tabla periódica es el oxígeno",
+  "word_confidences": [
+   0.9238,
+   1.0,
+   0.9824,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.9212
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 31,
+  "subject": "BIOLOGIA",
+  "ground_truth": "este es un ejemplo práctico de reacción química",
+  "raw_asr": "este es un ejemplo práctico de reacción química",
+  "word_confidences": [
+   0.9312,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 32,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el mecánico usa aceite que viene del petróleo",
+  "raw_asr": "el mecánicos aceite que viene del petróleo",
+  "word_confidences": [
+   1.0,
+   0.6298,
+   1.0,
+   1.0,
+   0.8436,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 33,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la reacción ocurre en cualquier sitio donde haya oxígeno",
+  "raw_asr": "la reacción locura en cualquier sitio donde haya síguenos",
+  "word_confidences": [
+   1.0,
+   0.9454,
+   0.4549,
+   0.94,
+   1.0,
+   1.0,
+   1.0,
+   0.517,
+   0.328
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 34,
+  "subject": "BIOLOGIA",
+  "ground_truth": "todo el grupo terminó el informe sobre el ciclo del nitrógeno",
+  "raw_asr": "todo el grupo terminó el in forme sobre el ciclo del nitrógeno",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   0.6745,
+   0.9246,
+   0.5049,
+   0.5812,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 35,
+  "subject": "BIOLOGIA",
+  "ground_truth": "quiero que sepan que la química está en todas partes",
+  "raw_asr": "quiero que sepan que la química está en todas partes",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   0.9532,
+   1.0,
+   0.9301,
+   0.8941,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 36,
+  "subject": "BIOLOGIA",
+  "ground_truth": "hoy vamos a ver una situación muy común con el ácido de la cocina",
+  "raw_asr": "hoy vamos a ver una situación muy común con el ha sido de la cocina",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.6678,
+   0.824,
+   0.8416,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 37,
+  "subject": "BIOLOGIA",
+  "ground_truth": "han oído hablar de los óxidos que se forman en el hierro",
+  "raw_asr": "han oído hablar de los óxidos que se forman en el hierro",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 38,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la unión de dos átomos forma una molécula",
+  "raw_asr": "la unión de dos átomos forma una molecular",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 39,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la profesora tomó la muestra de carbonato y la puso en el tubo",
+  "raw_asr": "la profesora tomó la muestra de carbonato y la puso en el tubo",
+  "word_confidences": [
+   1.0,
+   1.0,
+   0.8513,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.8215,
+   0.7245
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 40,
+  "subject": "BIOLOGIA",
+  "ground_truth": "cada grupo tiene su propio estilo para escribir la fórmula",
+  "raw_asr": "cada grupo tiene su propio estilo para escribir la fórmula",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.9421,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 41,
+  "subject": "BIOLOGIA",
+  "ground_truth": "como está indicado en la guía el indicador cambia de color",
+  "raw_asr": "cómo está indicado en la vida el indicador cambia de color",
+  "word_confidences": [
+   0.7239,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.6859,
+   0.9775,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 42,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el carbón se usaba como combustible antes del petróleo",
+  "raw_asr": "el carbón se usaba como combustible antes del petróleo",
+  "word_confidences": [
+   1.0,
+   0.8723,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 43,
+  "subject": "BIOLOGIA",
+  "ground_truth": "este experimento funciona mejor con agua destilada",
+  "raw_asr": "este experimento funciona mejor con agua destilada",
+  "word_confidences": [
+   1.0,
+   0.6217,
+   0.6395,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 44,
+  "subject": "BIOLOGIA",
+  "ground_truth": "vamos a mezclar el soluto con el solvente despacio",
+  "raw_asr": "damos a mezclar él solito con el solvente despacio",
+  "word_confidences": [
+   0.7301,
+   0.6832,
+   1.0,
+   0.5239,
+   0.9239,
+   1.0,
+   0.8974,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 45,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la tierra gira en su órbita y el agua del planeta cumple su ciclo",
+  "raw_asr": "la tierra gira en su órbita y del agua del planeta cumple su ciclo",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.8169,
+   0.674,
+   0.5316,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.8645,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 46,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la fórmula molecular del agua tiene dos hidrógenos y un oxígeno",
+  "raw_asr": "la fórmula molecular del agua tiene dos hidrógeno y un oxígeno",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.9119,
+   1.0,
+   1.0,
+   0.9298,
+   0.8361,
+   0.921
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 47,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la conversación de hoy trata sobre la condensación del vapor",
+  "raw_asr": "la conversación de hoy trata sobre la condensación del vapor",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 48,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la producción de energía en la combustión es muy grande",
+  "raw_asr": "la producción de energía en la combustión es muy grande",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 49,
+  "subject": "BIOLOGIA",
+  "ground_truth": "por favor busquen un sitio en la mesa del laboratorio",
+  "raw_asr": "por favor busquen un sitio en la mesa del laboratorio",
+  "word_confidences": [
+   1.0,
+   1.0,
+   0.9127,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.8343,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 50,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el metal cambia de color cuando se oxida",
+  "raw_asr": "el metal cambia de color cuando se oxida",
+  "word_confidences": [
+   0.9645,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.9351,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 51,
+  "subject": "BIOLOGIA",
+  "ground_truth": "ese alumno alcanzó la mejor nota en el examen de química",
+  "raw_asr": "ese alumno alcanzó la mejor nota en el examen de química",
+  "word_confidences": [
+   0.9776,
+   0.9737,
+   0.9225,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 52,
+  "subject": "BIOLOGIA",
+  "ground_truth": "no metan las manos en el ácido",
+  "raw_asr": "no me tan las manos en el ha sido",
+  "word_confidences": [
+   1.0,
+   0.6482,
+   0.6267,
+   1.0,
+   1.0,
+   1.0,
+   0.926,
+   0.4855,
+   0.5684
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 53,
+  "subject": "BIOLOGIA",
+  "ground_truth": "primero pesamos la muestra y luego medimos el volumen",
+  "raw_asr": "primero pensamos la muestra y luego medimos el volumen",
+  "word_confidences": [
+   1.0,
+   0.8042,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 54,
+  "subject": "BIOLOGIA",
+  "ground_truth": "es suficiente con dos gotas del indicador",
+  "raw_asr": "es suficiente con dos gotas del indicador",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.5747,
+   1.0,
+   0.9832
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 55,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la flor de la planta necesita nitrógeno y fósforo",
+  "raw_asr": "la flor de la planta necesita nitrógeno y fósforo",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 56,
+  "subject": "BIOLOGIA",
+  "ground_truth": "necesitamos apoyar el tubo de ensayo en la gradilla",
+  "raw_asr": "necesitamos apoyar el tubo de ensayo en la gravilla",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.9459,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 57,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el gusano ayuda a la descomposición de la materia orgánica",
+  "raw_asr": "el gusano ayuda a la descomposición de la materia orgánica",
+  "word_confidences": [
+   0.6362,
+   0.6164,
+   1.0,
+   0.9116,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 58,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el grano de arroz contiene almidón",
+  "raw_asr": "el grano de arroz contiene almidón",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 59,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la lluvia cae del cielo y forma parte del ciclo del agua",
+  "raw_asr": "la lluvia cae del cielo y forma parte del ciclo del agua",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 60,
+  "subject": "BIOLOGIA",
+  "ground_truth": "su socio trabaja en una fábrica de detergente",
+  "raw_asr": "su socio trabaja en una fábrica de detergente",
+  "word_confidences": [
+   0.5791,
+   0.8254,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 61,
+  "subject": "BIOLOGIA",
+  "ground_truth": "estaba pensando en el problema de estequiometría",
+  "raw_asr": "estaba pensando en el problema de este geométrica",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.9511,
+   0.9511,
+   0.8275
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 62,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la educación ambiental nos enseña a cuidar el agua",
+  "raw_asr": "la educación ambiental nos enseña a cuidar el agua",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.8809,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 63,
+  "subject": "BIOLOGIA",
+  "ground_truth": "abran la ventana del laboratorio para que salga el gas",
+  "raw_asr": "abran la ventana del laboratorio para que salga el gas",
+  "word_confidences": [
+   0.6357,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.5362
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 64,
+  "subject": "BIOLOGIA",
+  "ground_truth": "tienen que mirar el nivel del líquido en la probeta",
+  "raw_asr": "tienen que mira el nivel del líquido de en la probeta",
+  "word_confidences": [
+   1.0,
+   1.0,
+   0.9612,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.896,
+   0.4691,
+   1.0,
+   0.9835
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 65,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el octavo elemento de la tabla periódica es el oxígeno",
+  "raw_asr": "el octavo elemento de la tabla periódica es el oxígeno",
+  "word_confidences": [
+   1.0,
+   1.0,
+   0.9531,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.9212
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 66,
+  "subject": "BIOLOGIA",
+  "ground_truth": "este es un ejemplo práctico de reacción química",
+  "raw_asr": "este es un ejemplo práctico de reacción química",
+  "word_confidences": [
+   0.9313,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 67,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el mecánico usa aceite que viene del petróleo",
+  "raw_asr": "el mecánico usa aceite que viene del petróleo",
+  "word_confidences": [
+   1.0,
+   1.0,
+   0.9329,
+   0.9329,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 68,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la reacción ocurre en cualquier sitio donde haya oxígeno",
+  "raw_asr": "la reacción ocurre en cualquier sitio donde haya oxígeno",
+  "word_confidences": [
+   1.0,
+   0.9782,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.9561,
+   0.9209
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 69,
+  "subject": "BIOLOGIA",
+  "ground_truth": "todo el grupo terminó el informe sobre el ciclo del nitrógeno",
+  "raw_asr": "todo el grupo terminó el in forme sobre el ciclo del nitrógeno",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   0.6882,
+   1.0,
+   0.8582,
+   0.6198,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 70,
+  "subject": "BIOLOGIA",
+  "ground_truth": "quiero que sepan que la química está en todas partes",
+  "raw_asr": "quiero que sepan que la química está en todas partes",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   0.9531,
+   1.0,
+   0.9593,
+   0.8941,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 71,
+  "subject": "BIOLOGIA",
+  "ground_truth": "hoy vamos a ver una situación muy común con el ácido de la cocina",
+  "raw_asr": "ahí vamos a ver una situación muy común con el ácido y la cocina",
+  "word_confidences": [
+   0.4624,
+   0.6006,
+   0.9362,
+   0.9218,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.8131,
+   0.4634,
+   0.7132,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 72,
+  "subject": "BIOLOGIA",
+  "ground_truth": "han oído hablar de los óxidos que se forman en el hierro",
+  "raw_asr": "han y hablar de las óxidos que se forman en el hierro",
+  "word_confidences": [
+   0.3374,
+   0.3187,
+   1.0,
+   1.0,
+   0.603,
+   0.9934,
+   1.0,
+   1.0,
+   0.8963,
+   0.5828,
+   0.9316,
+   0.7443
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 73,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la unión de dos átomos forma una molécula",
+  "raw_asr": "la unión de dos a toma forma una molécula",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.7957,
+   0.437,
+   1.0,
+   1.0,
+   0.5177
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 74,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la profesora tomó la muestra de carbonato y la puso en el tubo",
+  "raw_asr": "la profesora tomó la muestra carbonato y la puso en el tubo",
+  "word_confidences": [
+   1.0,
+   1.0,
+   0.8355,
+   1.0,
+   1.0,
+   0.9987,
+   0.9572,
+   1.0,
+   1.0,
+   1.0,
+   0.8704,
+   0.5264
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 75,
+  "subject": "BIOLOGIA",
+  "ground_truth": "cada grupo tiene su propio estilo para escribir la fórmula",
+  "raw_asr": "cada grupo tiene su propio estilo para escribir la fórmula",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 76,
+  "subject": "BIOLOGIA",
+  "ground_truth": "como está indicado en la guía el indicador cambia de color",
+  "raw_asr": "cómo está indicado nadia el indicador cambia de color",
+  "word_confidences": [
+   0.6744,
+   0.8888,
+   1.0,
+   0.9629,
+   0.9549,
+   1.0,
+   0.9145,
+   0.8006,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 77,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el carbón se usaba como combustible antes del petróleo",
+  "raw_asr": "el carbón se usan como combustible antes del petróleo",
+  "word_confidences": [
+   0.7013,
+   0.5186,
+   0.9734,
+   0.5536,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 78,
+  "subject": "BIOLOGIA",
+  "ground_truth": "este experimento funciona mejor con agua destilada",
+  "raw_asr": "este experimento funciona mejor con agua destilada",
+  "word_confidences": [
+   0.7098,
+   0.5685,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 79,
+  "subject": "BIOLOGIA",
+  "ground_truth": "vamos a mezclar el soluto con el solvente despacio",
+  "raw_asr": "estamos a mezclar el luto con el solvente espacio",
+  "word_confidences": [
+   0.4616,
+   0.7063,
+   0.9003,
+   0.3911,
+   0.399,
+   1.0,
+   0.7251,
+   0.7948,
+   0.7504
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 80,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la tierra gira en su órbita y el agua del planeta cumple su ciclo",
+  "raw_asr": "la tierra giran su ahorita y el agua el planeta cumple su ciclo",
+  "word_confidences": [
+   1.0,
+   1.0,
+   0.949,
+   1.0,
+   0.8859,
+   1.0,
+   0.8006,
+   1.0,
+   0.5261,
+   1.0,
+   1.0,
+   0.9508,
+   0.9127
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 81,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la fórmula molecular del agua tiene dos hidrógenos y un oxígeno",
+  "raw_asr": "la fórmula molecular del agua tiene dos hidrógeno si un oxígeno",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   0.9604,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.5503,
+   0.5882,
+   0.9274
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 82,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la conversación de hoy trata sobre la condensación del vapor",
+  "raw_asr": "la conversación de hoy trata sobre la condensación del vapor",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   0.9644,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 83,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la producción de energía en la combustión es muy grande",
+  "raw_asr": "la producción de energía en la combustión es muy grande",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.8363,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.9582
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 84,
+  "subject": "BIOLOGIA",
+  "ground_truth": "por favor busquen un sitio en la mesa del laboratorio",
+  "raw_asr": "por favor a busquen un sitio en la mesa del laboratorio",
+  "word_confidences": [
+   1.0,
+   1.0,
+   0.645,
+   0.8326,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.5173,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 85,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el metal cambia de color cuando se oxida",
+  "raw_asr": "el metal cambia de color cuando shock cia",
+  "word_confidences": [
+   0.9244,
+   1.0,
+   0.815,
+   0.9121,
+   1.0,
+   0.9521,
+   0.5858,
+   0.3594
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 86,
+  "subject": "BIOLOGIA",
+  "ground_truth": "ese alumno alcanzó la mejor nota en el examen de química",
+  "raw_asr": "ese alma alcanzó la mejor notar el examen de química",
+  "word_confidences": [
+   0.6421,
+   0.3788,
+   0.9185,
+   1.0,
+   1.0,
+   0.5336,
+   1.0,
+   1.0,
+   1.0,
+   0.9687
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 87,
+  "subject": "BIOLOGIA",
+  "ground_truth": "no metan las manos en el ácido",
+  "raw_asr": "no me tantas manos en el asió",
+  "word_confidences": [
+   0.6619,
+   1.0,
+   0.3741,
+   1.0,
+   1.0,
+   0.8844,
+   0.202
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 88,
+  "subject": "BIOLOGIA",
+  "ground_truth": "primero pesamos la muestra y luego medimos el volumen",
+  "raw_asr": "primero pesa más la muestra libro medimos el volumen",
+  "word_confidences": [
+   0.5136,
+   0.953,
+   0.8047,
+   1.0,
+   1.0,
+   0.7964,
+   0.971,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 89,
+  "subject": "BIOLOGIA",
+  "ground_truth": "es suficiente con dos gotas del indicador",
+  "raw_asr": "es suficiente con dos otras del indicador",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   0.9036,
+   0.696,
+   0.9424,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 90,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la flor de la planta necesita nitrógeno y fósforo",
+  "raw_asr": "la sra de la planta necesita nitrógeno y fósforo",
+  "word_confidences": [
+   0.9052,
+   0.1965,
+   1.0,
+   1.0,
+   1.0,
+   0.9238,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 91,
+  "subject": "BIOLOGIA",
+  "ground_truth": "necesitamos apoyar el tubo de ensayo en la gradilla",
+  "raw_asr": "necesitamos apoyar el tubo de ensayo en la gravilla",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.8231
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 92,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el gusano ayuda a la descomposición de la materia orgánica",
+  "raw_asr": "el usan ayuda de la descomposición de la materia orgánica",
+  "word_confidences": [
+   0.4524,
+   0.9578,
+   1.0,
+   0.7978,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 93,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el grano de arroz contiene almidón",
+  "raw_asr": "el grano de arroz contiene almidón",
+  "word_confidences": [
+   1.0,
+   0.9213,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 94,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la lluvia cae del cielo y forma parte del ciclo del agua",
+  "raw_asr": "la lluvia cae del cielo y forma parte del ciclo del agua",
+  "word_confidences": [
+   1.0,
+   0.9225,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 95,
+  "subject": "BIOLOGIA",
+  "ground_truth": "su socio trabaja en una fábrica de detergente",
+  "raw_asr": "eso socio trabaja en una fábrica detergentes",
+  "word_confidences": [
+   0.2879,
+   0.3346,
+   0.9756,
+   0.9756,
+   1.0,
+   1.0,
+   0.5682
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 96,
+  "subject": "BIOLOGIA",
+  "ground_truth": "estaba pensando en el problema de estequiometría",
+  "raw_asr": "está pensando en el problema de este que metería",
+  "word_confidences": [
+   0.8584,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.5972,
+   0.9579,
+   0.929,
+   0.4829
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 97,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la educación ambiental nos enseña a cuidar el agua",
+  "raw_asr": "la educación ambiental nos enseña a cuidar el agua",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.8114,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 98,
+  "subject": "BIOLOGIA",
+  "ground_truth": "abran la ventana del laboratorio para que salga el gas",
+  "raw_asr": "abre la ventana del laboratorio para que salvavidas",
+  "word_confidences": [
+   0.4305,
+   0.8279,
+   1.0,
+   0.7551,
+   1.0,
+   1.0,
+   0.9079,
+   0.9116
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 99,
+  "subject": "BIOLOGIA",
+  "ground_truth": "tienen que mirar el nivel del líquido en la probeta",
+  "raw_asr": "tienen que mirar el nivel del líquido en la probeta",
+  "word_confidences": [
+   0.8144,
+   1.0,
+   0.9718,
+   0.6119,
+   1.0,
+   1.0,
+   1.0,
+   0.6937,
+   0.5405,
+   0.9808
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 100,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el octavo elemento de la tabla periódica es el oxígeno",
+  "raw_asr": "el octavo elemento de la tabla periódica es el oxígeno",
+  "word_confidences": [
+   1.0,
+   0.5473,
+   0.9255,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.921
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 101,
+  "subject": "BIOLOGIA",
+  "ground_truth": "este es un ejemplo práctico de reacción química",
+  "raw_asr": "este es un ejemplo práctico de reacción química",
+  "word_confidences": [
+   0.8816,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.9811,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 102,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el mecánico usa aceite que viene del petróleo",
+  "raw_asr": "el mecánicos aceite que viene del petróleo",
+  "word_confidences": [
+   0.8053,
+   1.0,
+   1.0,
+   1.0,
+   0.8341,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 103,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la reacción ocurre en cualquier sitio donde haya oxígeno",
+  "raw_asr": "la reacción ocurre en cualquier sitio donde haya oxígeno",
+  "word_confidences": [
+   1.0,
+   0.9377,
+   0.501,
+   0.6063,
+   1.0,
+   1.0,
+   1.0,
+   0.9402,
+   0.9209
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 104,
+  "subject": "BIOLOGIA",
+  "ground_truth": "todo el grupo terminó el informe sobre el ciclo del nitrógeno",
+  "raw_asr": "todo el grupo terminal y forma sobre ciclo del nitrógeno",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.99,
+   0.4609,
+   1.0,
+   1.0,
+   0.9511,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (química control)"
+ },
+ {
+  "id": 105,
+  "subject": "BIOLOGIA",
+  "ground_truth": "quiero que sepan que la química está en todas partes",
+  "raw_asr": "quiero que sepan que la química está en todas partes",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   0.9531,
+   1.0,
+   0.9324,
+   0.5142,
+   0.5751,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (química control)"
+ }
+]

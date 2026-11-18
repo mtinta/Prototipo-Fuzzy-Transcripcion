@@ -16,11 +16,13 @@ sealed class MembershipFunction {
      */
     data class Trapezoidal(val a: Double, val b: Double, val c: Double, val d: Double) : MembershipFunction() {
         override fun calculateMembership(x: Double): Double {
+            if (a == b && x <= b) return 1.0
+            if (c == d && x >= c) return 1.0
             return when {
                 x <= a || x >= d -> 0.0
                 x in b..c -> 1.0
-                x > a && x < b -> if (b == a) 1.0 else (x - a) / (b - a)
-                x > c && x < d -> if (d == c) 1.0 else (d - x) / (d - c)
+                x > a && x < b -> (x - a) / (b - a)
+                x > c && x < d -> (d - x) / (d - c)
                 else -> 0.0
             }.coerceIn(0.0, 1.0)
         }

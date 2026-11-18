@@ -1,0 +1,3845 @@
+[
+ {
+  "id": 1,
+  "subject": "BIOLOGIA",
+  "ground_truth": "tienes un tema con la comodidad cierto",
+  "raw_asr": "tienes un tema con la comodidad cierto",
+  "word_confidences": [
+   0.9454,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 2,
+  "subject": "BIOLOGIA",
+  "ground_truth": "solo tengo un pimiento rojo y un pimiento verde",
+  "raw_asr": "sólo tengo un pimiento rojo y un pimiento verde",
+  "word_confidences": [
+   0.6823,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.9758,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 3,
+  "subject": "BIOLOGIA",
+  "ground_truth": "hay algun establecimiento que me pueda dar como referencia",
+  "raw_asr": "hay alguna establecimiento que me pueda dar como referencia",
+  "word_confidences": [
+   0.9712,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 4,
+  "subject": "BIOLOGIA",
+  "ground_truth": "dame unicamente el dato mas relevante",
+  "raw_asr": "dame únicamente el dato más relevante",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 5,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la obra de teatro aventurera ha sido un exito en taquilla",
+  "raw_asr": "la obra de teatro aventurera ha sido un éxito en taquilla",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.9617,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 6,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el jeroglifico tiene un pez amarillo",
+  "raw_asr": "el jeroglíficos tiene un pez amarillo",
+  "word_confidences": [
+   1.0,
+   0.6343,
+   1.0,
+   1.0,
+   0.561,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 7,
+  "subject": "BIOLOGIA",
+  "ground_truth": "te gusta la nieve",
+  "raw_asr": "te gusta la nieve",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 8,
+  "subject": "BIOLOGIA",
+  "ground_truth": "del metro al teatro son diez minutos",
+  "raw_asr": "del metro al teatro son diez minutos",
+  "word_confidences": [
+   0.9088,
+   1.0,
+   0.9358,
+   0.966,
+   0.966,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 9,
+  "subject": "BIOLOGIA",
+  "ground_truth": "esta muy cansado",
+  "raw_asr": "está muy cansado",
+  "word_confidences": [
+   0.8331,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 10,
+  "subject": "BIOLOGIA",
+  "ground_truth": "no supo descifrar las huellas",
+  "raw_asr": "no supo descifrar las huellas",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 11,
+  "subject": "BIOLOGIA",
+  "ground_truth": "no tienes algun horario saliendo como al medio dia",
+  "raw_asr": "no tienes algún horario saliendo como el mediodía",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   0.5516,
+   1.0,
+   0.9977,
+   0.9456,
+   0.9177
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 12,
+  "subject": "BIOLOGIA",
+  "ground_truth": "en que calle esta la casa",
+  "raw_asr": "en qué calle hasta la casa",
+  "word_confidences": [
+   1.0,
+   0.8874,
+   0.8957,
+   0.5722,
+   1.0,
+   0.9133
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 13,
+  "subject": "BIOLOGIA",
+  "ground_truth": "cuales son las zonas mas seguras de la ciudad",
+  "raw_asr": "cuáles son las zonas más seguras de la ciudad",
+  "word_confidences": [
+   0.9354,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.9729,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 14,
+  "subject": "BIOLOGIA",
+  "ground_truth": "no te entiendo nada",
+  "raw_asr": "no te entiendo nada",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 15,
+  "subject": "BIOLOGIA",
+  "ground_truth": "me podrias dar informacion acerca de tu ubicacion exacta",
+  "raw_asr": "me podrías dar in formación acerca de tu ubicación exacta",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   0.5634,
+   0.9804,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 16,
+  "subject": "BIOLOGIA",
+  "ground_truth": "cuanto cuesta una bicicleta nueva",
+  "raw_asr": "cuánto cuesta una bicicleta nueva",
+  "word_confidences": [
+   0.5548,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 17,
+  "subject": "BIOLOGIA",
+  "ground_truth": "como puedo registrarme para entrar a la universidad",
+  "raw_asr": "cómo puedo registrarme para entrar a la universidad",
+  "word_confidences": [
+   0.7556,
+   0.8626,
+   1.0,
+   1.0,
+   1.0,
+   0.9026,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 18,
+  "subject": "BIOLOGIA",
+  "ground_truth": "uf carla que calor me estoy ahogando",
+  "raw_asr": "of carla que calor me estoy ahogando",
+  "word_confidences": [
+   0.3735,
+   0.3983,
+   0.7403,
+   1.0,
+   1.0,
+   1.0,
+   0.3086
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 19,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la dieta de la luna consiste segun la revista rincon del vago en solamente comer por las noches",
+  "raw_asr": "la dieta de la luna consiste se un la revista rincón del vago en solamente comer por las noches",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.618,
+   0.6399,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 20,
+  "subject": "BIOLOGIA",
+  "ground_truth": "no me gustan los gatos porque soy alergico y los perros me causan sarpullido",
+  "raw_asr": "no me gustan los gatos porque soy alérgico y los perros me causan sarpullido",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 21,
+  "subject": "BIOLOGIA",
+  "ground_truth": "cual fue su ultima novela",
+  "raw_asr": "cuál fue su última novela",
+  "word_confidences": [
+   0.952,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 22,
+  "subject": "BIOLOGIA",
+  "ground_truth": "estoy por mudarme y quiero buscar nuevos apartamentos donde acepten mascotas",
+  "raw_asr": "estoy por mudarme y quiero buscar nuevos apartamentos donde aceptan mascotas",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.9179,
+   1.0,
+   1.0,
+   1.0,
+   0.8333,
+   0.3652,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 23,
+  "subject": "BIOLOGIA",
+  "ground_truth": "mis ultimos viajes han sido muy estresantes y en este viaje me quiero relajar",
+  "raw_asr": "mis últimos viajes han sido muy estresantes mi en este viaje me quiero relajar",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.4198,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 24,
+  "subject": "BIOLOGIA",
+  "ground_truth": "a que hora quieres ir al cine",
+  "raw_asr": "aquí una quieres ir al cine",
+  "word_confidences": [
+   0.9073,
+   0.4786,
+   0.9246,
+   0.9246,
+   0.9563,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 25,
+  "subject": "BIOLOGIA",
+  "ground_truth": "estoy aburrido con los libros que estoy leyendo y quiero que me recomiendes uno mas divertido",
+  "raw_asr": "estoy aburrido con los libros que estén leyendo y quiero que me recomienda es uno más divertido",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.8714,
+   1.0,
+   1.0,
+   1.0,
+   0.989,
+   1.0,
+   0.483,
+   0.5193,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 26,
+  "subject": "BIOLOGIA",
+  "ground_truth": "quiero que me reserves mi vuelo lo antes posible",
+  "raw_asr": "quiero que me reserves mi vuelo lo antes posible",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.8681,
+   0.9471,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 27,
+  "subject": "BIOLOGIA",
+  "ground_truth": "me puedes mandar mas informacion sobre los hechos",
+  "raw_asr": "me puedes mandar más en formación sobre los hechos",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   0.8211,
+   0.878,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 28,
+  "subject": "BIOLOGIA",
+  "ground_truth": "me gustaria saber que sistema operativo me recomiendas apple o maciston",
+  "raw_asr": "me gustaría saber que sistema operativo me recomiendas hapoel o madison",
+  "word_confidences": [
+   1.0,
+   0.8412,
+   1.0,
+   0.6621,
+   1.0,
+   1.0,
+   0.9869,
+   1.0,
+   0.7333,
+   0.829,
+   0.9038
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 29,
+  "subject": "BIOLOGIA",
+  "ground_truth": "me gustan demasiado las peliculas de ciencia ficcion",
+  "raw_asr": "me gustan demasiado las películas de ciencia ficción",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 30,
+  "subject": "BIOLOGIA",
+  "ground_truth": "los hamster comen zanahorias",
+  "raw_asr": "los hámster comen senadores",
+  "word_confidences": [
+   0.9038,
+   0.9727,
+   0.6518,
+   0.6266
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 31,
+  "subject": "BIOLOGIA",
+  "ground_truth": "modo de despedirse de manera formal con gente ejecutiva o del medio del negocio",
+  "raw_asr": "modo de despedirse de manera formal con gente ejecutiva o del medio del negocio",
+  "word_confidences": [
+   0.9634,
+   0.7115,
+   1.0,
+   0.8153,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.922,
+   1.0,
+   1.0,
+   0.9717,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 32,
+  "subject": "BIOLOGIA",
+  "ground_truth": "esos departamentos no aceptan mascotas",
+  "raw_asr": "eso es departamentos no aceptan mascotas",
+  "word_confidences": [
+   0.5348,
+   0.5474,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 33,
+  "subject": "BIOLOGIA",
+  "ground_truth": "las bocinas estas que te dije son enormes sabes que se puede hacer con ellas",
+  "raw_asr": "las cocinas estas que te dije son enormes sabes que se puede hacer con ellas",
+  "word_confidences": [
+   0.9808,
+   0.6556,
+   0.5495,
+   0.9701,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.978,
+   0.6927,
+   1.0,
+   0.9721,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 34,
+  "subject": "BIOLOGIA",
+  "ground_truth": "me puedes explicar el libro",
+  "raw_asr": "me puedes explicar el libro",
+  "word_confidences": [
+   1.0,
+   0.9684,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 35,
+  "subject": "BIOLOGIA",
+  "ground_truth": "por las tardes se escucha musica en la plaza",
+  "raw_asr": "por las tardes escucha música en la plaza",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 36,
+  "subject": "BIOLOGIA",
+  "ground_truth": "me puedes ayudar a coser un parche",
+  "raw_asr": "me puedes ayudar a cocer un parche",
+  "word_confidences": [
+   1.0,
+   0.9392,
+   1.0,
+   1.0,
+   0.9511,
+   1.0,
+   0.5997
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 37,
+  "subject": "BIOLOGIA",
+  "ground_truth": "necesito ayuda con esto de la paciencia",
+  "raw_asr": "necesito ayuda con esto de la paciencia",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 38,
+  "subject": "BIOLOGIA",
+  "ground_truth": "lo importante es ayudar a los ninos a aprender sin traumarlos",
+  "raw_asr": "lo importante es ayudar a los niños a aprender sin trauma los",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.9065,
+   0.5434
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 39,
+  "subject": "BIOLOGIA",
+  "ground_truth": "los cabecillas de la banda huyeron a caballo",
+  "raw_asr": "los cabecillas de la banda huyeron a caballo",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.7851,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 40,
+  "subject": "BIOLOGIA",
+  "ground_truth": "ayer vi a un amigo que no veia desde la secundaria",
+  "raw_asr": "ayer vi a un amigo que no veía desde la secundaria",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.9697,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 41,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la calle esta llena de huecos",
+  "raw_asr": "la calle está llena de huecos",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 42,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el festival de cine de venecia inauguro una seccion de realidad virtual en el ano dos mil diecisiete",
+  "raw_asr": "el festival de cine de venecia inauguró una sección de realidad virtual en el año dos mil diecisiete",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.8427,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 43,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la obra que vi no es basada en la version original",
+  "raw_asr": "la obra que vi no es basada en la versión original",
+  "word_confidences": [
+   1.0,
+   1.0,
+   0.9793,
+   0.8768,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 44,
+  "subject": "BIOLOGIA",
+  "ground_truth": "has surfeado alguna vez",
+  "raw_asr": "has surfeando alguna vez",
+  "word_confidences": [
+   0.3785,
+   0.6704,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 45,
+  "subject": "BIOLOGIA",
+  "ground_truth": "en que calle esta la casa",
+  "raw_asr": "en qué calle está la casa",
+  "word_confidences": [
+   1.0,
+   0.7323,
+   0.5279,
+   0.6126,
+   1.0,
+   0.9126
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 46,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el otro dia comi un helado gigante mientras veia una pelicula",
+  "raw_asr": "el otro día con mi un helado gigante mientras veía una película",
+  "word_confidences": [
+   1.0,
+   1.0,
+   0.9117,
+   0.9495,
+   0.9125,
+   0.9817,
+   0.7411,
+   1.0,
+   1.0,
+   0.9643,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 47,
+  "subject": "BIOLOGIA",
+  "ground_truth": "tarda dos dias habiles en recibir el dinero en efectivo por ser de diferente banco",
+  "raw_asr": "tarda dos días hábiles en recibir el dinero en efectivo por ser de diferente banco",
+  "word_confidences": [
+   0.7999,
+   0.9786,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 48,
+  "subject": "BIOLOGIA",
+  "ground_truth": "que tan lastimada quedo la florida despues del huracan irma",
+  "raw_asr": "qué tan lastimada quedó la florida después del huracán irma",
+  "word_confidences": [
+   0.7704,
+   0.6758,
+   1.0,
+   0.8371,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 49,
+  "subject": "BIOLOGIA",
+  "ground_truth": "tienen que llegar catorce minutos antes de la funcion para recoger los boletos",
+  "raw_asr": "tienen que llegar catorce minutos antes de la función para recogerlos boletos",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.9881,
+   0.9545,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 50,
+  "subject": "BIOLOGIA",
+  "ground_truth": "para que el sabor de la comida mediterranea realmente resalte se recomienda un vino mas seco",
+  "raw_asr": "para que el sabor de la comida mediterránea realmente resalte se recomienda un vino más seco",
+  "word_confidences": [
+   1.0,
+   0.9482,
+   1.0,
+   1.0,
+   0.9555,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.9809,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.8176,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 51,
+  "subject": "BIOLOGIA",
+  "ground_truth": "los chorizos que hacen en esa zona son deliciosos",
+  "raw_asr": "los turistas que hacen en esa zona son deliciosos",
+  "word_confidences": [
+   1.0,
+   0.6888,
+   0.9777,
+   1.0,
+   1.0,
+   0.7585,
+   0.7585,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 52,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la pelicula me llego al corazon",
+  "raw_asr": "la película me llegó al corazón",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   0.9461,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 53,
+  "subject": "BIOLOGIA",
+  "ground_truth": "a los vegetarianos les encanta el vodka",
+  "raw_asr": "a los vegetarianos les encanta el vodka",
+  "word_confidences": [
+   0.7954,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.8596
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 54,
+  "subject": "BIOLOGIA",
+  "ground_truth": "reservame una mesa en el bar de aqui al lado a ver si alcanzo a ver el segundo tiempo",
+  "raw_asr": "reserva mi una mesa en el bar de aquí al lado haberse alcanzó a el segundo tiempo",
+  "word_confidences": [
+   0.8545,
+   0.356,
+   0.9456,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.9623,
+   0.9623,
+   0.9722,
+   0.7514,
+   0.3685,
+   0.9737,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 55,
+  "subject": "BIOLOGIA",
+  "ground_truth": "ayer llovio mucho llegue tarde a mi reunion",
+  "raw_asr": "ayer y odio mucho llegué tarde mi reunión",
+  "word_confidences": [
+   1.0,
+   0.8854,
+   0.3759,
+   1.0,
+   0.677,
+   1.0,
+   0.8365,
+   0.9576
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 56,
+  "subject": "BIOLOGIA",
+  "ground_truth": "en que zona de la ciudad te gustaria vivir",
+  "raw_asr": "en qué zona de la ciudad te gustaría vivir",
+  "word_confidences": [
+   1.0,
+   0.9451,
+   1.0,
+   0.8096,
+   1.0,
+   1.0,
+   0.9325,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 57,
+  "subject": "BIOLOGIA",
+  "ground_truth": "por las tardes se escucha musica en la plaza",
+  "raw_asr": "por las tardes escucha música en la plaza",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 58,
+  "subject": "BIOLOGIA",
+  "ground_truth": "a mi mujer le gustaban mucho los perros y los gatos pero yo quiero tener una serpiente",
+  "raw_asr": "a mi mujer le gustan mucho los perros y los gatos pero yo quiero tener una serpiente",
+  "word_confidences": [
+   0.9664,
+   1.0,
+   1.0,
+   1.0,
+   0.7103,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.9682,
+   0.8054,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.8336,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 59,
+  "subject": "BIOLOGIA",
+  "ground_truth": "le puedo compartir esta fotos las esta viendo",
+  "raw_asr": "eh puedo compartir esta fotos las está viendo",
+  "word_confidences": [
+   0.51,
+   1.0,
+   1.0,
+   0.9072,
+   1.0,
+   0.9693,
+   0.9433,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 60,
+  "subject": "BIOLOGIA",
+  "ground_truth": "se han hecho versiones en todos los idiomas de esa cancion",
+  "raw_asr": "se han hecho versiones en todos los idiomas de esa canción",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.8263,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 61,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el dia de manana hay un concierto de pop a las once de la noche en la sala caracol",
+  "raw_asr": "el día de mañana hay un concierto de pop a las once de la noche en la sala caracol",
+  "word_confidences": [
+   1.0,
+   0.8896,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.925,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 62,
+  "subject": "BIOLOGIA",
+  "ground_truth": "estoy viendo aqui en la television que ya han comenzado las deliberaciones",
+  "raw_asr": "estoy viendo aquí en la televisión que ya han comenzado las deliberaciones",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 63,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el restaurante azul y oro se encuentra muy cerca de esa zona a la que van",
+  "raw_asr": "el restaurante azul y oro se encuentra muy cerca de esa zona a la que van",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.9095,
+   1.0,
+   0.9746,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 64,
+  "subject": "BIOLOGIA",
+  "ground_truth": "necesito todos los datos de las personas que van a asistir al evento",
+  "raw_asr": "necesito todos los datos de las personas que van asistir al evento",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 65,
+  "subject": "BIOLOGIA",
+  "ground_truth": "podrias decirme si el restaurante cuenta con estacionamiento",
+  "raw_asr": "podrías decirme si el restaurante cuenta con estacionamiento",
+  "word_confidences": [
+   0.9777,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 66,
+  "subject": "BIOLOGIA",
+  "ground_truth": "en este momento no puedo ayudarlo",
+  "raw_asr": "en este momento no puedo ayudarlo",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 67,
+  "subject": "BIOLOGIA",
+  "ground_truth": "no supo descifrar las huellas",
+  "raw_asr": "no supo descifrar las huellas",
+  "word_confidences": [
+   1.0,
+   1.0,
+   0.8821,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 68,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la pronunciacion del frances es dificil",
+  "raw_asr": "la pronunciación del francés es difícil",
+  "word_confidences": [
+   1.0,
+   0.9667,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 69,
+  "subject": "BIOLOGIA",
+  "ground_truth": "usa mi tarjeta american express para pagar el vestido",
+  "raw_asr": "usa mi tarjeta american express para pagar el vestido",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.9716
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 70,
+  "subject": "BIOLOGIA",
+  "ground_truth": "mandame una lista de las mejores peliculas",
+  "raw_asr": "mándame una lista de las mejores películas",
+  "word_confidences": [
+   0.9741,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 71,
+  "subject": "BIOLOGIA",
+  "ground_truth": "que necesito para aplicar para la escuela de cine",
+  "raw_asr": "qué necesito para aplicar para la escuela de cine",
+  "word_confidences": [
+   0.5605,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 72,
+  "subject": "BIOLOGIA",
+  "ground_truth": "cuantas personas vas a invitar de dia de campo",
+  "raw_asr": "cuántas personas base invitar de día de campo",
+  "word_confidences": [
+   0.8435,
+   1.0,
+   0.3588,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 73,
+  "subject": "BIOLOGIA",
+  "ground_truth": "cuantos anos tiene el ultimo campeon de formula uno",
+  "raw_asr": "cuántos años tiene el último campeón de fórmula uno",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 74,
+  "subject": "BIOLOGIA",
+  "ground_truth": "puedes grabar un video y mandarmelo a mi correo",
+  "raw_asr": "puedes grabar un video y mandármelo a mi correo",
+  "word_confidences": [
+   0.8976,
+   1.0,
+   1.0,
+   0.6134,
+   0.6838,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 75,
+  "subject": "BIOLOGIA",
+  "ground_truth": "les envio las reservaciones a sus correos",
+  "raw_asr": "les envío las reservaciones a sus correos",
+  "word_confidences": [
+   0.9885,
+   0.7642,
+   0.7515,
+   1.0,
+   0.7034,
+   0.9656,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 76,
+  "subject": "BIOLOGIA",
+  "ground_truth": "podrias preguntar todos los requerimientos que se necesitan para poder solicitar el examen",
+  "raw_asr": "podrías preguntar todos los requerimientos que se necesitan para poder solicitar el examen",
+  "word_confidences": [
+   0.9729,
+   1.0,
+   0.9541,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 77,
+  "subject": "BIOLOGIA",
+  "ground_truth": "reservame seis boletos por favor para la funcion de las doce y diez",
+  "raw_asr": "reserva me seis boletos por favor para la función de las doce y diez",
+  "word_confidences": [
+   0.9905,
+   0.6478,
+   0.6061,
+   0.9256,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.9656,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 78,
+  "subject": "BIOLOGIA",
+  "ground_truth": "los sandwiches estan frios",
+  "raw_asr": "los sándwiches están fríos",
+  "word_confidences": [
+   0.9146,
+   0.6201,
+   0.9536,
+   0.8883
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 79,
+  "subject": "BIOLOGIA",
+  "ground_truth": "manana es dia festivo",
+  "raw_asr": "mañana es día festivo",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 80,
+  "subject": "BIOLOGIA",
+  "ground_truth": "los violines con mejor sonido estan hechos de una sola pieza de madera",
+  "raw_asr": "los violines con mejor sonido están hechos de una sola pieza de madera",
+  "word_confidences": [
+   1.0,
+   1.0,
+   0.9218,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 81,
+  "subject": "BIOLOGIA",
+  "ground_truth": "los muebles de madera de pino son los mas duraderos",
+  "raw_asr": "los muebles de madera de pino son los más duraderos",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.8882,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 82,
+  "subject": "BIOLOGIA",
+  "ground_truth": "me ayudas a sembrar oregano",
+  "raw_asr": "me ayudas a sembrado orégano",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   0.6228,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 83,
+  "subject": "BIOLOGIA",
+  "ground_truth": "me gusta como habla un mexicano el aleman",
+  "raw_asr": "me gusta como habla un mexicano en alemán",
+  "word_confidences": [
+   1.0,
+   1.0,
+   0.7097,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 84,
+  "subject": "BIOLOGIA",
+  "ground_truth": "los restaurantes vietnamitas se han puesto de moda en america del norte",
+  "raw_asr": "los restaurantes vietnamitas se han puesto de moda en américa del norte",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 85,
+  "subject": "BIOLOGIA",
+  "ground_truth": "para hacer esa receta necesitas carne de calidad superior",
+  "raw_asr": "para hacer esta receta necesitas carne de calidad superior",
+  "word_confidences": [
+   1.0,
+   0.9206,
+   0.8324,
+   1.0,
+   1.0,
+   0.8863,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 86,
+  "subject": "BIOLOGIA",
+  "ground_truth": "cuantos albergues se abrieron despues del terremoto del diecinueve de septiembre",
+  "raw_asr": "cuántos albergues se abrieron después del terremoto del diecinueve de setiembre",
+  "word_confidences": [
+   0.7251,
+   0.6768,
+   0.5671,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.8269
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 87,
+  "subject": "BIOLOGIA",
+  "ground_truth": "segun mis datos este martes dieciocho de febrero no se trabaja",
+  "raw_asr": "según mis datos este martes dieciocho de febrero no se trabaja",
+  "word_confidences": [
+   0.9638,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 88,
+  "subject": "BIOLOGIA",
+  "ground_truth": "para hacer esa receta necesitas dos berenjenas asadas y aji en polvo",
+  "raw_asr": "para hacer esta receta necesitas dos ingenuas asadas y ajo en polvo",
+  "word_confidences": [
+   1.0,
+   1.0,
+   0.9539,
+   1.0,
+   1.0,
+   1.0,
+   0.5378,
+   0.7773,
+   1.0,
+   0.3229,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 89,
+  "subject": "BIOLOGIA",
+  "ground_truth": "segun mis datos este lunes quince de abril no hay partidos de badminton",
+  "raw_asr": "según mis datos este lunes quince de abril no hay partidos de bádminton",
+  "word_confidences": [
+   0.9638,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.9307,
+   1.0,
+   1.0,
+   0.9347
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 90,
+  "subject": "BIOLOGIA",
+  "ground_truth": "encontre una cosa rarisima en el internet",
+  "raw_asr": "encontré una cosa rarísima en el internet",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 91,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el unico tipo de musica que me gusta es la clasica",
+  "raw_asr": "el único tipo de música que me gusta es la clásica",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 92,
+  "subject": "BIOLOGIA",
+  "ground_truth": "los cabecillas de la banda huyeron a caballo",
+  "raw_asr": "los cabecillas de la banda huyeron a caballo",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.7845,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 93,
+  "subject": "BIOLOGIA",
+  "ground_truth": "cual es la diferencia entre los terminos obra y pieza en el teatro",
+  "raw_asr": "cuál es la diferencia entre los términos obra y pies en el teatro",
+  "word_confidences": [
+   0.626,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.6778,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 94,
+  "subject": "BIOLOGIA",
+  "ground_truth": "necesito que me ayudes con mi tarea",
+  "raw_asr": "necesito que me ayudes con mi tarea",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 95,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el problema es que no tenemos computadora para la escena nos puedes ayudar",
+  "raw_asr": "el problema es que no tenemos computadora para la escena nos puedes ayudar",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.9,
+   1.0,
+   0.9618,
+   0.9709,
+   1.0,
+   0.8919,
+   1.0,
+   0.8788,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 96,
+  "subject": "BIOLOGIA",
+  "ground_truth": "en tu zona hay tres paradas de bicicleta urbana",
+  "raw_asr": "en tu zona hay tres paradas de bicicleta urbana",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   0.9579,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 97,
+  "subject": "BIOLOGIA",
+  "ground_truth": "del metro al cine son tres minutos",
+  "raw_asr": "del metro al cine son tres minutos",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 98,
+  "subject": "BIOLOGIA",
+  "ground_truth": "esa palabra no tiene un origen conocido",
+  "raw_asr": "esa palabra no tiene un origen conocido",
+  "word_confidences": [
+   0.9844,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 99,
+  "subject": "BIOLOGIA",
+  "ground_truth": "hoy en la tarde saque mi tarjeta para la bicicleta urbana",
+  "raw_asr": "hoy en la tarde saqué mi tarjeta para la bicicleta urbana",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.6864,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 100,
+  "subject": "BIOLOGIA",
+  "ground_truth": "los zapatos se estropearon con la lluvia torrencial de ayer",
+  "raw_asr": "los zapatos estropear on con la lluvia torrencial de ayer",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   0.3088,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.9706
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 101,
+  "subject": "BIOLOGIA",
+  "ground_truth": "quien es el autor del libro",
+  "raw_asr": "quién es el autor del libro",
+  "word_confidences": [
+   0.8754,
+   0.7567,
+   0.8557,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 102,
+  "subject": "BIOLOGIA",
+  "ground_truth": "los zapatos se estropearon con la lluvia torrencial de ayer",
+  "raw_asr": "los zapatos estropear on con la lluvia torrencial de ayer",
+  "word_confidences": [
+   1.0,
+   1.0,
+   0.9813,
+   0.6673,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 103,
+  "subject": "BIOLOGIA",
+  "ground_truth": "quien subio el mejor video",
+  "raw_asr": "quien subió el mejor video",
+  "word_confidences": [
+   0.5261,
+   1.0,
+   1.0,
+   1.0,
+   0.9007
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 104,
+  "subject": "BIOLOGIA",
+  "ground_truth": "hoy decidi dejar de ser disenador de interiores",
+  "raw_asr": "hoy decidí dejar de ser diseñador de interiores",
+  "word_confidences": [
+   1.0,
+   0.9108,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 105,
+  "subject": "BIOLOGIA",
+  "ground_truth": "te voy a mandar por whatsapp las especificaciones de los invitados",
+  "raw_asr": "te voy a mandar por whatsapp las especificaciones de los invitados",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 106,
+  "subject": "BIOLOGIA",
+  "ground_truth": "los sandwiches estan frios",
+  "raw_asr": "los sándwiches están fríos",
+  "word_confidences": [
+   0.8743,
+   0.627,
+   0.9545,
+   0.8882
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 107,
+  "subject": "BIOLOGIA",
+  "ground_truth": "me gustaria organizar unas charlas sobre cerveza artesanal",
+  "raw_asr": "no estaría organizar una charlas sobre cerveza artesanal",
+  "word_confidences": [
+   0.3446,
+   0.3025,
+   1.0,
+   1.0,
+   0.9857,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 108,
+  "subject": "BIOLOGIA",
+  "ground_truth": "quien es el autor del libro",
+  "raw_asr": "quienes el autor del libro",
+  "word_confidences": [
+   0.4961,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 109,
+  "subject": "BIOLOGIA",
+  "ground_truth": "no me gusta que el departamento este en la planta baja porque no le da el sol",
+  "raw_asr": "no me gusta que el departamento escena planta baja porque no le al sol",
+  "word_confidences": [
+   1.0,
+   0.6807,
+   0.8645,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.9446,
+   1.0,
+   0.927,
+   0.5617,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 110,
+  "subject": "BIOLOGIA",
+  "ground_truth": "usa la fuente de informacion mas confiable",
+  "raw_asr": "usa la fuente y formación más confiable",
+  "word_confidences": [
+   0.9733,
+   1.0,
+   1.0,
+   0.5455,
+   1.0,
+   0.8421,
+   0.9819
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 111,
+  "subject": "BIOLOGIA",
+  "ground_truth": "edgar quisiera hacer un deposito a la cuenta de mi primo",
+  "raw_asr": "edgar quisiera hacer un depósito la cuenta de mi primo",
+  "word_confidences": [
+   0.9649,
+   0.9241,
+   0.7246,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 112,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la informacion que tenemos por el momento no es contundente",
+  "raw_asr": "la formación que tenemos por el momento no es contundente",
+  "word_confidences": [
+   0.7868,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 113,
+  "subject": "BIOLOGIA",
+  "ground_truth": "necesitas ver algun otro modelo de auto",
+  "raw_asr": "necesita ver algún otro modelo de auto",
+  "word_confidences": [
+   0.4874,
+   0.7101,
+   0.8868,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 114,
+  "subject": "BIOLOGIA",
+  "ground_truth": "necesito comprar una television inteligente a mis papas",
+  "raw_asr": "necesito comprar una televisión inteligente a mis papás",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.8765,
+   1.0,
+   0.7687
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 115,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la ciudad es bellisima y tan alegre",
+  "raw_asr": "las ciudades bellísima y tan alegre",
+  "word_confidences": [
+   0.5762,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 116,
+  "subject": "BIOLOGIA",
+  "ground_truth": "estoy muy cansado",
+  "raw_asr": "estoy muy cansada",
+  "word_confidences": [
+   1.0,
+   1.0,
+   0.9503
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 117,
+  "subject": "BIOLOGIA",
+  "ground_truth": "quiero un hotel cerca del centro historico",
+  "raw_asr": "quiero un hotel cerca del centro histórico",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 118,
+  "subject": "BIOLOGIA",
+  "ground_truth": "te estoy enviando los datos de un buen hotel con precios muy accesibles",
+  "raw_asr": "te estoy enviando los datos de un buen hotel con precios muy accesibles",
+  "word_confidences": [
+   0.9547,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 119,
+  "subject": "BIOLOGIA",
+  "ground_truth": "perdon que te interrumpa pero no se que dia es",
+  "raw_asr": "perdón que interrumpa pero no sé qué día es",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.9711,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 120,
+  "subject": "BIOLOGIA",
+  "ground_truth": "no te entiendo nada",
+  "raw_asr": "no te entiendo nada",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 121,
+  "subject": "BIOLOGIA",
+  "ground_truth": "los cabecillas de la banda huyeron a caballo",
+  "raw_asr": "los cabecillas de la banda huyeron a caballo",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.7846,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 122,
+  "subject": "BIOLOGIA",
+  "ground_truth": "les envio las reservaciones a sus correos",
+  "raw_asr": "les envío las reservaciones a sus correos",
+  "word_confidences": [
+   1.0,
+   0.7724,
+   0.7221,
+   1.0,
+   0.7846,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 123,
+  "subject": "BIOLOGIA",
+  "ground_truth": "me puedes por favor enviar algun link de la pelicula por si yo me animo a verla",
+  "raw_asr": "me puedes por favor enviar algun link de la película por si yo me ánimo a verla",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.9589,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.9804,
+   0.6741,
+   0.8077,
+   0.6503,
+   0.4337,
+   0.8722,
+   0.8722
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 124,
+  "subject": "BIOLOGIA",
+  "ground_truth": "hay algun examen de admision",
+  "raw_asr": "hay algún examen de admisión",
+  "word_confidences": [
+   1.0,
+   0.9565,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 125,
+  "subject": "BIOLOGIA",
+  "ground_truth": "vamos a mantenernos tranquilos y relajados",
+  "raw_asr": "vamos a mantenernos tranquilos y relajados",
+  "word_confidences": [
+   1.0,
+   0.9541,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 126,
+  "subject": "BIOLOGIA",
+  "ground_truth": "por la tarde se escucha musica en la plaza",
+  "raw_asr": "por la tarde se escucha música en la plaza",
+  "word_confidences": [
+   0.8644,
+   0.9863,
+   0.9863,
+   0.7294,
+   0.8243,
+   1.0,
+   1.0,
+   0.8114,
+   0.9376
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 127,
+  "subject": "BIOLOGIA",
+  "ground_truth": "me han hablado muy bien de toyota sabes cuales son sus beneficios",
+  "raw_asr": "me han hablado muy bien de toyota sabes cuáles son sus beneficios",
+  "word_confidences": [
+   0.9796,
+   0.9796,
+   0.9796,
+   1.0,
+   1.0,
+   0.8634,
+   1.0,
+   1.0,
+   0.9093,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 128,
+  "subject": "BIOLOGIA",
+  "ground_truth": "los cabecillas de la banda huyeron a caballo",
+  "raw_asr": "los cabecilla de la banda hubieron a caballo",
+  "word_confidences": [
+   0.6544,
+   0.5027,
+   1.0,
+   0.9754,
+   0.9754,
+   0.7378,
+   0.7912,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 129,
+  "subject": "BIOLOGIA",
+  "ground_truth": "acabo de ver unas estadisticas impactantes",
+  "raw_asr": "acabo de ver unas estadísticas impactantes",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   0.6343,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 130,
+  "subject": "BIOLOGIA",
+  "ground_truth": "quiero que me ayudes a buscarle un regalo",
+  "raw_asr": "quiero que me ayudes a buscar un regalo",
+  "word_confidences": [
+   0.9801,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 131,
+  "subject": "BIOLOGIA",
+  "ground_truth": "esta atleta china es un caso unico hace salto de longitud y gimnasia y participa en ambas categorias",
+  "raw_asr": "esta creta china es un caso único hace salto de longitud y gimnasia y participa en ambas categorías",
+  "word_confidences": [
+   0.3886,
+   0.6906,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.6387,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 132,
+  "subject": "BIOLOGIA",
+  "ground_truth": "esta atleta argentina es un caso unico hace atletismo y gimnasia y participa en ambas categorias",
+  "raw_asr": "este atleta argentina es un caso único a secretismo y gimnasia y participa en ambas categorías",
+  "word_confidences": [
+   0.7876,
+   0.9719,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.7271,
+   1.0,
+   0.9503,
+   0.9636,
+   1.0,
+   0.9763,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 133,
+  "subject": "BIOLOGIA",
+  "ground_truth": "es producto del programa indio de entrenamiento cientifico",
+  "raw_asr": "es producto del programa indio de entrenamiento científico",
+  "word_confidences": [
+   0.5611,
+   1.0,
+   0.8436,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 134,
+  "subject": "BIOLOGIA",
+  "ground_truth": "los cabecillas de la banda huyeron a caballo",
+  "raw_asr": "nos cabecillas de la banda huyeron a caballo",
+  "word_confidences": [
+   0.5048,
+   0.8834,
+   1.0,
+   1.0,
+   1.0,
+   0.8767,
+   0.788,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 135,
+  "subject": "BIOLOGIA",
+  "ground_truth": "en mi sistema operativo hay una aplicacion que puede bajar a su celular y que hace traduccion simultanea",
+  "raw_asr": "en mi sistema operativo hay una aplicación que puede bajar a su celular y que hace traducción simultánea",
+  "word_confidences": [
+   1.0,
+   0.9701,
+   1.0,
+   1.0,
+   0.9562,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.943,
+   1.0,
+   1.0,
+   0.7546,
+   0.9902,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 136,
+  "subject": "BIOLOGIA",
+  "ground_truth": "buscame a un terapeuta de masaje suizo",
+  "raw_asr": "busca un terapeuta de masaje suizo",
+  "word_confidences": [
+   0.8284,
+   0.9053,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 137,
+  "subject": "BIOLOGIA",
+  "ground_truth": "las tejas rojas del tejado no son de mexico son de texas",
+  "raw_asr": "las tejas rojas el tejado no son de méxico son de texas",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   0.7978,
+   0.8724,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 138,
+  "subject": "BIOLOGIA",
+  "ground_truth": "que es un atajo",
+  "raw_asr": "que es una tajo",
+  "word_confidences": [
+   0.5024,
+   1.0,
+   0.8115,
+   0.6696
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 139,
+  "subject": "BIOLOGIA",
+  "ground_truth": "los sandwiches estan frios",
+  "raw_asr": "los sándwiches están fríos",
+  "word_confidences": [
+   0.9498,
+   0.6201,
+   0.842,
+   0.8883
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 140,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el llano en llamas es un clasico de juan rulfo",
+  "raw_asr": "el llano en llamas es un clásico de juan rulfo",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.9638,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 141,
+  "subject": "BIOLOGIA",
+  "ground_truth": "cuales son las principales diferencias",
+  "raw_asr": "cuáles son las principales diferencias",
+  "word_confidences": [
+   0.9354,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 142,
+  "subject": "BIOLOGIA",
+  "ground_truth": "las teclas para la maquina de escribir necesitan estar muy desgastadas para la filmacion",
+  "raw_asr": "las teclas para la máquina de escribir necesiten están muy desgastadas para la filmación",
+  "word_confidences": [
+   0.9683,
+   0.9795,
+   0.9625,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.7898,
+   0.5565,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.8342
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 143,
+  "subject": "BIOLOGIA",
+  "ground_truth": "las teclas de la computadora necesitan estar desgastadas para la filmacion",
+  "raw_asr": "les teclas de la computadora necesitan estar desgastadas para la filmación",
+  "word_confidences": [
+   0.4746,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.6518,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 144,
+  "subject": "BIOLOGIA",
+  "ground_truth": "tengo un dolor fatal de espalda",
+  "raw_asr": "tengo un dolor fatal de espalda",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.9456
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 145,
+  "subject": "BIOLOGIA",
+  "ground_truth": "pero tienes que saber usar una bici muy bien o no",
+  "raw_asr": "pero tienes que saber usar una bici muy bien o no",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.9817,
+   0.6821,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 146,
+  "subject": "BIOLOGIA",
+  "ground_truth": "yo no se andar en bici ahi te dan cursos",
+  "raw_asr": "yo no sé andar en bici ahí te dan cursos",
+  "word_confidences": [
+   1.0,
+   1.0,
+   0.5326,
+   1.0,
+   1.0,
+   1.0,
+   0.5859,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 147,
+  "subject": "BIOLOGIA",
+  "ground_truth": "ojala pudieramos invitar a esa junta con la senora arias a varios pintores",
+  "raw_asr": "ojalá pudiéramos invitar a esa junta con la señora arias a varios pintores",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   0.9723,
+   0.9786,
+   0.9872,
+   1.0,
+   1.0,
+   0.956,
+   0.6446,
+   0.9364,
+   0.9574,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 148,
+  "subject": "BIOLOGIA",
+  "ground_truth": "ayer llovio mucho y llegue tarde a mi reunion",
+  "raw_asr": "ayer llovió mucho llegué tarde a mi reunión",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   0.792,
+   1.0,
+   0.552,
+   0.7253,
+   0.9579
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 149,
+  "subject": "BIOLOGIA",
+  "ground_truth": "tocar el xilofono es mi hobby favorito",
+  "raw_asr": "tocar el sí lo fue no es mi favorito",
+  "word_confidences": [
+   0.9711,
+   0.8894,
+   0.4835,
+   0.9292,
+   0.6363,
+   0.6621,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 150,
+  "subject": "BIOLOGIA",
+  "ground_truth": "para hacer esa receta necesitas freir las calabazas",
+  "raw_asr": "para hacer esta receta necesidad freírlas calabazas",
+  "word_confidences": [
+   1.0,
+   0.5135,
+   0.4611,
+   1.0,
+   0.5555,
+   0.5155,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 151,
+  "subject": "BIOLOGIA",
+  "ground_truth": "va a necesitar pan mostaza mayonesa cebolla un huevo lechuga tomate y pimienta",
+  "raw_asr": "va a necesitar pan mostaza mayonesa cebolla huevo lechuga tomate y pimienta",
+  "word_confidences": [
+   0.982,
+   1.0,
+   1.0,
+   0.9569,
+   1.0,
+   1.0,
+   0.9723,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 152,
+  "subject": "BIOLOGIA",
+  "ground_truth": "estoy muy contenta tengo vacaciones",
+  "raw_asr": "estoy muy contenta tengo ocasiones",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.7173
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 153,
+  "subject": "BIOLOGIA",
+  "ground_truth": "vamos a usar la app de la embajada de egipto que es para gente que no sabe nada de arabe",
+  "raw_asr": "vamos a usar la del embajada de egipto que es para gente que no sabe nada de árabe",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.8966,
+   1.0,
+   1.0,
+   1.0,
+   0.8421,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 154,
+  "subject": "BIOLOGIA",
+  "ground_truth": "los podcasts hablan de espectaculos deportes de cualquier tipo de tema",
+  "raw_asr": "los podcast hablan de espectáculos deportes y de cualquier otro tema",
+  "word_confidences": [
+   1.0,
+   0.98,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.8255,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 155,
+  "subject": "BIOLOGIA",
+  "ground_truth": "haz este ejercicio como si estuvieras haciendo gargaras de bicarbonato",
+  "raw_asr": "hace este ejercicio como si estuvieras haciendo gárgaras de bicarbonato",
+  "word_confidences": [
+   0.4236,
+   0.8674,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 156,
+  "subject": "BIOLOGIA",
+  "ground_truth": "como decias son justamente treinta personas",
+  "raw_asr": "como decía su son justamente treinta personas",
+  "word_confidences": [
+   0.9718,
+   0.899,
+   0.6198,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 157,
+  "subject": "BIOLOGIA",
+  "ground_truth": "las tejas rojas del tejado no son de mexico son de texas",
+  "raw_asr": "las tejas rojas del tejado no son de méxico son de textos",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   0.8066,
+   0.9389,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.7796
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 158,
+  "subject": "BIOLOGIA",
+  "ground_truth": "tranquilo va a estar todo bien",
+  "raw_asr": "tranquilo va estar todo bien",
+  "word_confidences": [
+   1.0,
+   0.9292,
+   0.9292,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 159,
+  "subject": "BIOLOGIA",
+  "ground_truth": "quieres que ponga el mapa de la ciudad en tus links de favoritos",
+  "raw_asr": "quieres que ponga el mapa de la ciudad en tus links de favoritos",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.6795,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.9821,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 160,
+  "subject": "BIOLOGIA",
+  "ground_truth": "tienes un tema con la comodidad cierto",
+  "raw_asr": "tienes un tema con la comodidad cierto",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.8022,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 161,
+  "subject": "BIOLOGIA",
+  "ground_truth": "quisiera saber que esta pasando en el mundial de futbol",
+  "raw_asr": "quisiera saber qué está pasando en el mundial de fútbol",
+  "word_confidences": [
+   1.0,
+   1.0,
+   0.7957,
+   0.9761,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.8256
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 162,
+  "subject": "BIOLOGIA",
+  "ground_truth": "te estoy enviando lugares que puedes ir a visitar en tus momentos de descanso",
+  "raw_asr": "te estoy enviando lugares que puedes ir a visitar en tus momentos de descanso",
+  "word_confidences": [
+   0.9808,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 163,
+  "subject": "BIOLOGIA",
+  "ground_truth": "siento que los medios estan mostrando parcialmente las desapariciones en el norte del pais",
+  "raw_asr": "siento que los medios esta mostrando parcialmente las desapariciones en el norte del país",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.4644,
+   1.0,
+   1.0,
+   0.945,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 164,
+  "subject": "BIOLOGIA",
+  "ground_truth": "ayer vi una pelicula muy divertida pero no me acuerdo del nombre de los actores",
+  "raw_asr": "ayer vi una película muy divertida pero no me acuerdo del nombre de los actores",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.9552
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 165,
+  "subject": "BIOLOGIA",
+  "ground_truth": "por las tardes se escucha musica en la plaza",
+  "raw_asr": "por las tardes escucha música en la plaza",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 166,
+  "subject": "BIOLOGIA",
+  "ground_truth": "cuales son los cines mas cercanos a mi hotel",
+  "raw_asr": "cuáles son los más cercanos a mi hotel",
+  "word_confidences": [
+   0.9294,
+   1.0,
+   1.0,
+   0.8056,
+   0.9986,
+   0.9063,
+   0.4803,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 167,
+  "subject": "BIOLOGIA",
+  "ground_truth": "quien subio el mejor video",
+  "raw_asr": "quien subió el mejor video",
+  "word_confidences": [
+   0.5261,
+   1.0,
+   0.958,
+   1.0,
+   0.9006
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 168,
+  "subject": "BIOLOGIA",
+  "ground_truth": "mandame el link a mi y a mis amigos",
+  "raw_asr": "mándame link a mí a mis amigos",
+  "word_confidences": [
+   0.9765,
+   0.4531,
+   0.9186,
+   0.701,
+   0.7019,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 169,
+  "subject": "BIOLOGIA",
+  "ground_truth": "quiero que me des tu opinion sobre la nueva obra de teatro",
+  "raw_asr": "quiero que me des tu opinión sobre la nueva obra de teatro",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 170,
+  "subject": "BIOLOGIA",
+  "ground_truth": "me puedes decir que esta pasando en mexico con la violencia a los periodistas",
+  "raw_asr": "me puedes decir que está pasando en méxico con la violencia los periodistas",
+  "word_confidences": [
+   1.0,
+   0.7382,
+   1.0,
+   0.8532,
+   0.8365,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 171,
+  "subject": "BIOLOGIA",
+  "ground_truth": "las resenas de los criticos la muestran como una obra de arte",
+  "raw_asr": "las reseñas de los críticos la muestran como una obra de arte",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.8968,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 172,
+  "subject": "BIOLOGIA",
+  "ground_truth": "mandame una pelicula que te guste de ese director",
+  "raw_asr": "mándame una película que te guste de ese director",
+  "word_confidences": [
+   0.8098,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.9142,
+   0.6091,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 173,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el jeroglifico tiene un pez amarillo",
+  "raw_asr": "el jeroglífico tiene un pez amarillo",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 174,
+  "subject": "BIOLOGIA",
+  "ground_truth": "cuantos deportes se practicaban en las olimpiadas y cuantos paises participan",
+  "raw_asr": "cuántos deporte se practicaban en las olimpiadas y cuántos países participan",
+  "word_confidences": [
+   0.7251,
+   0.685,
+   0.7583,
+   1.0,
+   1.0,
+   1.0,
+   0.904,
+   1.0,
+   0.8898,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 175,
+  "subject": "BIOLOGIA",
+  "ground_truth": "esta atleta panamena es un caso unico hace atletismo y esgrima y participa en ambas categorias",
+  "raw_asr": "esta atleta panameña es un caso único hace atletismo y esgrima y participa en ambas categorías",
+  "word_confidences": [
+   0.7564,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.9677,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 176,
+  "subject": "BIOLOGIA",
+  "ground_truth": "necesito armar una conferencia y la verdad no sabria muy bien como hacerlo",
+  "raw_asr": "necesito armar una conferencia y la verdad no sabría muy bien cómo hacerlo",
+  "word_confidences": [
+   1.0,
+   0.7746,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 177,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la temperatura maxima para manana va a ser de veintinueve grados centigrados",
+  "raw_asr": "la temperatura máxima para mañana va a ser de veintinueve grados centígrados",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.9553,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 178,
+  "subject": "BIOLOGIA",
+  "ground_truth": "yo tengo la postura de que los premios son mas marketing que otra cosa",
+  "raw_asr": "yo tengo la postura de que los premios son más marketing que otra cosa",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.7603,
+   0.8377,
+   1.0,
+   0.7734,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 179,
+  "subject": "BIOLOGIA",
+  "ground_truth": "hay tres tipos de cafe americano descafeinado americano concentrado y hasta capuchino",
+  "raw_asr": "hay tres tipos de café americano descafeinado americano concentrado y hasta capuchino",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.6811,
+   1.0,
+   0.8885,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 180,
+  "subject": "BIOLOGIA",
+  "ground_truth": "quiero comprar un perro pero la verdad es que no tenga idea de razas",
+  "raw_asr": "quiero comprar un perro pero la verdad es que no tengo idea de razas",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.8056
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 181,
+  "subject": "BIOLOGIA",
+  "ground_truth": "siempre he querido ir a montevideo",
+  "raw_asr": "siempre he querido ir a montevideo",
+  "word_confidences": [
+   1.0,
+   0.9324,
+   1.0,
+   0.9779,
+   0.8241,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 182,
+  "subject": "BIOLOGIA",
+  "ground_truth": "estos animales se reproducen en cautiverio",
+  "raw_asr": "estos animales se reproducen en cautiverio",
+  "word_confidences": [
+   1.0,
+   1.0,
+   0.815,
+   0.7327,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 183,
+  "subject": "BIOLOGIA",
+  "ground_truth": "uno nunca deja de aprender",
+  "raw_asr": "uno nunca deja de aprender",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 184,
+  "subject": "BIOLOGIA",
+  "ground_truth": "siempre he querido ir a cuba",
+  "raw_asr": "siempre he querido ir a cuba",
+  "word_confidences": [
+   1.0,
+   0.8976,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 185,
+  "subject": "BIOLOGIA",
+  "ground_truth": "no se a donde salir con mi esposo de aniversario",
+  "raw_asr": "no sé adónde salir con mi esposo de aniversario",
+  "word_confidences": [
+   1.0,
+   0.949,
+   0.9071,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.8068,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 186,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la mermelada de zarzamora es muy facil de hacer",
+  "raw_asr": "la mermelada de zarzamora es muy fácil de hacer",
+  "word_confidences": [
+   0.7692,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.9603,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 187,
+  "subject": "BIOLOGIA",
+  "ground_truth": "comprar marfil esta prohibido porque el elefante esta en peligro de extincion",
+  "raw_asr": "comprar marfil está prohibido porque el elefante está en peligro de extinción",
+  "word_confidences": [
+   0.8291,
+   0.9305,
+   1.0,
+   1.0,
+   0.9818,
+   0.6179,
+   0.8941,
+   0.9412,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 188,
+  "subject": "BIOLOGIA",
+  "ground_truth": "aqui damos vuelta a la derecha",
+  "raw_asr": "aquí damos vuelta a la derecha",
+  "word_confidences": [
+   0.8952,
+   1.0,
+   1.0,
+   0.916,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 189,
+  "subject": "BIOLOGIA",
+  "ground_truth": "en el restaurante tambien se come pescado",
+  "raw_asr": "en el restaurante también se come pescado",
+  "word_confidences": [
+   0.8695,
+   1.0,
+   1.0,
+   0.9487,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 190,
+  "subject": "BIOLOGIA",
+  "ground_truth": "desafortunadamente todas las vias de comunicacion estan cortadas",
+  "raw_asr": "desafortunadamente todas las vías de comunicación están cortadas",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.8397,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 191,
+  "subject": "BIOLOGIA",
+  "ground_truth": "estaba pensando en ir a acampar",
+  "raw_asr": "estaba pensando en ir a acampar",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 192,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la pronunciacion del frances es dificil",
+  "raw_asr": "la pronunciación del francés es difícil",
+  "word_confidences": [
+   1.0,
+   0.9667,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 193,
+  "subject": "BIOLOGIA",
+  "ground_truth": "en que calle esta la casa",
+  "raw_asr": "en qué calle está la casa",
+  "word_confidences": [
+   1.0,
+   0.9502,
+   1.0,
+   0.6242,
+   1.0,
+   0.8777
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 194,
+  "subject": "BIOLOGIA",
+  "ground_truth": "conoces algun programa de inteligencia artificial que haya fracasado",
+  "raw_asr": "conoces algún programa de inteligencia artificial que haya fracasado",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.9247,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 195,
+  "subject": "BIOLOGIA",
+  "ground_truth": "en varios paises es ilegal andar en bicicleta sin casco",
+  "raw_asr": "en varios países es ilegal andar en bicicleta sin casco",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.8223
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 196,
+  "subject": "BIOLOGIA",
+  "ground_truth": "necesito una laptop",
+  "raw_asr": "necesito una laptop",
+  "word_confidences": [
+   1.0,
+   0.9854,
+   0.9436
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 197,
+  "subject": "BIOLOGIA",
+  "ground_truth": "lo puedes cargar a la tarjeta american express",
+  "raw_asr": "lo puedes cargar a la tarjeta american express",
+  "word_confidences": [
+   0.7564,
+   0.5512,
+   0.4392,
+   0.5947,
+   0.9863,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 198,
+  "subject": "BIOLOGIA",
+  "ground_truth": "necesito un telefono inteligente",
+  "raw_asr": "necesito un teléfono inteligente",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 199,
+  "subject": "BIOLOGIA",
+  "ground_truth": "quiero la computadora para estar en contacto con mi familia",
+  "raw_asr": "quiero la computadora para estar en contacto con mi familia",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ },
+ {
+  "id": 200,
+  "subject": "BIOLOGIA",
+  "ground_truth": "te gusta el chocolate caliente",
+  "raw_asr": "te gusta el chocolate caliente",
+  "word_confidences": [
+   1.0,
+   0.8334,
+   0.6715,
+   1.0,
+   1.0
+  ],
+  "gap_s": 600,
+  "nota": "Control: OpenSLR 73 (español peruano, CC BY-SA 4.0; Guevara-Rukoz et al., LREC 2020) + Vosk. Frases cotidianas: toda sustitución es falsa."
+ }
+]

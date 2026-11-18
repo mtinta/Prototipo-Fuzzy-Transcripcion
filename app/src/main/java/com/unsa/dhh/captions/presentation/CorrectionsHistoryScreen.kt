@@ -35,7 +35,7 @@ fun CorrectionsHistoryScreen(
     onDismiss: () -> Unit
 ) {
     val corrections = remember { viewModel.getCorrectionsHistory() }
-    val isSmartphone = androidx.compose.ui.platform.LocalConfiguration.current.screenWidthDp < 600
+    val isSmartphone = DeviceClass.isCompact(androidx.compose.ui.platform.LocalConfiguration.current)
 
     Column(
         modifier = Modifier
@@ -44,74 +44,49 @@ fun CorrectionsHistoryScreen(
             .padding(if (isSmartphone) 12.dp else 24.dp)
     ) {
         // Cabecera Superior
-        Row(
-            modifier = Modifier.fillMaxWidth(),
-            horizontalArrangement = Arrangement.SpaceBetween,
-            verticalAlignment = Alignment.CenterVertically
-        ) {
-            Row(verticalAlignment = Alignment.CenterVertically) {
-                IconButton(onClick = onDismiss) {
-                    Icon(
-                        imageVector = Icons.AutoMirrored.Filled.ArrowBack,
-                        contentDescription = "Volver",
-                        tint = HighContrastYellow
-                    )
-                }
-                Text(
-                    text = "Historial de Correcciones",
-                    color = HighContrastYellow,
-                    fontSize = if (isSmartphone) 17.sp else 22.sp,
-                    fontWeight = FontWeight.Bold
-                )
-            }
-            Button(
-                onClick = onDismiss,
-                colors = ButtonDefaults.buttonColors(containerColor = Color(0xFF333333)),
-                shape = RoundedCornerShape(8.dp)
-            ) {
-                Text("VOLVER", color = HighContrastYellow, fontWeight = FontWeight.Bold, fontSize = 12.sp)
-            }
-        }
+        Text(
+            text = "Historial de Correcciones",
+            color = HighContrastYellow,
+            fontSize = if (isSmartphone) 17.sp else 22.sp,
+            fontWeight = FontWeight.Bold,
+            modifier = Modifier.padding(vertical = 8.dp)
+        )
 
         Spacer(modifier = Modifier.height(10.dp))
 
         // Tarjeta resumen de métricas
-        Card(
-            modifier = Modifier.fillMaxWidth(),
-            colors = CardDefaults.cardColors(containerColor = Color(0xFF1B2211)),
-            shape = RoundedCornerShape(8.dp),
-            border = BorderStroke(1.dp, Color(0xFF2E3D1C))
+        Row(
+            modifier = Modifier.fillMaxWidth()
         ) {
-            Row(
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .padding(12.dp),
-                horizontalArrangement = Arrangement.SpaceBetween,
-                verticalAlignment = Alignment.CenterVertically
+            // Tarjeta Sustituciones
+            Card(
+                modifier = Modifier.weight(1f),
+                colors = CardDefaults.cardColors(containerColor = Color(0xFF1B2211)),
+                shape = RoundedCornerShape(8.dp),
+                border = BorderStroke(1.dp, Color(0xFF2E3D1C))
             ) {
-                Column {
+                Column(modifier = Modifier.padding(10.dp)) {
                     Text(
-                        text = "Sustituciones Realizadas",
+                        text = "Sustituciones",
                         color = Color.LightGray,
-                        fontSize = 12.sp
+                        fontSize = 11.sp
                     )
                     Text(
-                        text = "${corrections.size} palabras corregidas",
+                        text = "${corrections.size}",
                         color = HighContrastYellow,
                         fontSize = 18.sp,
                         fontWeight = FontWeight.Bold
                     )
+                    Text(
+                        text = "Umbral y* ≥ 0.65",
+                        color = Color(0xFFAAAAAA),
+                        fontSize = 10.sp
+                    )
                 }
-                Text(
-                    text = "Regla y* ≥ 0.65",
-                    color = Color.LightGray,
-                    fontSize = 12.sp,
-                    fontWeight = FontWeight.Medium
-                )
             }
         }
 
-        Spacer(modifier = Modifier.height(12.dp))
+        Spacer(modifier = Modifier.height(10.dp))
 
         // Lista de Correcciones
         if (corrections.isEmpty()) {
@@ -122,7 +97,7 @@ fun CorrectionsHistoryScreen(
                 contentAlignment = Alignment.Center
             ) {
                 Text(
-                    text = "No se han realizado correcciones en la sesión actual.\nHable por el micrófono o utilice el simulador para probar.",
+                    text = "No se han realizado correcciones en la sesión actual.\nHable por el micrófono.",
                     color = Color.Gray,
                     fontSize = 15.sp,
                     textAlign = androidx.compose.ui.text.style.TextAlign.Center
@@ -223,21 +198,36 @@ private fun CorrectionItemCard(item: SessionLogEntity) {
                 }
             }
 
+            if (item.topicCluster != null) {
+                Spacer(modifier = Modifier.height(4.dp))
+                Text(
+                    text = "Tema: ${item.topicCluster}",
+                    color = Color(0xFF81C784),
+                    fontSize = 11.sp,
+                    fontWeight = FontWeight.Medium
+                )
+            }
+
             Spacer(modifier = Modifier.height(6.dp))
 
-            // Desglose de Métricas Difusas (Confianza C, Similitud D, Justificación y*)
+            // Desglose de Métricas Difusas Tri-Variables (C, D, S y Justificación y*)
             Row(
                 modifier = Modifier.fillMaxWidth(),
                 horizontalArrangement = Arrangement.SpaceBetween
             ) {
                 Text(
-                    text = "Conf. Acústica (C): ${(item.acousticConfidence * 100).toInt()}%",
+                    text = "C: ${(item.acousticConfidence * 100).toInt()}%",
                     color = Color.Gray,
                     fontSize = 11.sp
                 )
                 Text(
-                    text = "Sim. Léxica (D): ${(item.lexicalSimilarity * 100).toInt()}%",
+                    text = "D: ${(item.lexicalSimilarity * 100).toInt()}%",
                     color = Color.Gray,
+                    fontSize = 11.sp
+                )
+                Text(
+                    text = "S: ${(item.semanticCoherence * 100).toInt()}%",
+                    color = Color(0xFF81C784),
                     fontSize = 11.sp
                 )
                 Text(

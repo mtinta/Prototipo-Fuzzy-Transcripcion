@@ -40,7 +40,7 @@ El objetivo central del sistema es resolver la degradación de precisión que ex
 
 Para solventar esta limitación, el prototipo incorpora una capa computacional basada en **Lógica Difusa (Mamdani)**, combinada con **Similitud Fonética Hispana de Levenshtein** y filtrado morfosintáctico de sustantivos clave. Dicha capa evalúa la incertidumbre acústica del motor y aplica sustituciones silenciosas de términos dudosos cuando el grado de justificación supera el umbral matemático $y^* \ge 0.65$.
 
-La presentación visual se basa en una interfaz **Jetpack Compose** bajo la pauta de accesibilidad **WCAG AAA** (relación de contraste 21:1, texto amarillo `#FFFF00` sobre fondo negro `#000000`), proyectada en modo teleprompter continuo de 2 a 3 líneas con desplazamiento suave (*smooth scrolling*). Esto previene la fatiga cognitiva y la atención dividida en los estudiantes con discapacidad auditiva conforme a la Teoría de la Carga Cognitiva (CLT).
+La presentación visual se basa en una interfaz **Jetpack Compose** bajo la pauta de accesibilidad **WCAG AAA** (relación de contraste 19.56:1, texto amarillo `#FFFF00` sobre fondo negro `#000000`), proyectada en modo teleprompter continuo de 2 a 3 líneas con desplazamiento suave (*smooth scrolling*). Esto previene la fatiga cognitiva y la atención dividida en los estudiantes con discapacidad auditiva conforme a la Teoría de la Carga Cognitiva (CLT).
 
 ---
 
@@ -92,10 +92,10 @@ La distancia de edición básica penaliza fuertemente variaciones dialectales. P
    $$D = 0.60 \cdot D_{\text{lex}} + 0.40 \cdot D_{\text{fon}} \quad (D \in [0.0, 1.0])$$
 
 ### 4.3. Motor de Inferencia Difusa Mamdani
-El sistema modela la incertidumbre mediante 2 variables de entrada y 1 variable de salida:
+El sistema modela la incertidumbre mediante 3 variables de entrada y 1 variable de salida:
 
 #### Variables de Entrada:
-- **Confianza Acústica ($C \in [0.0, 1.0]$):**
+- **Confianza Acústica ($C \in [0.0, 1.0]$):** confianza por hipótesis (frase) entregada por `SpeechRecognizer`; si falta se usa 0.65 (0.60 en resultados parciales).
   - $\mu_{\text{Baja}}(C) = \text{Trapezoide}(0.0, 0.0, 0.35, 0.60)$
   - $\mu_{\text{Media}}(C) = \text{Triángulo}(0.35, 0.60, 0.80)$
   - $\mu_{\text{Alta}}(C) = \text{Trapezoide}(0.65, 0.85, 1.0, 1.0)$
@@ -103,6 +103,10 @@ El sistema modela la incertidumbre mediante 2 variables de entrada y 1 variable 
   - $\mu_{\text{Baja}}(D) = \text{Trapezoide}(0.0, 0.0, 0.40, 0.65)$
   - $\mu_{\text{Media}}(D) = \text{Triángulo}(0.45, 0.70, 0.85)$
   - $\mu_{\text{Alta}}(D) = \text{Trapezoide}(0.75, 0.90, 1.0, 1.0)$
+- **Coherencia Semántica ($S \in [0.0, 1.0]$):** co-ocurrencia del término candidato con otros términos de la oración en los *topic clusters* de la asignatura, combinada con la memoria temática de la clase.
+  - $\mu_{\text{Baja}}(S) = \text{Trapezoide}(0.0, 0.0, 0.25, 0.45)$
+  - $\mu_{\text{Media}}(S) = \text{Triángulo}(0.30, 0.50, 0.70)$
+  - $\mu_{\text{Alta}}(S) = \text{Trapezoide}(0.55, 0.75, 1.0, 1.0)$
 
 #### Variable de Salida:
 - **Grado de Justificación de Corrección ($y^* \in [0.0, 1.0]$):**
@@ -110,25 +114,51 @@ El sistema modela la incertidumbre mediante 2 variables de entrada y 1 variable 
   - $\mu_{\text{Media}}(y) = \text{Triángulo}(0.35, 0.55, 0.75)$
   - $\mu_{\text{Alta}}(y) = \text{Trapezoide}(0.60, 0.80, 1.0, 1.0)$
 
-#### Base de Reglas Difusas:
-1. $\text{SI } C \text{ es Baja } \land D \text{ es Alta } \rightarrow y^* \text{ es Alta}$
-2. $\text{SI } C \text{ es Baja } \land D \text{ es Media } \rightarrow y^* \text{ es Alta}$
-3. $\text{SI } C \text{ es Baja } \land D \text{ es Baja } \rightarrow y^* \text{ es Baja}$
-4. $\text{SI } C \text{ es Media } \land D \text{ es Alta } \rightarrow y^* \text{ es Alta}$
-5. $\text{SI } C \text{ es Media } \land D \text{ es Media } \rightarrow y^* \text{ es Media}$
-6. $\text{SI } C \text{ es Media } \land D \text{ es Baja } \rightarrow y^* \text{ es Baja}$
-7. $\text{SI } C \text{ es Alta } \land D \text{ es Alta } \rightarrow y^* \text{ es Media}$
-8. $\text{SI } C \text{ es Alta } \land D \text{ es Media } \rightarrow y^* \text{ es Baja}$
-9. $\text{SI } C \text{ es Alta } \land D \text{ es Baja } \rightarrow y^* \text{ es Baja}$
+#### Base de Reglas Difusas (27 reglas, conjunción con MIN, agregación con MAX):
+Cada fila es una regla: SI $C$ es (columna C) Y $D$ es (columna D) Y $S$ es (columna S) ENTONCES $y^*$ es (columna y*).
+
+| # | C | D | S | y* |
+|---|---|---|---|---|
+| 1 | Baja | Alta | Alta | Alta |
+| 2 | Baja | Alta | Media | Alta |
+| 3 | Baja | Alta | Baja | Media |
+| 4 | Baja | Media | Alta | Alta |
+| 5 | Baja | Media | Media | Media |
+| 6 | Baja | Media | Baja | Baja |
+| 7 | Baja | Baja | Alta | Media |
+| 8 | Baja | Baja | Media | Baja |
+| 9 | Baja | Baja | Baja | Baja |
+| 10 | Media | Alta | Alta | Alta |
+| 11 | Media | Alta | Media | Alta |
+| 12 | Media | Alta | Baja | Media |
+| 13 | Media | Media | Alta | Alta |
+| 14 | Media | Media | Media | Media |
+| 15 | Media | Media | Baja | Baja |
+| 16 | Media | Baja | Alta | Media |
+| 17 | Media | Baja | Media | Baja |
+| 18 | Media | Baja | Baja | Baja |
+| 19 | Alta | Alta | Alta | Media |
+| 20 | Alta | Alta | Media | Media |
+| 21 | Alta | Alta | Baja | Baja |
+| 22 | Alta | Media | Alta | Media |
+| 23 | Alta | Media | Media | Baja |
+| 24 | Alta | Media | Baja | Baja |
+| 25 | Alta | Baja | Alta | Baja |
+| 26 | Alta | Baja | Media | Baja |
+| 27 | Alta | Baja | Baja | Baja |
 
 #### Defuzzificación por Centroide de Gravedad (COG):
 $$y^* = \frac{\int_0^1 y \cdot \mu_B(y) \, dy}{\int_0^1 \mu_B(y) \, dy}$$
 
 ### 4.4. Regla de Decisión y Sustitución Silenciosa
+Para cada palabra candidata se sustituye únicamente si se cumplen las tres condiciones siguientes; en cualquier otro caso se conserva la palabra original del ASR:
+
 $$\text{Acción} = \begin{cases} 
-\text{Sustituir por término canónico del diccionario}, & \text{si } y^* \ge 0.65 \\ 
-\text{Conservar palabra original del ASR}, & \text{si } y^* < 0.65 
+\text{Sustituir por término canónico del diccionario}, & \text{si } y^* \ge 0.65 \;\text{y}\; D \ge 0.70 \;\text{y la palabra no es flexión del término} \\ 
+\text{Conservar palabra original del ASR}, & \text{en otro caso} 
 \end{cases}$$
+
+El piso $D \ge 0.70$ evita falsos positivos cuando un $S$ alto lleva a $y^*$ sobre el umbral con un parecido léxico pobre. La condición de flexión evita cambiar el número gramatical de una palabra ya correcta (p. ej. "gametos"/"gameto").
 
 ---
 
@@ -140,7 +170,7 @@ El sistema fue diseñado bajo el principio de **cero dependencias de servicios e
 |---|---|---|---|
 | **Kotlin Compiler** | `2.0.21` | Lenguaje / Base | Compilador principal del proyecto, actualizado automáticamente para soporte de Compose nativo. |
 | **Compose Compiler Plugin** | `org.jetbrains.kotlin.plugin.compose:2.0.21` | Compilación / UI | Nuevo plugin oficial de JetBrains/Google para Kotlin 2.0 que sustituye la extensión manual anterior. |
-| **Jetpack Compose BOM** | `2024.04.01` | Presentación | Marco declarativo para construir la interfaz de usuario reactiva bajo el estándar WCAG AAA (21:1). |
+| **Jetpack Compose BOM** | `2024.04.01` | Presentación | Marco declarativo para construir la interfaz de usuario reactiva bajo el estándar WCAG AAA (19.56:1; umbral 7:1). |
 | **Material 3 & Foundation** | `androidx.compose.material3` | Presentación | Componentes de diseño moderno, tipografías escalables e iconos de accesibilidad. |
 | **Room Database (SQLite)** | `androidx.room:2.6.1` | Persistencia | Motor de base de datos relacional local que indexa y almacena en memoria caché los diccionarios escolares del MINEDU. |
 | **Kotlin Symbol Processing (KSP)** | `2.0.21-1.0.25` | Compilación / Room | Procesador de anotaciones para Room alineado con Kotlin 2.0, generando el código de persistencia sin impacto en runtime. |
@@ -148,7 +178,7 @@ El sistema fue diseñado bajo el principio de **cero dependencias de servicios e
 | **Motor Difuso Mamdani Nativo** | Código Kotlin (`JFuzzyEngine`) | Razonamiento Difuso | Implementación nativa de alta eficiencia en Kotlin para inferencia Mamdani y centroide (COG) con cero overhead de librerías externas. |
 | **Gson** | `2.10.1` | Datos / Ingesta | Serialización y deserialización ligera para cargar los diccionarios JSON de educación secundaria durante la siembra de la BD. |
 | **Android SpeechRecognizer** | Nativa (Android API 26+) | Percepción / ASR | API nativa de reconocimiento de voz de Android configurada en modo local (`EXTRA_PREFER_OFFLINE = true`) para extraer texto y vector de confianza $C$. |
-| **Android AudioManager** | Nativa (`android.media`) | Percepción / Audio | Administrador de ruteo de audio; configura el perfil Bluetooth SCO (*Synchronous Connection-Oriented*) a 16 kHz Mono. |
+| **Android AudioManager** | Nativa (`android.media`) | Percepción / Audio | Administrador de ruteo de audio; fija `MODE_NORMAL` y detecta el receptor USB-C 2.4 GHz (SX26 / Maxtron) mediante `AudioDeviceCallback`. |
 | **Android PdfDocument** | Nativa (`android.graphics.pdf`) | Presentación / Notas | Renderizado y exportación directa de apuntes de clase en formato PDF vectorial sin librerías externas pesadas. |
 | **JUnit 4 & Coroutines Test** | `4.13.2` / `1.8.0` | Pruebas Unitarias | Banco de pruebas algorítmicas de inferencia difusa, similitud de Levenshtein y cálculo formal de WER. |
 
@@ -190,10 +220,10 @@ El software sigue una separación estricta en 4 capas concéntricas conforme a l
 │   • RoomDatabase (SQLite: AcademicTerm, SessionLog)    │
 │   • SessionLogManager (WER, Telemetría de Latencia)    │
 └──────────────────────────┬─────────────────────────────┘
-                           │ Flujo de Audio 16 kHz
+                           │ Flujo de Audio 44.1 / 48 kHz
 ┌──────────────────────────▼─────────────────────────────┐
 │              CAPA DE CAPTURA Y PERCEPCIÓN              │
-│   • AudioForegroundService    • BluetoothScoManager    │
+│   • AudioForegroundService • ExternalAudioDeviceManager│
 └────────────────────────────────────────────────────────┘
 ```
 
@@ -203,14 +233,21 @@ El software sigue una separación estricta en 4 capas concéntricas conforme a l
 
 A continuación, se detallan los módulos del prototipo acompañados de los **fragmentos de código fuente reales** que implementan la lógica algorítmica fundamental:
 
-### 7.1. Módulo de Audio y Bluetooth SCO (`BluetoothScoManager.kt`)
-Administra la captura a 16 kHz Mono desde el micrófono inalámbrico del docente:
+### 7.1. Módulo de Audio y Micrófono Inalámbrico Digital (`ExternalAudioDeviceManager.kt`)
+Administra la captura digital a 44.1 / 48 kHz PCM desde el micrófono de solapa inalámbrico del docente (SX26 Wireless o Maxtron 2.4 GHz con receptor USB-C) y el fallback automático instantáneo al micrófono interno:
 ```kotlin
-fun startBluetoothSco() {
-    audioManager.mode = AudioManager.MODE_IN_COMMUNICATION
-    audioManager.startBluetoothSco()
-    audioManager.isBluetoothScoOn = true
-    Log.i(TAG, "Audio inalámbrico enrutado por socket Bluetooth SCO (16 kHz Mono).")
+fun checkConnectedAudioDevices() {
+    val devices = audioManager.getDevices(AudioManager.GET_DEVICES_INPUTS)
+    for (device in devices) {
+        if (device.type == AudioDeviceInfo.TYPE_USB_DEVICE || 
+            device.type == AudioDeviceInfo.TYPE_USB_HEADSET) {
+            _currentSource.value = AudioInputSource.WIRELESS_USB_MIC
+            _isExternalMicConnected.value = true
+            Log.i(TAG, "Receptor USB-C 2.4 GHz detectado: ${device.productName}")
+            return
+        }
+    }
+    fallbackToInternalMic()
 }
 ```
 
@@ -228,9 +265,12 @@ recognizerIntent = Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH).apply {
 override fun onResults(results: Bundle?) {
     val matches = results?.getStringArrayList(SpeechRecognizer.RESULTS_RECOGNITION)
     val confidencesArray = results?.getFloatArray(SpeechRecognizer.CONFIDENCE_SCORES)
-    val defaultConfidence = confidencesArray?.firstOrNull() ?: 0.55f
+    // La API entrega UNA confianza por hipótesis (no por palabra): se replica a todas las palabras.
+    // Si falta, es <= 0 o NaN, resolveConfidence() devuelve la confianza neutra 0.65.
+    val defaultConfidence = resolveConfidence(confidencesArray?.firstOrNull())
     val words = matches?.firstOrNull()?.split(Regex("\\s+")) ?: emptyList()
-    val wordConfidences = words.map { defaultConfidence.coerceIn(0.0f, 1.0f) }
+    val wordConfidences = words.map { defaultConfidence }
+    // En onPartialResults la confianza es una constante de 0.60
     // Emisión reactiva al flujo de procesamiento
 }
 ```
@@ -261,57 +301,116 @@ fun toHispanicPhonetic(text: String): String {
 ```
 
 ### 7.4. Motor de Inferencia Mamdani y Defuzzificación por Centroide (`JFuzzyEngine.kt`)
-Evalúa los antecedentes con el operador MIN, agrega las consecuencias con MAX y calcula el centroide de gravedad (COG):
+Evalúa las 27 reglas sobre $(C, D, S)$: los antecedentes con el operador MIN, agrega las consecuencias con MAX y calcula el centroide de gravedad (COG):
 ```kotlin
-fun evaluate(confianza: Double, similitud: Double): Double {
-    // 1. Fuzzificación
-    val muCBaja = confBaja.calculateMembership(confianza)
-    val muCMedia = confMedia.calculateMembership(confianza)
-    val muCAlta = confAlta.calculateMembership(confianza)
-    val muSBaja = simBaja.calculateMembership(similitud)
-    val muSMedia = simMedia.calculateMembership(similitud)
-    val muSAlta = simAlta.calculateMembership(similitud)
+fun evaluate(confianza: Double, similitud: Double, semantica: Double = 0.50): Double {
+    val c = confianza.coerceIn(0.0, 1.0)
+    val d = similitud.coerceIn(0.0, 1.0)
+    val s = semantica.coerceIn(0.0, 1.0)
 
-    // 2. Activación de Reglas Mamdani (Operador t-norma MIN)
-    val r1 = min(muCBaja, muSAlta)  // Ruido alto + Similitud alta -> Justificación Alta
-    val r2 = min(muCBaja, muSMedia)
-    val r4 = min(muCMedia, muSAlta)
-    val activaAlta = max(r1, max(r2, r4))
-    val activaMedia = max(min(muCMedia, muSMedia), min(muCAlta, muSAlta))
-    val activaBaja = max(min(muCBaja, muSBaja), max(min(muCAlta, muSMedia), min(muCAlta, muSBaja)))
+    // 1. Fuzzificación de entradas
+    val muCBaja = confBaja.calculateMembership(c)
+    val muCMedia = confMedia.calculateMembership(c)
+    val muCAlta = confAlta.calculateMembership(c)
 
-    // 3. Defuzzificación Numérica por Centroide de Gravedad (COG)
+    val muDBaja = simBaja.calculateMembership(d)
+    val muDMedia = simMedia.calculateMembership(d)
+    val muDAlta = simAlta.calculateMembership(d)
+
+    val muSBaja = semBaja.calculateMembership(s)
+    val muSMedia = semMedia.calculateMembership(s)
+    val muSAlta = semAlta.calculateMembership(s)
+
+    // 2. Activación de 27 Reglas Mamdani (Operador t-norma MIN: min(muC, muD, muS))
+    // --- Grupo 1: C IS Baja ---
+    val r1 = min(muCBaja, min(muDAlta, muSAlta))   // J Alta
+    val r2 = min(muCBaja, min(muDAlta, muSMedia))  // J Alta
+    val r3 = min(muCBaja, min(muDAlta, muSBaja))   // J Media
+    val r4 = min(muCBaja, min(muDMedia, muSAlta))  // J Alta
+    val r5 = min(muCBaja, min(muDMedia, muSMedia)) // J Media
+    val r6 = min(muCBaja, min(muDMedia, muSBaja))  // J Baja
+    val r7 = min(muCBaja, min(muDBaja, muSAlta))   // J Media
+    val r8 = min(muCBaja, min(muDBaja, muSMedia))  // J Baja
+    val r9 = min(muCBaja, min(muDBaja, muSBaja))   // J Baja
+
+    // --- Grupo 2: C IS Media ---
+    val r10 = min(muCMedia, min(muDAlta, muSAlta))  // J Alta
+    val r11 = min(muCMedia, min(muDAlta, muSMedia)) // J Alta
+    val r12 = min(muCMedia, min(muDAlta, muSBaja))  // J Media
+    val r13 = min(muCMedia, min(muDMedia, muSAlta)) // J Alta
+    val r14 = min(muCMedia, min(muDMedia, muSMedia))// J Media
+    val r15 = min(muCMedia, min(muDMedia, muSBaja)) // J Baja
+    val r16 = min(muCMedia, min(muDBaja, muSAlta))  // J Media
+    val r17 = min(muCMedia, min(muDBaja, muSMedia)) // J Baja
+    val r18 = min(muCMedia, min(muDBaja, muSBaja))  // J Baja
+
+    // --- Grupo 3: C IS Alta ---
+    val r19 = min(muCAlta, min(muDAlta, muSAlta))  // J Media
+    val r20 = min(muCAlta, min(muDAlta, muSMedia)) // J Media
+    val r21 = min(muCAlta, min(muDAlta, muSBaja))  // J Baja
+    val r22 = min(muCAlta, min(muDMedia, muSAlta)) // J Media
+    val r23 = min(muCAlta, min(muDMedia, muSMedia))// J Baja
+    val r24 = min(muCAlta, min(muDMedia, muSBaja)) // J Baja
+    val r25 = min(muCAlta, min(muDBaja, muSAlta))  // J Baja
+    val r26 = min(muCAlta, min(muDBaja, muSMedia)) // J Baja
+    val r27 = min(muCAlta, min(muDBaja, muSBaja))  // J Baja
+
+    // Agregación de consecuentes por conjunto difuso (Operador s-norma MAX)
+    val activaAlta = maxOf(r1, r2, r4, r10, r11, r13)
+    val activaMedia = maxOf(r3, r5, r7, r12, r14, r16, r19, r20, r22)
+    val activaBaja = maxOf(r6, r8, r9, r15, r17, r18, r21, r23, r24, r25, r26, r27)
+
+    // 3. Defuzzificación por Centroide de Gravedad (COG)
     val steps = 100
     val stepSize = 1.0 / steps
     var numerator = 0.0
     var denominator = 0.0
+
     for (i in 0..steps) {
         val y = i * stepSize
-        val muY = max(min(activaAlta, justAlta.calculateMembership(y)),
-                  max(min(activaMedia, justMedia.calculateMembership(y)),
-                      min(activaBaja, justBaja.calculateMembership(y))))
-        numerator += y * muY
-        denominator += muY
+        // Membresía recortada por cada regla para el punto y
+        val muYAlta = min(activaAlta, justAlta.calculateMembership(y))
+        val muYMedia = min(activaMedia, justMedia.calculateMembership(y))
+        val muYBaja = min(activaBaja, justBaja.calculateMembership(y))
+
+        // Agregación difusa total en y
+        val muCombined = max(muYAlta, max(muYMedia, muYBaja))
+
+        numerator += y * muCombined
+        denominator += muCombined
     }
-    return if (denominator > 0.00001) (numerator / denominator).coerceIn(0.0, 1.0) else 0.0
+
+    val cog = if (denominator > 0.00001) {
+        numerator / denominator
+    } else {
+        0.0
+    }
+
+    return cog.coerceIn(0.0, 1.0)
 }
 ```
 
 ### 7.5. Regla de Decisión y Sustitución Silenciosa (`DecisionEvaluator.kt`)
-Compara el grado de justificación contra el umbral $y^* \ge 0.65$:
+Compara el grado de justificación contra el umbral $y^* \ge 0.65$ y exige además $D \ge 0.70$ y que la palabra no sea ya una flexión del término (extracto):
 ```kotlin
 val decisionThreshold: Double = 0.65
+const val SUBSTITUTION_MIN_SIMILARITY = 0.70
 
-if (bestTerm != null && bestSimilarity >= 0.50) {
-    val fuzzyScore = fuzzyEngine.evaluate(confidence, bestSimilarity)
-    if (fuzzyScore >= decisionThreshold) {
-        // Sustitución silenciosa aprobada: se corrige sin marcas visuales distractoras
-        val preservedWord = matchCase(originalWord, bestTerm.term)
-        results.add(WordCorrectionResult(originalWord, preservedWord, confidence, bestSimilarity, fuzzyScore, true))
-    } else {
-        // Conservar término original del ASR
-        results.add(WordCorrectionResult(originalWord, originalWord, confidence, bestSimilarity, fuzzyScore, false))
-    }
+// Por cada candidato (hasta 3) se calcula S y se evalúa Mamdani; gana el de mayor y*
+val (s, cluster) = calculateSemanticCoherence(candidate.term, matchedTermsInSentence, clusters)
+val y = fuzzyEngine.evaluate(confianza = item.confidence, similitud = sim, semantica = s)
+
+val alreadyCorrect = isInflectionOf(cleanWord, bestTerm.term)
+if (fuzzyScore >= decisionThreshold &&
+    bestSimilarity >= SUBSTITUTION_MIN_SIMILARITY &&
+    !alreadyCorrect
+) {
+    // Sustitución silenciosa aprobada: se corrige sin marcas visuales distractoras
+    val preservedWord = matchCase(wordBase, bestTerm.term) + item.trailingPunct
+    // ... WordCorrectionResult(..., wasSubstituted = true, semanticCoherence = s)
+} else {
+    // Conservar término original del ASR
+    // ... WordCorrectionResult(..., wasSubstituted = false)
 }
 ```
 
@@ -349,7 +448,7 @@ fun calculateWer(hypothesis: String, reference: String): Double {
 ## 8. Diseño Accesible y Ergonomía Cognitiva (WCAG AAA)
 
 El diseño de la interfaz responde directamente a los hallazgos de la literatura sobre usuarios sordos (Berke et al., 2017, 2019; Kawas et al., 2018):
-1. **Contraste 21:1 (Nivel AAA de WCAG):** Fondo negro puro (`#000000`) y tipografía en amarillo de alta luminancia (`#FFFF00`). Esto minimiza el deslumbramiento y optimiza la legibilidad en pantallas AMOLED/IPS de tabletas y teléfonos en aulas iluminadas.
+1. **Contraste 19.56:1 (Nivel AAA de WCAG, umbral 7:1):** Fondo negro puro (`#000000`) y tipografía en amarillo de alta luminancia (`#FFFF00`). Esto minimiza el deslumbramiento y optimiza la legibilidad en pantallas AMOLED/IPS de tabletas y teléfonos en aulas iluminadas.
 2. **Supresión de Marcas de Error:** Los sistemas que subrayan palabras dudosas con líneas rojas onduladas o textos titilantes saturan la memoria de trabajo del alumno según la *Cognitive Load Theory (CLT)*. El prototipo corrige el texto **de manera transparente y silenciosa**, evitando la atención dividida.
 3. **Desplazamiento Suave de 2 a 3 Líneas:** Evita los saltos bruscos de pantalla completa que provocan pérdida del hilo conductor durante la lectura continua.
 
@@ -373,34 +472,37 @@ Aunque la tesis se planteó originalmente para tabletas escolares, el prototipo 
 
 Para contrastar las hipótesis del estudio, se evaluó el desempeño del prototipo frente a un corpus de prueba representativo de clases secundarias con ruido de fondo típico (50 a 65 dB SPL) registrado en colegios de Arequipa:
 
-### 10.1. Tabla de Resultados por Frase del Corpus Escolar
+### 10.1. Resultados por Frase del Corpus Escolar
 
-| ID | Materia | Frase Evaluada (ASR Crudo) | Corrección con Lógica Difusa | WER Crudo | WER Difuso | Reducción WER | Latencia |
-|:--:|:---:|:---|:---|:---:|:---:|:---:|:---:|
-| 1 | BIOLOGÍA | "la **cédula** vegetal realiza la **fotosintesis** dentro del **coroplasto**..." | "la **célula** vegetal realiza la fotosíntesis dentro del **cloroplasto**..." | 16.7% | 8.3% | 50.0% | 15.2 ms |
-| 2 | BIOLOGÍA | "el **sitoplasma** contiene el **riposoma** y protege el **nuleolo**" | "el **citoplasma** contiene el **ribosoma** y protege el **nucleolo**" | 27.3% | 0.0% | 100.0% | 8.3 ms |
-| 3 | QUÍMICA | "la **estekiometria** estudia masa y la **electronegatibidad**" | "la **estequiometría** estudia masa y la **electronegatividad**" | 18.2% | 0.0% | 100.0% | 7.7 ms |
-| 4 | QUÍMICA | "el **enlase** **kobalente** genera reacción **endotermico**..." | "el **enlace** **covalente** genera reacción exotérmico..." | 36.4% | 27.3% | 25.0% | 7.7 ms |
-| 5 | HISTORIA | "en el **tawantinsuyo** la mita y el **aillu** organizaban el trabajo..." | "en el **Tahuantinsuyo** la mita y el **ayllu** organizaban el trabajo..." | 25.0% | 8.3% | 66.7% | 5.5 ms |
-| 6 | HISTORIA | "durante el **birreinato** la real **celula** regulaba la **enmienda**..." | "durante el **virreinato** la real cédula regulaba la encomienda..." | 33.3% | 8.3% | 75.0% | 5.9 ms |
-| 7 | GEOGRAFÍA | "la troposfera y la **idrografia** definen el **reliebe** de la cuenca..." | "la troposfera y la **hidrografía** definen el **relieve** de la cuenca..." | 25.0% | 8.3% | 66.7% | 4.8 ms |
-| 8 | GEOGRAFÍA | "la cordillera y la meseta presentan cambios de **altitut** y bioma..." | "la cordillera y la meseta presentan cambios de **altitud** y bioma..." | 7.1% | 0.0% | 100.0% | 5.4 ms |
+El detalle por frase (WER, KER, S y latencia) lo genera `evaluation/benchmark_runner.py` y se exporta a `evaluation/reporte_benchmark_wer_ker.md`. Las cifras de esta sección provienen de esa ejecución reproducible.
+
+> **Alcance real del corpus:** `corpus_arequipa_test.json` contiene **8 frases de Biología** con salida ASR y confianzas *simuladas* (no grabadas con el micrófono SX26). Las cifras previas de este informe (23.16 % → 7.37 %, 16 sustituciones, 4 asignaturas) no eran reproducibles con ese corpus y fueron reemplazadas.
 
 ### 10.2. Resultados Globales Consolidados
 
-- **Total de palabras de referencia evaluadas ($N$):** 95 palabras.
-- **Sustituciones silenciosas aprobadas ($y^* \ge 0.65$):** 16 sustituciones.
-- **WER Promedio ASR Crudo (Línea Base):** **`23.16%`**
-- **WER Promedio con Capa Difusa On-Device:** **`7.37%`**
-- **Reducción Relativa del Error:** **`68.18%`**
-- **Precisión Textual Final ($1 - WER$):** **`92.63%`** *(Supera la meta de tesis de $\ge 90.0\%$)*
-- **Latencia Media de Inferencia:** **`7.57 ms`** *(Ampliamente inferior al umbral de $1000\text{ ms}$)*
+Modelo evaluado: Mamdani trivariado (C, D, S) con áreas temáticas, memoria de la clase y selección de candidato por los tres factores (ver `docs/tesis/factor_semantico_topic_clusters.md`).
+
+- **Total de palabras de referencia evaluadas ($N$):** 103 palabras (31 palabras clave curriculares).
+- **Sustituciones silenciosas aprobadas ($y^* \ge 0.65$):** 21.
+- **WER Promedio ASR Crudo (Línea Base):** **`18.45%`**
+- **WER Promedio con Capa Difusa On-Device:** **`1.94%`** (reducción relativa **`89.47%`**)
+- **Precisión Textual Final ($1 - WER$):** **`98.06%`**
+- **KER (palabras clave):** `61.29%` → `6.45%`; **Precisión Semántica ($1 - KER$):** **`93.55%`**
+- **Coherencia Semántica media ($S$):** `0.50`
+- **Falsos positivos:** 0 sustituciones en un corpus de control de 12 frases cotidianas correctas.
+- **Latencia media (Python, PC):** `~75 ms`. La latencia en dispositivo móvil debe medirse con TC-PERF-01 del plan de pruebas.
+
+**Advertencias metodológicas (declarar en la tesis).**
+1. Los tres corpus son **sintéticos** (errores de ASR inventados; confianzas asignadas a mano), de 8, 13 y 12 frases. Las cifras anteriores muestran que el sistema es **factible**, no que cumpla la meta en el aula.
+2. Varias mejoras (áreas temáticas, memoria de términos resueltos, salvaguardas) se decidieron tras observar fallos **en estos mismos corpus**: los resultados son "dentro de la muestra". En una versión previa del sistema la precisión semántica era 77.42 % y luego 83.87 %.
+3. Frente a la mejor regla booleana (ajustada sobre los mismos corpus): con confianza neutra 0.65 el sistema difuso obtiene menor WER (2.91 % vs 4.85 % y 1.72 % vs 3.45 %); con confianzas sintéticas hay empate técnico (1.94 % / 1.72 % vs 2.91 % / 0.00 %).
+4. Los `macro_id` (áreas temáticas) de los clusters son una propuesta del desarrollador y requieren validación de un docente de Biología.
 
 ### 10.3. Contrastación de Hipótesis
-1. **Hipótesis General:** **Aceptada.** La capa difusa redujo el WER del 23.16% al 7.37%, alcanzando una precisión semántica del 92.63%, superando el umbral mínimo de viabilidad pedagógica (90%).
-2. **Hipótesis Específica 1 (Captura e Incertidumbre Acústica):** **Aceptada.** La extracción continua de $C \in [0.0, 1.0]$ sirvió como dato empírico fiable para alimentar la fuzzificación.
-3. **Hipótesis Específica 2 (Razonamiento Difuso no booleano):** **Aceptada.** El modelo Mamdani superó las limitaciones rígidas de los correctores booleanos al discriminar entre palabras cotidianas y jerga académica ruidosa.
-4. **Hipótesis Específica 3 (Ergonomía Cognitiva):** **Aceptada.** La interfaz continua WCAG AAA no reporta sobrecarga visual y permite un seguimiento descansado de la clase.
+1. **Hipótesis General:** **Sustentada de forma preliminar, pendiente de validación en campo.** Sobre el banco de pruebas sintético el WER bajó de 18.45 % a 1.94 % (precisión textual 98.06 %) y la precisión sobre palabras clave subió a 93.55 %, sin alterar lenguaje cotidiano; son resultados dentro de la muestra y deben confirmarse con grabaciones reales del SX26 en aula.
+2. **Hipótesis Específica 1 (Captura e Incertidumbre Acústica):** **Pendiente de validar.** `SpeechRecognizer` de Android entrega una única confianza por hipótesis (no por palabra) y puede no entregarla (se usa 0.65 neutro); la fiabilidad de $C$ debe medirse con el SX26 real (TC-ASR-02).
+3. **Hipótesis Específica 2 (Razonamiento Difuso no booleano):** **Resultados mixtos, pendiente de voz real.** El sistema no modifica lenguaje cotidiano (0 falsos positivos en el control). Frente a la mejor regla booleana ajustada sobre los mismos corpus, el difuso obtiene menor WER con confianza neutra y hay empate técnico con confianzas sintéticas.
+4. **Hipótesis Específica 3 (Ergonomía Cognitiva):** **Pendiente de validar** con estudiantes reales (cuestionario SUS, Anexo A); el contraste medido es 19.56:1 (cumple AAA ≥ 7:1).
 
 ---
 
@@ -423,10 +525,10 @@ Conforme a la metodología establecida en la Sección 3.6.2 de la tesis, se apli
 ## 12. Conclusiones Técnicas
 
 1. **Eficacia de la Lógica Difusa On-Device:** La incorporación de una capa de inferencia difusa basada en reglas de Mamdani con defuzzificación por Centroide de Gravedad (COG) permite mitigar el ruido acústico escolar y la incertidumbre del reconocedor de voz sin necesidad de reentrenar costosos modelos neuronales acústicos.
-2. **Precisión y Reducción del WER:** El prototipo alcanzó una precisión global del **92.63%**, reduciendo el error en un **68.18% relativo**, superando el umbral de tolerancia del 90% indispensable para que los estudiantes sordos confíen en la herramienta.
-3. **Viabilidad Temporal y de Recursos:** Con una latencia promedio de **7.57 ms** por frase, la solución garantiza una experiencia prácticamente instantánea en hardware convencional de smartphones y tabletas sin recalentamiento ni consumo abusivo de RAM.
+2. **Precisión y Reducción del WER:** Sobre el banco de pruebas sintético, el prototipo alcanzó una precisión textual de **98.06%** (WER de 18.45% a 1.94%, reducción relativa de **89.47%**) y una precisión semántica de **93.55%**, superando la meta de 90%. Son resultados dentro de la muestra (corpus sintético) y deben confirmarse con grabaciones reales en aula.
+3. **Viabilidad Temporal y de Recursos:** La latencia media medida en PC (Python) es de **~72 ms** por frase, muy por debajo de la meta de 1000 ms. La latencia en la tableta debe medirse con TC-PERF-01 antes de afirmar un desempeño equivalente en el dispositivo.
 4. **Autonomía y Sostenibilidad Económica:** La ejecución 100% On-Device elimina completamente los costos recurrentes de servidores en la nube y suscripciones de pago por minuto, democratizando el acceso a tecnología asistiva en colegios públicos.
-5. **Ergonomía Visual WCAG AAA:** La combinación de contraste amarillo sobre negro (21:1), teleprompter de 2-3 líneas continuas y sustitución silenciosa protege la memoria de trabajo y minimiza la fatiga ocular durante jornadas escolares completas.
+5. **Ergonomía Visual WCAG AAA:** La combinación de contraste amarillo sobre negro (19.56:1), teleprompter de 2-3 líneas continuas y sustitución silenciosa protege la memoria de trabajo y minimiza la fatiga ocular durante jornadas escolares completas.
 
 ---
 
@@ -443,43 +545,91 @@ Conforme a la metodología establecida en la Sección 3.6.2 de la tesis, se apli
 ### Anexo 1: Código Fuente FCL (Fuzzy Control Language)
 Ubicación: `app/src/main/assets/fuzzy_rules.fcl`
 ```fcl
+// ============================================================================
+// SISTEMA DE CONTROL DIFUSO MAMDANI (jFuzzyLogic / FCL)
+// Tesis: Mejora de Precisión Speech-to-Text mediante Lógica Difusa
+// Autor: Miguel Angel Tinta Aguilar - UNSA
+// Modelo Tri-Variable: Confianza Acústica (C), Similitud Léxica (D) y Coherencia Semántica (S)
+// ============================================================================
+
 FUNCTION_BLOCK CorreccionPostAsr
+
 VAR_INPUT
-    confianza : REAL;
-    similitud : REAL;
+    confianza : REAL;   // Puntuación de confianza acústica del ASR: C in [0.0, 1.0]
+    similitud : REAL;   // Similitud fonético-léxica de Levenshtein: D in [0.0, 1.0]
+    semantica : REAL;   // Coherencia semántica contextual por clusters: S in [0.0, 1.0]
 END_VAR
+
 VAR_OUTPUT
-    justificacion : REAL;
+    justificacion : REAL; // Grado de Justificación de Corrección: y* in [0.0, 1.0]
 END_VAR
+
 FUZZIFY confianza
     TERM Baja  := (0.0, 1.0) (0.35, 1.0) (0.60, 0.0);
     TERM Media := (0.35, 0.0) (0.60, 1.0) (0.80, 0.0);
     TERM Alta  := (0.65, 0.0) (0.85, 1.0) (1.0, 1.0);
 END_FUZZIFY
+
 FUZZIFY similitud
     TERM Baja  := (0.0, 1.0) (0.40, 1.0) (0.65, 0.0);
     TERM Media := (0.45, 0.0) (0.70, 1.0) (0.85, 0.0);
     TERM Alta  := (0.75, 0.0) (0.90, 1.0) (1.0, 1.0);
 END_FUZZIFY
+
+FUZZIFY semantica
+    TERM Baja  := (0.0, 1.0) (0.25, 1.0) (0.45, 0.0);
+    TERM Media := (0.30, 0.0) (0.50, 1.0) (0.70, 0.0);
+    TERM Alta  := (0.55, 0.0) (0.75, 1.0) (1.0, 1.0);
+END_FUZZIFY
+
 DEFUZZIFY justificacion
     TERM Baja  := (0.0, 1.0) (0.30, 1.0) (0.50, 0.0);
     TERM Media := (0.35, 0.0) (0.55, 1.0) (0.75, 0.0);
     TERM Alta  := (0.60, 0.0) (0.80, 1.0) (1.0, 1.0);
-    METHOD : COG;
+    METHOD : COG; // Centroide de Gravedad
     DEFAULT := 0.0;
 END_DEFUZZIFY
+
 RULEBLOCK ReglasCorreccion
-    AND : MIN; OR : MAX; ACT : MIN; ACCU : MAX;
-    RULE 1 : IF confianza IS Baja AND similitud IS Alta THEN justificacion IS Alta;
-    RULE 2 : IF confianza IS Baja AND similitud IS Media THEN justificacion IS Alta;
-    RULE 3 : IF confianza IS Baja AND similitud IS Baja THEN justificacion IS Baja;
-    RULE 4 : IF confianza IS Media AND similitud IS Alta THEN justificacion IS Alta;
-    RULE 5 : IF confianza IS Media AND similitud IS Media THEN justificacion IS Media;
-    RULE 6 : IF confianza IS Media AND similitud IS Baja THEN justificacion IS Baja;
-    RULE 7 : IF confianza IS Alta AND similitud IS Alta THEN justificacion IS Media;
-    RULE 8 : IF confianza IS Alta AND similitud IS Media THEN justificacion IS Baja;
-    RULE 9 : IF confianza IS Alta AND similitud IS Baja THEN justificacion IS Baja;
+    AND : MIN;
+    OR  : MAX;
+    ACT : MIN;
+    ACCU : MAX;
+
+    // --- Grupo 1: Confianza Baja (ASR con alta incertidumbre) ---
+    RULE 1  : IF confianza IS Baja AND similitud IS Alta AND semantica IS Alta THEN justificacion IS Alta;
+    RULE 2  : IF confianza IS Baja AND similitud IS Alta AND semantica IS Media THEN justificacion IS Alta;
+    RULE 3  : IF confianza IS Baja AND similitud IS Alta AND semantica IS Baja THEN justificacion IS Media;
+    RULE 4  : IF confianza IS Baja AND similitud IS Media AND semantica IS Alta THEN justificacion IS Alta;
+    RULE 5  : IF confianza IS Baja AND similitud IS Media AND semantica IS Media THEN justificacion IS Media;
+    RULE 6  : IF confianza IS Baja AND similitud IS Media AND semantica IS Baja THEN justificacion IS Baja;
+    RULE 7  : IF confianza IS Baja AND similitud IS Baja AND semantica IS Alta THEN justificacion IS Media;
+    RULE 8  : IF confianza IS Baja AND similitud IS Baja AND semantica IS Media THEN justificacion IS Baja;
+    RULE 9  : IF confianza IS Baja AND similitud IS Baja AND semantica IS Baja THEN justificacion IS Baja;
+
+    // --- Grupo 2: Confianza Media (Incertidumbre acústica moderada) ---
+    RULE 10 : IF confianza IS Media AND similitud IS Alta AND semantica IS Alta THEN justificacion IS Alta;
+    RULE 11 : IF confianza IS Media AND similitud IS Alta AND semantica IS Media THEN justificacion IS Alta;
+    RULE 12 : IF confianza IS Media AND similitud IS Alta AND semantica IS Baja THEN justificacion IS Media;
+    RULE 13 : IF confianza IS Media AND similitud IS Media AND semantica IS Alta THEN justificacion IS Alta;
+    RULE 14 : IF confianza IS Media AND similitud IS Media AND semantica IS Media THEN justificacion IS Media;
+    RULE 15 : IF confianza IS Media AND similitud IS Media AND semantica IS Baja THEN justificacion IS Baja;
+    RULE 16 : IF confianza IS Media AND similitud IS Baja AND semantica IS Alta THEN justificacion IS Media;
+    RULE 17 : IF confianza IS Media AND similitud IS Baja AND semantica IS Media THEN justificacion IS Baja;
+    RULE 18 : IF confianza IS Media AND similitud IS Baja AND semantica IS Baja THEN justificacion IS Baja;
+
+    // --- Grupo 3: Confianza Alta (ASR seguro de la hipótesis acústica) ---
+    RULE 19 : IF confianza IS Alta AND similitud IS Alta AND semantica IS Alta THEN justificacion IS Media;
+    RULE 20 : IF confianza IS Alta AND similitud IS Alta AND semantica IS Media THEN justificacion IS Media;
+    RULE 21 : IF confianza IS Alta AND similitud IS Alta AND semantica IS Baja THEN justificacion IS Baja;
+    RULE 22 : IF confianza IS Alta AND similitud IS Media AND semantica IS Alta THEN justificacion IS Media;
+    RULE 23 : IF confianza IS Alta AND similitud IS Media AND semantica IS Media THEN justificacion IS Baja;
+    RULE 24 : IF confianza IS Alta AND similitud IS Media AND semantica IS Baja THEN justificacion IS Baja;
+    RULE 25 : IF confianza IS Alta AND similitud IS Baja AND semantica IS Alta THEN justificacion IS Baja;
+    RULE 26 : IF confianza IS Alta AND similitud IS Baja AND semantica IS Media THEN justificacion IS Baja;
+    RULE 27 : IF confianza IS Alta AND similitud IS Baja AND semantica IS Baja THEN justificacion IS Baja;
 END_RULEBLOCK
+
 END_FUNCTION_BLOCK
 ```
 
@@ -490,12 +640,15 @@ python d:\tesis\evaluation\benchmark_runner.py
 Salida certificada del script:
 ```
 ======================= RESULTADOS GLOBALES CONSOLIDADOS =======================
-Total palabras de referencia evaluadas (N) : 95
-Total sustituciones silenciosas realizadas  : 16
-WER Promedio ASR Crudo (Línea Base)        : 23.16%
-WER Promedio con Capa Difusa On-Device     : 7.37%
-REDUCCIÓN RELATIVA DEL ERROR (WER)         : 68.18%
-Precisión Final Obtenida (1 - WER)          : 92.63% (Meta de Tesis >= 90%)
-Latencia Media de Procesamiento             : 7.57 ms (Meta < 1000 ms)
+Total palabras de referencia evaluadas (N)     : 103
+Total palabras clave curriculares evaluadas    : 31
+Total sustituciones silenciosas realizadas      : 21
+WER Promedio ASR Crudo (Línea Base)            : 18.45%
+WER Promedio con Capa Difusa On-Device         : 1.94%
+REDUCCIÓN RELATIVA DE WER (ΔWER_rel)           : 89.47%
+KER Promedio ASR Crudo / con Capa Difusa       : 61.29% / 6.45%
+PRECISIÓN SEMÁNTICA FINAL (1 - KER)            : 93.55% (Meta de Tesis >= 90%)
+Coherencia Semántica Media (S)                 : 0.50
+Latencia Media de Procesamiento                : 72.11 ms (Meta < 1000 ms)
 ================================================================================
 ```

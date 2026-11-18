@@ -1,0 +1,55 @@
+[
+  {
+    "topic_id": "estructura_atomica_enlaces",
+    "topic_name": "Estructura Atómica y Enlace Químico",
+    "terms": [
+      "número atómico",
+      "isótopo",
+      "orbital",
+      "electronegatividad",
+      "valencia",
+      "ionización",
+      "enlace covalente",
+      "enlace iónico"
+    ]
+  },
+  {
+    "topic_id": "reacciones_termoquimica_redox",
+    "topic_name": "Reacciones Químicas, Termoquímica y Redox",
+    "terms": [
+      "oxidación",
+      "reducción",
+      "redox",
+      "catalizador",
+      "endotérmico",
+      "exotérmico",
+      "precipitado",
+      "ionización"
+    ]
+  },
+  {
+    "topic_id": "soluciones_estequiometria",
+    "topic_name": "Soluciones Químicas y Estequiometría",
+    "terms": [
+      "estequiometría",
+      "masa molar",
+      "molaridad",
+      "solubilidad",
+      "precipitado",
+      "catalizador",
+      "valencia"
+    ]
+  },
+  {
+    "topic_id": "quimica_organica_hidrocarburos",
+    "topic_name": "Química Orgánica e Hidrocarburos",
+    "terms": [
+      "alcano",
+      "alqueno",
+      "alquino",
+      "enlace covalente",
+      "orbital",
+      "electronegatividad"
+    ]
+  }
+]

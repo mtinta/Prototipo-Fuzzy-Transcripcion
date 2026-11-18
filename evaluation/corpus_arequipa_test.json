@@ -15,44 +15,44 @@
   },
   {
     "id": 3,
-    "subject": "QUIMICA",
-    "ground_truth": "la estequiometría estudia la proporción de masa molar y la electronegatividad",
-    "raw_asr": "la estekiometria estudia la proporción de masa molar y la electronegatibidad",
-    "word_confidences": [0.91, 0.35, 0.86, 0.88, 0.84, 0.83, 0.89, 0.87, 0.90, 0.44]
+    "subject": "BIOLOGIA",
+    "ground_truth": "la célula procariota carece de núcleo definido y dispersa su material en el citoplasma",
+    "raw_asr": "la sedula prokariota carece de nukleo definido y dispersa su material en el sitoplasma",
+    "word_confidences": [0.91, 0.40, 0.44, 0.88, 0.92, 0.41, 0.86, 0.89, 0.90, 0.87, 0.92, 0.88, 0.46]
   },
   {
     "id": 4,
-    "subject": "QUIMICA",
-    "ground_truth": "el enlace covalente genera una reacción exotérmico con un catalizador activo",
-    "raw_asr": "el enlase kobalente genera una reacción endotermico con un catalisador activo",
-    "word_confidences": [0.92, 0.50, 0.46, 0.85, 0.88, 0.84, 0.51, 0.89, 0.91, 0.45, 0.86]
+    "subject": "BIOLOGIA",
+    "ground_truth": "la célula eucariota posee membrana nuclear y alberga los cromosomas en el núcleo",
+    "raw_asr": "la cédula eucariota posee membrana nuclear y alberga los cromosomas en el nukleo",
+    "word_confidences": [0.89, 0.43, 0.88, 0.86, 0.87, 0.90, 0.92, 0.88, 0.91, 0.89, 0.90, 0.92, 0.42]
   },
   {
     "id": 5,
-    "subject": "HISTORIA",
-    "ground_truth": "en el Tahuantinsuyo la mita y el ayllu organizaban el trabajo prehispánico",
-    "raw_asr": "en el tawantinsuyo la mita y el aillu organizaban el trabajo preispanico",
-    "word_confidences": [0.89, 0.92, 0.41, 0.88, 0.85, 0.91, 0.43, 0.84, 0.86, 0.83, 0.45]
+    "subject": "BIOLOGIA",
+    "ground_truth": "el retículo endoplasmático rugoso tiene adherido el ribosoma para sintetizar proteína",
+    "raw_asr": "el reticulo endoplasmático rugoso tiene adherido el riposoma para sintetizar proteina",
+    "word_confidences": [0.92, 0.45, 0.88, 0.85, 0.89, 0.91, 0.90, 0.39, 0.92, 0.87, 0.48]
   },
   {
     "id": 6,
-    "subject": "HISTORIA",
-    "ground_truth": "durante el virreinato la real cédula regulaba la encomienda y la confederación",
-    "raw_asr": "durante el birreinato la real celula regulaba la enmienda y la confederasion",
-    "word_confidences": [0.87, 0.90, 0.44, 0.88, 0.52, 0.82, 0.85, 0.87, 0.48, 0.90, 0.46]
+    "subject": "BIOLOGIA",
+    "ground_truth": "el aparato de golgi transporta vesículas y el lisosoma participa en la digestión celular",
+    "raw_asr": "el aparato de golxi transporta vesículas y el lizosoma participa en la digestión celular",
+    "word_confidences": [0.90, 0.88, 0.92, 0.46, 0.87, 0.89, 0.91, 0.90, 0.42, 0.86, 0.88, 0.91, 0.85, 0.89]
   },
   {
     "id": 7,
-    "subject": "GEOGRAFIA",
-    "ground_truth": "la troposfera y la hidrografía definen el relieve de la cuenca hidrográfica",
-    "raw_asr": "la troposfera y la idrografia definen el reliebe de la cuenca idrografica",
-    "word_confidences": [0.91, 0.55, 0.89, 0.90, 0.42, 0.86, 0.92, 0.46, 0.89, 0.88, 0.84, 0.43]
+    "subject": "BIOLOGIA",
+    "ground_truth": "el ácido desoxirribonucleico contiene el genoma y define el genotipo y el fenotipo",
+    "raw_asr": "el ácido desoxiribonukleiko contiene el genoma y define el jenotipo y el fenotipo",
+    "word_confidences": [0.92, 0.89, 0.38, 0.87, 0.90, 0.85, 0.91, 0.88, 0.90, 0.44, 0.92, 0.89, 0.85]
   },
   {
     "id": 8,
-    "subject": "GEOGRAFIA",
-    "ground_truth": "la cordillera y la meseta presentan cambios de altitud y bioma en la región",
-    "raw_asr": "la cordillera y la meseta presentan cambios de altitut y bioma en la región",
-    "word_confidences": [0.92, 0.85, 0.91, 0.88, 0.84, 0.87, 0.85, 0.90, 0.49, 0.91, 0.54, 0.92, 0.88, 0.86]
+    "subject": "BIOLOGIA",
+    "ground_truth": "durante la mitosis la célula se divide mientras en la meiosis se originan los gametos",
+    "raw_asr": "durante la mitocis la cédula se divide mientras en la meyosis se originan los gametos",
+    "word_confidences": [0.89, 0.91, 0.42, 0.90, 0.44, 0.92, 0.86, 0.88, 0.91, 0.89, 0.41, 0.92, 0.87, 0.90, 0.88]
   }
 ]

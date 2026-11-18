@@ -1,0 +1,302 @@
+[
+ {
+  "id": 1,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la respiración celular ocurre en la mitocondria",
+  "raw_asr": "la respiración celular ocurre en la mitocondria",
+  "word_confidences": [
+   0.97,
+   0.97,
+   0.97,
+   0.97,
+   0.97,
+   0.97,
+   0.97
+  ],
+  "gap_s": 8,
+  "nota": "Control: frases de clase CORRECTAS con C alta (como Vosk cuando acierta). Ninguna palabra debe cambiar."
+ },
+ {
+  "id": 2,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la digestión celular usa enzimas del lisosoma",
+  "raw_asr": "la digestión celular usa enzimas del lisosoma",
+  "word_confidences": [
+   0.97,
+   0.97,
+   0.97,
+   0.97,
+   0.97,
+   0.97,
+   0.97
+  ],
+  "gap_s": 8,
+  "nota": "Control: frases de clase CORRECTAS con C alta (como Vosk cuando acierta). Ninguna palabra debe cambiar."
+ },
+ {
+  "id": 3,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la membrana celular protege a la célula",
+  "raw_asr": "la membrana celular protege a la célula",
+  "word_confidences": [
+   0.97,
+   0.97,
+   0.97,
+   0.97,
+   0.97,
+   0.97,
+   0.97
+  ],
+  "gap_s": 8,
+  "nota": "Control: frases de clase CORRECTAS con C alta (como Vosk cuando acierta). Ninguna palabra debe cambiar."
+ },
+ {
+  "id": 4,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el ciclo celular tiene varias fases",
+  "raw_asr": "el ciclo celular tiene varias fases",
+  "word_confidences": [
+   0.97,
+   0.97,
+   0.97,
+   0.97,
+   0.97,
+   0.97
+  ],
+  "gap_s": 8,
+  "nota": "Control: frases de clase CORRECTAS con C alta (como Vosk cuando acierta). Ninguna palabra debe cambiar."
+ },
+ {
+  "id": 5,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el teléfono celular no se usa en clase",
+  "raw_asr": "el teléfono celular no se usa en clase",
+  "word_confidences": [
+   0.97,
+   0.97,
+   0.97,
+   0.97,
+   0.97,
+   0.97,
+   0.97,
+   0.97
+  ],
+  "gap_s": 8,
+  "nota": "Control: frases de clase CORRECTAS con C alta (como Vosk cuando acierta). Ninguna palabra debe cambiar."
+ },
+ {
+  "id": 6,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la planta necesita agua y luz para la fotosíntesis",
+  "raw_asr": "la planta necesita agua y luz para la fotosíntesis",
+  "word_confidences": [
+   0.97,
+   0.97,
+   0.97,
+   0.97,
+   0.97,
+   0.97,
+   0.97,
+   0.97,
+   0.97
+  ],
+  "gap_s": 8,
+  "nota": "Control: frases de clase CORRECTAS con C alta (como Vosk cuando acierta). Ninguna palabra debe cambiar."
+ },
+ {
+  "id": 7,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el núcleo celular contiene el material genético",
+  "raw_asr": "el núcleo celular contiene el material genético",
+  "word_confidences": [
+   0.97,
+   0.97,
+   0.97,
+   0.97,
+   0.97,
+   0.97,
+   0.97
+  ],
+  "gap_s": 8,
+  "nota": "Control: frases de clase CORRECTAS con C alta (como Vosk cuando acierta). Ninguna palabra debe cambiar."
+ },
+ {
+  "id": 8,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la división celular produce dos células",
+  "raw_asr": "la división celular produce dos células",
+  "word_confidences": [
+   0.97,
+   0.97,
+   0.97,
+   0.97,
+   0.97,
+   0.97
+  ],
+  "gap_s": 8,
+  "nota": "Control: frases de clase CORRECTAS con C alta (como Vosk cuando acierta). Ninguna palabra debe cambiar."
+ },
+ {
+  "id": 9,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la pared celular de la planta es rígida",
+  "raw_asr": "la pared celular de la planta es rígida",
+  "word_confidences": [
+   0.97,
+   0.97,
+   0.97,
+   0.97,
+   0.97,
+   0.97,
+   0.97,
+   0.97
+  ],
+  "gap_s": 8,
+  "nota": "Control: frases de clase CORRECTAS con C alta (como Vosk cuando acierta). Ninguna palabra debe cambiar."
+ },
+ {
+  "id": 10,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el gen dominante se expresa en el fenotipo",
+  "raw_asr": "el gen dominante se expresa en el fenotipo",
+  "word_confidences": [
+   0.97,
+   0.97,
+   0.97,
+   0.97,
+   0.97,
+   0.97,
+   0.97,
+   0.97
+  ],
+  "gap_s": 8,
+  "nota": "Control: frases de clase CORRECTAS con C alta (como Vosk cuando acierta). Ninguna palabra debe cambiar."
+ },
+ {
+  "id": 11,
+  "subject": "BIOLOGIA",
+  "ground_truth": "los genes están en los cromosomas",
+  "raw_asr": "los genes están en los cromosomas",
+  "word_confidences": [
+   0.97,
+   0.97,
+   0.97,
+   0.97,
+   0.97,
+   0.97
+  ],
+  "gap_s": 8,
+  "nota": "Control: frases de clase CORRECTAS con C alta (como Vosk cuando acierta). Ninguna palabra debe cambiar."
+ },
+ {
+  "id": 12,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la proteína se forma en el ribosoma",
+  "raw_asr": "la proteína se forma en el ribosoma",
+  "word_confidences": [
+   0.97,
+   0.97,
+   0.97,
+   0.97,
+   0.97,
+   0.97,
+   0.97
+  ],
+  "gap_s": 8,
+  "nota": "Control: frases de clase CORRECTAS con C alta (como Vosk cuando acierta). Ninguna palabra debe cambiar."
+ },
+ {
+  "id": 13,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el calor afecta a las enzimas",
+  "raw_asr": "el calor afecta a las enzimas",
+  "word_confidences": [
+   0.97,
+   0.97,
+   0.97,
+   0.97,
+   0.97,
+   0.97
+  ],
+  "gap_s": 8,
+  "nota": "Control: frases de clase CORRECTAS con C alta (como Vosk cuando acierta). Ninguna palabra debe cambiar."
+ },
+ {
+  "id": 14,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la forma de la célula cambia",
+  "raw_asr": "la forma de la célula cambia",
+  "word_confidences": [
+   0.97,
+   0.97,
+   0.97,
+   0.97,
+   0.97,
+   0.97
+  ],
+  "gap_s": 8,
+  "nota": "Control: frases de clase CORRECTAS con C alta (como Vosk cuando acierta). Ninguna palabra debe cambiar."
+ },
+ {
+  "id": 15,
+  "subject": "BIOLOGIA",
+  "ground_truth": "las vacunas protegen contra los virus",
+  "raw_asr": "las vacunas protegen contra los virus",
+  "word_confidences": [
+   0.97,
+   0.97,
+   0.97,
+   0.97,
+   0.97,
+   0.97
+  ],
+  "gap_s": 8,
+  "nota": "Control: frases de clase CORRECTAS con C alta (como Vosk cuando acierta). Ninguna palabra debe cambiar."
+ },
+ {
+  "id": 16,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la sangre lleva oxígeno a los tejidos",
+  "raw_asr": "la sangre lleva oxígeno a los tejidos",
+  "word_confidences": [
+   0.97,
+   0.97,
+   0.97,
+   0.97,
+   0.97,
+   0.97,
+   0.97
+  ],
+  "gap_s": 8,
+  "nota": "Control: frases de clase CORRECTAS con C alta (como Vosk cuando acierta). Ninguna palabra debe cambiar."
+ },
+ {
+  "id": 17,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el corazón bombea la sangre",
+  "raw_asr": "el corazón bombea la sangre",
+  "word_confidences": [
+   0.97,
+   0.97,
+   0.97,
+   0.97,
+   0.97
+  ],
+  "gap_s": 8,
+  "nota": "Control: frases de clase CORRECTAS con C alta (como Vosk cuando acierta). Ninguna palabra debe cambiar."
+ },
+ {
+  "id": 18,
+  "subject": "BIOLOGIA",
+  "ground_truth": "las hojas tienen clorofila",
+  "raw_asr": "las hojas tienen clorofila",
+  "word_confidences": [
+   0.97,
+   0.97,
+   0.97,
+   0.97
+  ],
+  "gap_s": 8,
+  "nota": "Control: frases de clase CORRECTAS con C alta (como Vosk cuando acierta). Ninguna palabra debe cambiar."
+ }
+]

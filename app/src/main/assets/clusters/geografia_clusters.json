@@ -1,0 +1,38 @@
+[
+  {
+    "topic_id": "geomorfologia_relieve_andino",
+    "topic_name": "Geomorfología y Relieve",
+    "terms": [
+      "geomorfología",
+      "relieve",
+      "cordillera",
+      "meseta",
+      "altitud",
+      "placas tectónicas"
+    ]
+  },
+  {
+    "topic_id": "hidrografia_cuencas",
+    "topic_name": "Hidrografía y Cuencas",
+    "terms": [
+      "hidrografía",
+      "cuenca hidrográfica",
+      "vertiente del pacífico",
+      "cordillera",
+      "altitud",
+      "relieve"
+    ]
+  },
+  {
+    "topic_id": "atmosfera_clima_biomas",
+    "topic_name": "Atmósfera, Climatología y Biomas",
+    "terms": [
+      "troposfera",
+      "estratosfera",
+      "climatología",
+      "bioma",
+      "altitud",
+      "relieve"
+    ]
+  }
+]

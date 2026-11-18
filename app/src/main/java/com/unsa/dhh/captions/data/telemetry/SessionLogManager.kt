@@ -16,7 +16,10 @@ data class SessionStats(
     val totalSubstitutions: Int,
     val averageLatencyMs: Long,
     val averageConfidence: Double,
-    val averageFuzzyScore: Double
+    val averageFuzzyScore: Double,
+    val averageSemanticScore: Double = 0.0,
+    val keywordErrorRate: Double = 0.0,
+    val keywordPrecision: Double = 1.0
 )
 
 /**
@@ -61,7 +64,9 @@ class SessionLogManager(
                 lexicalSimilarity = res.lexicalSimilarity.toFloat(),
                 fuzzyJustification = res.fuzzyJustification.toFloat(),
                 substituted = res.wasSubstituted,
-                latencyMs = latencyMs
+                latencyMs = latencyMs,
+                semanticCoherence = res.semanticCoherence.toFloat(),
+                topicCluster = res.topicCluster
             )
 
             synchronized(inMemoryLogs) {
@@ -92,12 +97,13 @@ class SessionLogManager(
     }
 
     /**
-     * Calcula las estadísticas agregadas de la sesión actual.
+     * Calcula las estadísticas agregadas de la sesión actual, incluyendo opcionalmente
+     * el Keyword Error Rate (KER) y la Precisión Semántica si se proveen términos clave.
      */
-    fun getSessionStats(): SessionStats {
+    fun getSessionStats(keywordTerms: Set<String> = emptySet()): SessionStats {
         synchronized(inMemoryLogs) {
             if (inMemoryLogs.isEmpty()) {
-                return SessionStats(0, 0, 0L, 0.0, 0.0)
+                return SessionStats(0, 0, 0L, 0.0, 0.0, 0.0, 0.0, 1.0)
             }
 
             val total = inMemoryLogs.size
@@ -105,16 +111,79 @@ class SessionLogManager(
             val avgLatency = inMemoryLogs.map { it.latencyMs }.average().toLong()
             val avgConf = inMemoryLogs.map { it.acousticConfidence.toDouble() }.average()
             val avgFuzzy = inMemoryLogs.map { it.fuzzyJustification.toDouble() }.average()
+            // S media solo de los TÉRMINOS TÉCNICOS (corregidos o que coinciden con el diccionario, D >= 0.80).
+            // Las palabras comunes ("la", "tiene") no tienen tema y valen S = 0: incluirlas diluía el promedio.
+            val avgSemantic = inMemoryLogs
+                .filter { it.substituted || it.lexicalSimilarity >= TECHNICAL_TERM_MIN_SIMILARITY }
+                .map { it.semanticCoherence.toDouble() }
+                .average().let { if (it.isNaN()) 0.0 else it }
+
+            val (ker, precision) = if (keywordTerms.isNotEmpty()) {
+                val hyp = inMemoryLogs.joinToString(" ") { it.correctedWord }
+                val ref = inMemoryLogs.joinToString(" ") { if (it.substituted) it.correctedWord else it.originalWord }
+                val k = calculateKer(hyp, ref, keywordTerms)
+                Pair(k, (1.0 - k).coerceIn(0.0, 1.0))
+            } else {
+                Pair(0.0, 1.0)
+            }
 
             return SessionStats(
                 totalWords = total,
                 totalSubstitutions = subs,
                 averageLatencyMs = avgLatency,
                 averageConfidence = avgConf,
-                averageFuzzyScore = avgFuzzy
+                averageFuzzyScore = avgFuzzy,
+                averageSemanticScore = avgSemantic,
+                keywordErrorRate = ker,
+                keywordPrecision = precision
             )
         }
     }
+
+    /**
+     * Normaliza un texto para comparación léxica uniforme (minúsculas, sin diacríticos ni puntuación superflua).
+     */
+    fun normalizeText(text: String): String {
+        val nfkd = java.text.Normalizer.normalize(text.lowercase(java.util.Locale.ROOT), java.text.Normalizer.Form.NFD)
+        return Regex("\\p{InCombiningDiacriticalMarks}+").replace(nfkd, "")
+            .replace(Regex("[^a-z0-9\\s]"), " ")
+            .trim()
+            .replace(Regex("\\s+"), " ")
+    }
+
+    /**
+     * Tasa de error de términos clave y precisión semántica:
+     *   KER = (N_k - A_k) / N_k        Precisión semántica = A_k / N_k = 1 - KER
+     *   N_k = apariciones de términos clave en la referencia
+     *   A_k = cuántas de ellas aparecen también en la hipótesis (como máximo, tantas como en la referencia)
+     * Se compara palabra por palabra tras normalizar (minúsculas, sin tildes ni puntuación);
+     * admite términos de una o varias palabras.
+     *
+     * @return KER en [0.0, 1.0]; 0.0 si la referencia no contiene términos clave.
+     */
+    fun calculateKer(
+        hypothesis: String,
+        reference: String,
+        keywordTerms: Set<String>
+    ): Double {
+        val referencia = normalizeText(reference).split(" ")
+        val hipotesis = normalizeText(hypothesis).split(" ")
+        var n = 0
+        var a = 0
+        for (termino in keywordTerms.map { normalizeText(it) }.filter { it.isNotBlank() }.toSet()) {
+            val palabras = termino.split(" ")
+            val enRef = contarTermino(palabras, referencia)
+            if (enRef > 0) {
+                n += enRef
+                a += min(enRef, contarTermino(palabras, hipotesis))
+            }
+        }
+        return if (n == 0) 0.0 else (n - a).toDouble() / n
+    }
+
+    /** Veces que la secuencia de palabras [termino] aparece en [palabras]. */
+    private fun contarTermino(termino: List<String>, palabras: List<String>): Int =
+        palabras.windowed(termino.size).count { it == termino }
 
     /**
      * Calcula la Tasa de Error de Palabra (WER) formal:
@@ -152,5 +221,10 @@ class SessionLogManager(
 
         val editDistance = dTable[refWords.size][hypWords.size]
         return editDistance.toDouble() / refWords.size.toDouble()
+    }
+
+    private companion object {
+        /** D mínima para que una palabra no corregida cuente como término técnico en la S media de la sesión. */
+        const val TECHNICAL_TERM_MIN_SIMILARITY = 0.80f
     }
 }

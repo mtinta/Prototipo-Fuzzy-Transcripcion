@@ -1,0 +1,41 @@
+[
+  {
+    "topic_id": "sociedad_andina_prehispanica",
+    "topic_name": "Sociedad y Organización Andina Prehispánica",
+    "terms": [
+      "Tahuantinsuyo",
+      "prehispánico",
+      "ayllu",
+      "curaca",
+      "mita",
+      "yanacona"
+    ]
+  },
+  {
+    "topic_id": "instituciones_virreinales",
+    "topic_name": "Instituciones y Sociedad Virreinal",
+    "terms": [
+      "virreinato",
+      "encomienda",
+      "corregimiento",
+      "reducciones",
+      "cabildo",
+      "real cédula",
+      "mita",
+      "yanacona",
+      "curaca"
+    ]
+  },
+  {
+    "topic_id": "emancipacion_republica",
+    "topic_name": "Emancipación, Independencia y República",
+    "terms": [
+      "emancipación",
+      "independencia",
+      "capitulación",
+      "confederación",
+      "cabildo",
+      "virreinato"
+    ]
+  }
+]

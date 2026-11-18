@@ -5,6 +5,8 @@ import androidx.room.PrimaryKey
 
 /**
  * Entidad de telemetría y registro de sesión para validación algorítmica y cálculo de WER.
+ * Registra los valores de las 3 variables difusas de entrada (C, D, S), la justificación de salida (y*),
+ * el cluster pedagógico asignado y la decisión de sustitución.
  */
 @Entity(tableName = "session_logs")
 data class SessionLogEntity(
@@ -19,5 +21,7 @@ data class SessionLogEntity(
     val lexicalSimilarity: Float,
     val fuzzyJustification: Float,
     val substituted: Boolean,
-    val latencyMs: Long
+    val latencyMs: Long,
+    val semanticCoherence: Float = 0f,
+    val topicCluster: String? = null
 )

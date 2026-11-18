@@ -14,7 +14,7 @@
 d:\tesis\
 ├── app\
 │   ├── src\main\
-│   │   ├── AndroidManifest.xml                  # Permisos Audio, Bluetooth SCO, Foreground Service
+│   │   ├── AndroidManifest.xml                  # Permisos Audio (RECORD_AUDIO), Foreground Service, USB host opcional
 │   │   ├── assets\
 │   │   │   ├── fuzzy_rules.fcl                  # Definición formal FCL de reglas difusas Mamdani
 │   │   │   └── dictionaries\                    # Diccionarios MINEDU Educación Secundaria
@@ -24,12 +24,15 @@ d:\tesis\
 │   │   │       └── geografia.json
 │   │   └── java\com\unsa\dhh\captions\
 │   │       ├── MainActivity.kt                  # Actividad principal y orquestación
-│   │       ├── service\                         # [Módulo 1: Captura Bluetooth SCO & Foreground]
+│   │       ├── service\                         # [Módulo 1: Captura Micrófono Inalámbrico USB & Foreground]
 │   │       │   ├── AudioForegroundService.kt
-│   │       │   └── BluetoothScoManager.kt
+│   │       │   └── ExternalAudioDeviceManager.kt
 │   │       ├── domain\
 │   │       │   ├── asr\                         # [Módulo 2: Reconocimiento ASR Local Offline]
-│   │       │   │   ├── AndroidSpeechEngine.kt
+│   │       │   │   ├── SpeechEngine.kt              # Interfaz común + selector de motor
+│   │       │   │   ├── VoskSpeechEngine.kt          # Motor predeterminado: Vosk, C por palabra
+│   │       │   │   ├── VoskSupport.kt               # Lectura del JSON de Vosk y reloj del audio
+│   │       │   │   ├── AndroidSpeechEngine.kt       # Alternativa: SpeechRecognizer (C fija 0.65)
 │   │       │   │   └── SpeechState.kt
 │   │       │   ├── nlp\                         # [Módulo 3: Etiquetado Morfosintáctico]
 │   │       │   │   └── OpenNlpPosTagger.kt
@@ -56,7 +59,7 @@ d:\tesis\
 │   │           ├── SUSQuestionnaireScreen.kt    # Cuestionario SUS (Anexo A de la tesis)
 │   │           ├── theme\
 │   │           │   ├── Color.kt
-│   │           │   └── WCAGHighContrastTheme.kt # 21:1 (#FFFF00 sobre #000000)
+│   │           │   └── WCAGHighContrastTheme.kt # 19.56:1 (#FFFF00 sobre #000000)
 │   │           └── viewmodel\
 │   │               └── CaptionsViewModel.kt
 │   └── src\test\java\com\unsa\dhh\captions\     # Pruebas Unitarias Algorítmicas
@@ -95,4 +98,30 @@ o ejecutando directamente: `d:\tesis\evaluation\run_evaluation.bat`.
 1. Abrir la carpeta `d:\tesis` en **Android Studio**.
 2. Conectar la tableta Android (API 26+) or un emulador.
 3. Compilar y ejecutar (`Run 'app'`).
-4. La aplicación iniciará en modo **Teleprompter de Alto Contraste (WCAG AAA)**, solicitará permisos de micrófono y Bluetooth, y cargará automáticamente en memoria los diccionarios escolares del MINEDU.
+4. La aplicación iniciará en modo **Teleprompter de Alto Contraste (WCAG AAA)**, solicitará permisos de micrófono y notificaciones, y cargará automáticamente en memoria los diccionarios escolares del MINEDU.
+
+
+---
+
+## 📚 Documentación y verificación
+
+| Documento | Para qué |
+|---|---|
+| `docs/tesis/guia_del_codigo.md` | Recorrido del código, parámetros ajustables, tests y limitaciones |
+| `docs/tesis/guia_exposicion_y_preguntas_defensa.md` | Cómo exponer la tesis, demo y banco de preguntas del jurado |
+| `docs/tesis/factor_semantico_topic_clusters.md` | Factor S, memoria de clase, áreas temáticas y ablación |
+| `docs/tesis/plan_de_pruebas_sx26_telefono_tablet.md` | Pruebas en hardware con el micrófono SX26 en teléfono y tablet |
+
+```bash
+sh scripts/descargar_modelo_vosk.sh            # una vez: modelo Vosk (~40 MB) en assets, fuera de git
+./gradlew testDebugUnitTest assembleDebug      # 78 pruebas unitarias + APK
+cd evaluation
+python3 benchmark_runner.py                    # WER/KER
+python3 benchmark_runner.py --ablacion         # aporte de memoria y rerank
+python3 benchmark_runner.py --umbral           # sensibilidad de y* y falsos positivos
+python3 benchmark_runner.py --booleana         # difuso vs. mejor regla booleana
+python3 benchmark_runner.py --vosk             # salida real de Vosk: términos partidos ("sito plasma" -> citoplasma)
+python3 generar_paridad_decision.py            # tras cambiar el algoritmo: fixture de paridad Kotlin <-> Python
+python3 verificar_fcl.py                       # fuzzy_rules.fcl ≡ motor de la app
+python3 ejecutor_pruebas_calidad.py            # casos SQA automatizables
+```

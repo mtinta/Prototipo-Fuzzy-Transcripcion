@@ -20,6 +20,10 @@ android {
         vectorDrawables {
             useSupportLibrary = true
         }
+        // libvosk.so pesa ~10 MB por ABI: solo teléfonos ARM (Tecno Spark 20 = arm64) y el emulador x86_64
+        ndk {
+            abiFilters += listOf("arm64-v8a", "armeabi-v7a", "x86_64")
+        }
     }
 
     buildTypes {
@@ -77,6 +81,10 @@ dependencies {
     // JSON Parsing (para carga de diccionarios MINEDU)
     implementation("com.google.code.gson:gson:2.10.1")
 
+    // Módulo 2: ASR local Vosk (Kaldi) con confianza por palabra. JNA debe ir como AAR (trae las .so).
+    implementation("com.alphacephei:vosk-android:0.3.75")
+    implementation("net.java.dev.jna:jna:5.18.1@aar")
+
     // Testing
     testImplementation("junit:junit:4.13.2")
     testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.8.0")
@@ -86,3 +94,23 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
 }
+
+// ---------------------------------------------------------------------------------------------------------------
+// Modelo Vosk (≈40 MB, no se versiona en git). Sin él la app compila pero el motor Vosk no puede arrancar,
+// así que se detiene la compilación con instrucciones. Descarga: scripts/descargar_modelo_vosk.sh
+// ---------------------------------------------------------------------------------------------------------------
+val voskModelDir = file("src/main/assets/vosk-model-es")
+val checkVoskModel by tasks.registering {
+    val required = listOf("am/final.mdl", "graph/HCLr.fst", "graph/Gr.fst", "conf/model.conf", "uuid").map { File(voskModelDir, it) }
+    inputs.files(required).optional()
+    doLast {
+        val missing = required.filterNot { it.exists() }
+        if (missing.isNotEmpty()) {
+            throw GradleException(
+                "Falta el modelo Vosk en app/src/main/assets/vosk-model-es (${missing.joinToString { it.name }}). " +
+                    "Ejecuta: sh scripts/descargar_modelo_vosk.sh"
+            )
+        }
+    }
+}
+tasks.named("preBuild") { dependsOn(checkVoskModel) }

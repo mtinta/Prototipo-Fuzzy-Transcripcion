@@ -16,6 +16,12 @@ import android.util.Log
 import androidx.core.app.NotificationCompat
 import com.unsa.dhh.captions.MainActivity
 import com.unsa.dhh.captions.R
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.Job
+import kotlinx.coroutines.SupervisorJob
+import kotlinx.coroutines.cancel
+import kotlinx.coroutines.launch
 
 /**
  * Módulo 1: Servicio en primer plano persistente en Android.
@@ -26,7 +32,9 @@ class AudioForegroundService : Service() {
 
     private val binder = LocalBinder()
     private var wakeLock: PowerManager.WakeLock? = null
-    lateinit var bluetoothScoManager: BluetoothScoManager
+    private val serviceScope = CoroutineScope(SupervisorJob() + Dispatchers.Main)
+    private var sourceJob: Job? = null
+    lateinit var externalAudioDeviceManager: ExternalAudioDeviceManager
         private set
 
     inner class LocalBinder : Binder() {
@@ -36,7 +44,7 @@ class AudioForegroundService : Service() {
     override fun onCreate() {
         super.onCreate()
         Log.d(TAG, "Creando AudioForegroundService...")
-        bluetoothScoManager = BluetoothScoManager(applicationContext)
+        externalAudioDeviceManager = ExternalAudioDeviceManager(applicationContext)
 
         // Adquirir WakeLock para evitar que el CPU duerma durante la clase
         val powerManager = getSystemService(Context.POWER_SERVICE) as PowerManager
@@ -57,7 +65,7 @@ class AudioForegroundService : Service() {
     }
 
     private fun startServiceExecution() {
-        Log.i(TAG, "Iniciando Foreground Service para captura de micrófono...")
+        Log.i(TAG, "Iniciando Foreground Service para captura de micrófono (SX26/Maxtron)...")
         createNotificationChannel()
 
         val notification = buildPersistentNotification()
@@ -72,12 +80,22 @@ class AudioForegroundService : Service() {
         }
 
         wakeLock?.acquire(90 * 60 * 1000L) // Hasta 90 minutos de clase
-        bluetoothScoManager.usePhoneMic()
+        externalAudioDeviceManager.startMonitoring()
+
+        // TICKET-MIC-02: la notificación persistente refleja la fuente de audio activa
+        sourceJob?.cancel()
+        sourceJob = serviceScope.launch {
+            externalAudioDeviceManager.currentSource.collect { source ->
+                getSystemService(NotificationManager::class.java)
+                    ?.notify(NOTIFICATION_ID, buildPersistentNotification(source))
+            }
+        }
     }
 
     private fun stopServiceExecution() {
         Log.i(TAG, "Deteniendo Foreground Service y liberando recursos...")
-        bluetoothScoManager.stopBluetoothSco()
+        sourceJob?.cancel()
+        externalAudioDeviceManager.stopMonitoring()
         if (wakeLock?.isHeld == true) {
             wakeLock?.release()
         }
@@ -85,7 +103,9 @@ class AudioForegroundService : Service() {
         stopSelf()
     }
 
-    private fun buildPersistentNotification(): Notification {
+    private fun buildPersistentNotification(
+        source: AudioInputSource = AudioInputSource.INTERNAL_MIC
+    ): Notification {
         val pendingIntent = PendingIntent.getActivity(
             this,
             0,
@@ -95,7 +115,7 @@ class AudioForegroundService : Service() {
 
         return NotificationCompat.Builder(this, CHANNEL_ID)
             .setContentTitle("DHH Captions - Asistencia en Aula")
-            .setContentText("Captura de audio y transcripción activa para estudiante.")
+            .setContentText("Transcripción activa · ${source.displayName}")
             .setSmallIcon(android.R.drawable.ic_btn_speak_now)
             .setContentIntent(pendingIntent)
             .setOngoing(true)
@@ -121,6 +141,7 @@ class AudioForegroundService : Service() {
 
     override fun onDestroy() {
         stopServiceExecution()
+        serviceScope.cancel()
         super.onDestroy()
     }
 

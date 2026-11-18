@@ -1,0 +1,220 @@
+[
+ {
+  "id": 1,
+  "subject": "BIOLOGIA",
+  "ground_truth": "buenos dias chicos abran el cuaderno en la pagina diez",
+  "raw_asr": "buenos dias chicos abran el cuaderno en la pagina diez",
+  "word_confidences": [
+   0.55,
+   0.45,
+   0.7,
+   0.9,
+   0.35,
+   0.35,
+   0.85,
+   0.35,
+   0.55,
+   0.85
+  ],
+  "nota": "CONTROL NEGATIVO sintético: lenguaje cotidiano de aula, ASR correcto. Cualquier sustitución es un falso positivo."
+ },
+ {
+  "id": 2,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la profesora explica la tarea para la proxima semana",
+  "raw_asr": "la profesora explica la tarea para la proxima semana",
+  "word_confidences": [
+   0.35,
+   0.85,
+   0.45,
+   0.35,
+   0.35,
+   0.7,
+   0.7,
+   0.35,
+   0.45
+  ],
+  "nota": "CONTROL NEGATIVO sintético: lenguaje cotidiano de aula, ASR correcto. Cualquier sustitución es un falso positivo."
+ },
+ {
+  "id": 3,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el examen sera el viernes en el salon de clases",
+  "raw_asr": "el examen sera el viernes en el salon de clases",
+  "word_confidences": [
+   0.35,
+   0.85,
+   0.7,
+   0.35,
+   0.85,
+   0.35,
+   0.45,
+   0.9,
+   0.9,
+   0.85
+  ],
+  "nota": "CONTROL NEGATIVO sintético: lenguaje cotidiano de aula, ASR correcto. Cualquier sustitución es un falso positivo."
+ },
+ {
+  "id": 4,
+  "subject": "BIOLOGIA",
+  "ground_truth": "ayer fuimos al parque con mis amigos y jugamos futbol",
+  "raw_asr": "ayer fuimos al parque con mis amigos y jugamos futbol",
+  "word_confidences": [
+   0.35,
+   0.85,
+   0.85,
+   0.7,
+   0.35,
+   0.45,
+   0.35,
+   0.85,
+   0.45,
+   0.55
+  ],
+  "nota": "CONTROL NEGATIVO sintético: lenguaje cotidiano de aula, ASR correcto. Cualquier sustitución es un falso positivo."
+ },
+ {
+  "id": 5,
+  "subject": "BIOLOGIA",
+  "ground_truth": "por favor guarden silencio mientras escribo en la pizarra",
+  "raw_asr": "por favor guarden silencio mientras escribo en la pizarra",
+  "word_confidences": [
+   0.7,
+   0.45,
+   0.85,
+   0.35,
+   0.85,
+   0.55,
+   0.85,
+   0.9,
+   0.45
+  ],
+  "nota": "CONTROL NEGATIVO sintético: lenguaje cotidiano de aula, ASR correcto. Cualquier sustitución es un falso positivo."
+ },
+ {
+  "id": 6,
+  "subject": "BIOLOGIA",
+  "ground_truth": "necesitamos traer los materiales para el trabajo grupal",
+  "raw_asr": "necesitamos traer los materiales para el trabajo grupal",
+  "word_confidences": [
+   0.35,
+   0.85,
+   0.85,
+   0.9,
+   0.45,
+   0.55,
+   0.35,
+   0.85
+  ],
+  "nota": "CONTROL NEGATIVO sintético: lenguaje cotidiano de aula, ASR correcto. Cualquier sustitución es un falso positivo."
+ },
+ {
+  "id": 7,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la reunion de padres de familia sera por la tarde",
+  "raw_asr": "la reunion de padres de familia sera por la tarde",
+  "word_confidences": [
+   0.9,
+   0.35,
+   0.85,
+   0.35,
+   0.85,
+   0.45,
+   0.7,
+   0.9,
+   0.85,
+   0.7
+  ],
+  "nota": "CONTROL NEGATIVO sintético: lenguaje cotidiano de aula, ASR correcto. Cualquier sustitución es un falso positivo."
+ },
+ {
+  "id": 8,
+  "subject": "BIOLOGIA",
+  "ground_truth": "hoy vamos a repasar lo que aprendimos la clase pasada",
+  "raw_asr": "hoy vamos a repasar lo que aprendimos la clase pasada",
+  "word_confidences": [
+   0.55,
+   0.7,
+   0.85,
+   0.7,
+   0.55,
+   0.55,
+   0.45,
+   0.45,
+   0.9,
+   0.45
+  ],
+  "nota": "CONTROL NEGATIVO sintético: lenguaje cotidiano de aula, ASR correcto. Cualquier sustitución es un falso positivo."
+ },
+ {
+  "id": 9,
+  "subject": "BIOLOGIA",
+  "ground_truth": "si tienen alguna pregunta levanten la mano y esperen",
+  "raw_asr": "si tienen alguna pregunta levanten la mano y esperen",
+  "word_confidences": [
+   0.35,
+   0.85,
+   0.55,
+   0.85,
+   0.7,
+   0.55,
+   0.9,
+   0.7,
+   0.55
+  ],
+  "nota": "CONTROL NEGATIVO sintético: lenguaje cotidiano de aula, ASR correcto. Cualquier sustitución es un falso positivo."
+ },
+ {
+  "id": 10,
+  "subject": "BIOLOGIA",
+  "ground_truth": "recuerden entregar el proyecto antes de que termine el mes",
+  "raw_asr": "recuerden entregar el proyecto antes de que termine el mes",
+  "word_confidences": [
+   0.85,
+   0.35,
+   0.35,
+   0.85,
+   0.7,
+   0.45,
+   0.55,
+   0.45,
+   0.7,
+   0.7
+  ],
+  "nota": "CONTROL NEGATIVO sintético: lenguaje cotidiano de aula, ASR correcto. Cualquier sustitución es un falso positivo."
+ },
+ {
+  "id": 11,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la directora anuncio que mañana no habra clases",
+  "raw_asr": "la directora anuncio que mañana no habra clases",
+  "word_confidences": [
+   0.35,
+   0.9,
+   0.35,
+   0.85,
+   0.85,
+   0.55,
+   0.55,
+   0.9
+  ],
+  "nota": "CONTROL NEGATIVO sintético: lenguaje cotidiano de aula, ASR correcto. Cualquier sustitución es un falso positivo."
+ },
+ {
+  "id": 12,
+  "subject": "BIOLOGIA",
+  "ground_truth": "copien esta informacion porque es muy importante",
+  "raw_asr": "copien esta informacion porque es muy importante",
+  "word_confidences": [
+   0.55,
+   0.85,
+   0.7,
+   0.85,
+   0.7,
+   0.35,
+   0.35
+  ],
+  "nota": "CONTROL NEGATIVO sintético: lenguaje cotidiano de aula, ASR correcto. Cualquier sustitución es un falso positivo."
+ }
+]

@@ -11,3 +11,12 @@
 *.apk
 __pycache__/
 *.pyc
+
+# Fase 0 Vosk: modelos, grabaciones (datos personales) y resultados
+evaluation/vosk_fase0/.venv/
+evaluation/vosk_fase0/modelos/
+evaluation/vosk_fase0/audios/
+evaluation/vosk_fase0/resultados/
+
+# Modelo Vosk (≈40 MB): scripts/descargar_modelo_vosk.sh
+app/src/main/assets/vosk-model-es/

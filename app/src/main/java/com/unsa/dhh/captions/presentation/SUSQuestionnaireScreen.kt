@@ -22,11 +22,17 @@ import com.unsa.dhh.captions.presentation.theme.PureBlack
 /**
  * Pantalla interactiva del Cuestionario SUS (System Usability Scale).
  * Corresponde al Anexo A y Sección 3.6.2 de la Tesis.
- * Evalúa los 10 ítems en escala Likert (1 a 5) y computa el puntaje final estandarizado (0 a 100).
+ * Presenta los 10 ítems en escala Likert (1 a 5) y después los 4 ítems complementarios del Anexo A
+ * (legibilidad, velocidad, comodidad y distracción). La app NO calcula el puntaje: solo guarda las respuestas
+ * en CSV; el puntaje SUS se calcula en el análisis (evaluation/evaluar_sesiones.py).
  */
 @Composable
 fun SUSQuestionnaireScreen(
-    onDismiss: () -> Unit
+    onDismiss: () -> Unit,
+    /**
+     * Recibe las 10 respuestas del SUS (1-5) y las 4 complementarias (1-5), tal como se marcaron.
+     */
+    onSubmit: (responses: List<Int>, complementary: List<Int>) -> Unit = { _, _ -> }
 ) {
     val susQuestions = remember {
         listOf(
@@ -42,12 +48,23 @@ fun SUSQuestionnaireScreen(
             "10. Necesité aprender muchas cosas antes de poder comenzar a utilizar este sistema."
         )
     }
+    // Anexo A, ítems complementarios. El 14 es inverso: se invierte en el análisis, no aquí.
+    val complementaryQuestions = remember {
+        listOf(
+            "11. El texto se leía con facilidad.",
+            "12. El texto avanzaba a una velocidad que podía seguir.",
+            "13. Me sentí cómodo leyendo durante la clase.",
+            "14. La pantalla me distraía de la clase."
+        )
+    }
+    val allQuestions = susQuestions + complementaryQuestions
 
-    // Inicializar respuestas en 3 (Neutral) por defecto
-    val responses = remember { mutableStateListOf(3, 3, 3, 3, 3, 3, 3, 3, 3, 3) }
-    var calculatedScore by remember { mutableStateOf<Double?>(null) }
+    // 0 = sin responder. Antes se iniciaba en 3 y un ítem no respondido contaba como "neutral".
+    val responses = remember { mutableStateListOf(*Array(allQuestions.size) { 0 }) }
+    var saved by remember { mutableStateOf(false) }
+    val allAnswered = responses.all { it in 1..5 }
 
-    val isSmartphone = androidx.compose.ui.platform.LocalConfiguration.current.screenWidthDp < 600
+    val isSmartphone = DeviceClass.isCompact(androidx.compose.ui.platform.LocalConfiguration.current)
 
     Column(
         modifier = Modifier
@@ -86,13 +103,22 @@ fun SUSQuestionnaireScreen(
         }
 
         Text(
-            text = "Anexo A: Escala psicométrica estandarizada (Brooke, 1996) adaptada para estudiantes.",
+            text = "Marca un número del 1 al 5 en cada frase. No hay respuestas correctas ni incorrectas.",
             color = Color.LightGray,
             fontSize = 13.sp,
             modifier = Modifier.padding(top = 4.dp, bottom = 12.dp)
         )
 
-        susQuestions.forEachIndexed { index, question ->
+        allQuestions.forEachIndexed { index, question ->
+            if (index == susQuestions.size) {
+                Text(
+                    text = "Ahora piensa en cómo leíste el texto durante la clase.",
+                    color = HighContrastYellow,
+                    fontSize = 15.sp,
+                    fontWeight = FontWeight.Bold,
+                    modifier = Modifier.padding(top = 14.dp, bottom = 4.dp)
+                )
+            }
             Card(
                 modifier = Modifier
                     .fillMaxWidth()
@@ -150,17 +176,10 @@ fun SUSQuestionnaireScreen(
 
         Button(
             onClick = {
-                var convertedSum = 0
-                for (i in 0 until 10) {
-                    val r = responses[i]
-                    convertedSum += if (i % 2 == 0) {
-                        r - 1
-                    } else {
-                        5 - r
-                    }
-                }
-                calculatedScore = convertedSum * 2.5
+                saved = true
+                onSubmit(responses.take(susQuestions.size), responses.drop(susQuestions.size))
             },
+            enabled = allAnswered && !saved,
             modifier = Modifier
                 .fillMaxWidth()
                 .height(48.dp),
@@ -168,52 +187,26 @@ fun SUSQuestionnaireScreen(
             shape = RoundedCornerShape(8.dp)
         ) {
             Text(
-                "Calcular Puntuación SUS",
+                when {
+                    saved -> "Respuestas guardadas"
+                    allAnswered -> "Guardar respuestas"
+                    else -> "Responde las ${allQuestions.size} preguntas (${responses.count { it in 1..5 }}/${allQuestions.size})"
+                },
                 color = PureBlack,
                 fontWeight = FontWeight.Bold,
                 fontSize = 16.sp
             )
         }
 
-        calculatedScore?.let { score ->
-            val rating = when {
-                score >= 80.3 -> "Excelente (Grado A)"
-                score >= 68.0 -> "Aceptable / Bueno (Meta de Tesis Superada)"
-                score >= 51.0 -> "Marginalmente Aceptable"
-                else -> "No Aceptable"
-            }
-
-            Card(
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .padding(top = 12.dp, bottom = 12.dp),
-                colors = CardDefaults.cardColors(containerColor = Color(0xFF222B18)),
-                shape = RoundedCornerShape(10.dp)
-            ) {
-                Column(
-                    modifier = Modifier.padding(16.dp),
-                    horizontalAlignment = Alignment.CenterHorizontally
-                ) {
-                    Text(
-                        text = "Puntaje SUS Resultante:",
-                        color = Color.LightGray,
-                        fontSize = 15.sp
-                    )
-                    Text(
-                        text = String.format("%.1f / 100 pts", score),
-                        color = HighContrastYellow,
-                        fontSize = 30.sp,
-                        fontWeight = FontWeight.Bold
-                    )
-                    Text(
-                        text = "Nivel de Usabilidad: $rating",
-                        color = Color.White,
-                        fontSize = 14.sp,
-                        fontWeight = FontWeight.SemiBold,
-                        modifier = Modifier.padding(top = 4.dp)
-                    )
-                }
-            }
+        if (saved) {
+            // No se muestra el puntaje al participante para no influir en sus respuestas ni en las siguientes sesiones.
+            Text(
+                text = "¡Gracias! Tus respuestas fueron guardadas.",
+                color = HighContrastYellow,
+                fontSize = 18.sp,
+                fontWeight = FontWeight.Bold,
+                modifier = Modifier.padding(vertical = 12.dp)
+            )
         }
 
         Spacer(modifier = Modifier.height(12.dp))

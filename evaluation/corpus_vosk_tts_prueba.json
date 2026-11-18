@@ -1,0 +1,2316 @@
+[
+ {
+  "id": 1,
+  "subject": "BIOLOGIA",
+  "ground_truth": "los leucocitos defienden al organismo contra las infecciones",
+  "raw_asr": "los leucocitos defienden al organismo contra las sin facciones",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.6633,
+   0.9766,
+   0.9692
+  ],
+  "gap_s": 600,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 2,
+  "subject": "BIOLOGIA",
+  "ground_truth": "los eritrocitos transportan oxígeno gracias a la hemoglobina",
+  "raw_asr": "los ser sitos transportan oxígeno gracias a la hemoglobina",
+  "word_confidences": [
+   0.9661,
+   0.342,
+   0.9592,
+   1.0,
+   1.0,
+   1.0,
+   0.941,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 3,
+  "subject": "BIOLOGIA",
+  "ground_truth": "las plaquetas ayudan a la coagulación de la sangre",
+  "raw_asr": "las plaquetas ayudan a la coagulación de la sangre",
+  "word_confidences": [
+   1.0,
+   0.7277,
+   0.6426,
+   0.6426,
+   0.6426,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 4,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el linfocito produce anticuerpos contra los antígenos",
+  "raw_asr": "el linfocitos produce anticuerpos contra los antígenos",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 5,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el macrófago destruye las bacterias por fagocitosis",
+  "raw_asr": "el macho fago destruye las bacterias por favor psicosis",
+  "word_confidences": [
+   0.8942,
+   0.6014,
+   0.9619,
+   0.9403,
+   1.0,
+   1.0,
+   0.9557,
+   0.9557,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 6,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la neurona transmite el impulso nervioso por el axón",
+  "raw_asr": "la neurona transmite el impulso nervioso por el jackson",
+  "word_confidences": [
+   1.0,
+   0.9262,
+   0.9054,
+   0.6546,
+   0.9729,
+   1.0,
+   1.0,
+   0.4565,
+   0.4338
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 7,
+  "subject": "BIOLOGIA",
+  "ground_truth": "las dendritas reciben la información de otras neuronas",
+  "raw_asr": "las dendritas reciben la formación de otras neuronas",
+  "word_confidences": [
+   1.0,
+   1.0,
+   0.9598,
+   0.5186,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 8,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el neurotransmisor se libera en la sinapsis",
+  "raw_asr": "el negro transmisor se libera en nacen acceso",
+  "word_confidences": [
+   1.0,
+   0.7616,
+   0.9351,
+   0.7953,
+   0.8805,
+   0.8322,
+   0.5766,
+   0.6187
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 9,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la vaina de mielina acelera el impulso nervioso",
+  "raw_asr": "la vaina de mielina acelera el impulso nervioso",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.6713,
+   1.0,
+   0.7844,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 10,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la nefrona es la unidad funcional del riñón",
+  "raw_asr": "anne fueron a es la unidad funcional del riñón",
+  "word_confidences": [
+   0.1191,
+   0.9945,
+   0.5824,
+   0.9857,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.7149
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 11,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el glomérulo filtra la sangre en el riñón",
+  "raw_asr": "el bloom bromita la sangre en el riñón",
+  "word_confidences": [
+   0.9501,
+   0.2714,
+   0.3351,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.902
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 12,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la aurícula y el ventrículo forman parte del corazón",
+  "raw_asr": "la ori chula y el ventrículo forman parte del corazón",
+  "word_confidences": [
+   0.7847,
+   0.3985,
+   0.6684,
+   0.9906,
+   0.8365,
+   0.9669,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 13,
+  "subject": "BIOLOGIA",
+  "ground_truth": "en la sístole el corazón se contrae y en la diástole se relaja",
+  "raw_asr": "en las esto de el corazón se contraía en la días todo ese relaja",
+  "word_confidences": [
+   0.5684,
+   0.8128,
+   0.8128,
+   0.869,
+   1.0,
+   0.8988,
+   1.0,
+   0.3063,
+   0.9828,
+   0.9976,
+   0.793,
+   0.5443,
+   0.4773,
+   0.8083
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 14,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el alvéolo pulmonar realiza la hematosis",
+  "raw_asr": "el la luego lo pulmonar realiza la emma dosis",
+  "word_confidences": [
+   0.903,
+   0.3967,
+   0.9091,
+   0.5047,
+   1.0,
+   0.9199,
+   0.9688,
+   1.0,
+   0.9604
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 15,
+  "subject": "BIOLOGIA",
+  "ground_truth": "los organismos autótrofos fabrican su propio alimento",
+  "raw_asr": "los organismos auto topos fabrican su propio alimento",
+  "word_confidences": [
+   1.0,
+   1.0,
+   0.8879,
+   0.6265,
+   1.0,
+   1.0,
+   1.0,
+   0.7384
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 16,
+  "subject": "BIOLOGIA",
+  "ground_truth": "los heterótrofos se alimentan de otros seres vivos",
+  "raw_asr": "los eterno tufo se alimentan de otros seres vivos",
+  "word_confidences": [
+   0.8731,
+   0.7764,
+   0.8838,
+   1.0,
+   1.0,
+   1.0,
+   0.9109,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 17,
+  "subject": "BIOLOGIA",
+  "ground_truth": "las bacterias son organismos procariotas sin núcleo definido",
+  "raw_asr": "las bacterias son organismos por caraotas sin núcleo definido",
+  "word_confidences": [
+   1.0,
+   0.8895,
+   1.0,
+   1.0,
+   1.0,
+   0.5149,
+   0.8385,
+   0.9488,
+   0.96
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 18,
+  "subject": "BIOLOGIA",
+  "ground_truth": "los hongos y las plantas son organismos eucariotas",
+  "raw_asr": "los hombros y las plantas son organismo se caraotas",
+  "word_confidences": [
+   0.952,
+   0.7524,
+   0.9523,
+   1.0,
+   1.0,
+   1.0,
+   0.9093,
+   0.9827,
+   0.9732
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 19,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el reino monera agrupa a las bacterias y a las cianobacterias",
+  "raw_asr": "el reino manera agrupadas bacterias y sean o bacterias",
+  "word_confidences": [
+   1.0,
+   1.0,
+   0.9124,
+   0.9737,
+   1.0,
+   1.0,
+   0.357,
+   0.5694,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 20,
+  "subject": "BIOLOGIA",
+  "ground_truth": "los protozoarios pertenecen al reino protista",
+  "raw_asr": "los proto usuarios pertenecen al reino protesta",
+  "word_confidences": [
+   1.0,
+   0.852,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.9074
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 21,
+  "subject": "BIOLOGIA",
+  "ground_truth": "un individuo homocigoto tiene dos alelos iguales para un gen",
+  "raw_asr": "un individuo mochi voto tiene dos sale dos iguales para un gen",
+  "word_confidences": [
+   1.0,
+   1.0,
+   0.7793,
+   0.6758,
+   1.0,
+   1.0,
+   0.5801,
+   0.5165,
+   1.0,
+   1.0,
+   0.996,
+   0.4016
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 22,
+  "subject": "BIOLOGIA",
+  "ground_truth": "un heterocigoto tiene dos alelos diferentes",
+  "raw_asr": "un hetero si voto tiene dos aleros diferentes",
+  "word_confidences": [
+   0.6196,
+   0.6444,
+   0.6435,
+   0.7263,
+   1.0,
+   1.0,
+   0.4912,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 23,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el cuadro de punnett permite predecir la descendencia",
+  "raw_asr": "el cuadro de permite predecir la descendencia",
+  "word_confidences": [
+   1.0,
+   1.0,
+   0.7016,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 24,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el cariotipo humano tiene veintitrés pares de cromosomas",
+  "raw_asr": "el tipo humano tiene veintitrés pares de cromosomas",
+  "word_confidences": [
+   0.3265,
+   1.0,
+   1.0,
+   1.0,
+   0.7502,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 25,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la trisomía del par veintiuno produce el síndrome de down",
+  "raw_asr": "la actriz homilía del por veintiuno produce el síndrome de down",
+  "word_confidences": [
+   1.0,
+   0.7929,
+   0.7344,
+   1.0,
+   0.9368,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 26,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el daltonismo es una herencia ligada al sexo",
+  "raw_asr": "el dalton mismo es una herencia ligada al sexo",
+  "word_confidences": [
+   1.0,
+   1.0,
+   0.9294,
+   1.0,
+   1.0,
+   1.0,
+   0.9651,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 27,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el fosfolípido forma la bicapa de la membrana celular",
+  "raw_asr": "el fósforo y pido forma la vi capa de la membrana celular",
+  "word_confidences": [
+   1.0,
+   0.9808,
+   0.6411,
+   0.9193,
+   0.7753,
+   0.7753,
+   0.6498,
+   0.9091,
+   1.0,
+   1.0,
+   0.9777,
+   0.9777
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 28,
+  "subject": "BIOLOGIA",
+  "ground_truth": "en la endocitosis la célula incorpora sustancias del exterior",
+  "raw_asr": "en el lindos y dosis las anula incorpora sustancias del exterior",
+  "word_confidences": [
+   0.9224,
+   0.7096,
+   0.8639,
+   0.9008,
+   0.6163,
+   0.6215,
+   0.783,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 29,
+  "subject": "BIOLOGIA",
+  "ground_truth": "en la exocitosis la célula expulsa sustancias al exterior",
+  "raw_asr": "en una expósitos isla hacerla expulsa sustancias al exterior",
+  "word_confidences": [
+   0.9084,
+   0.8846,
+   0.7063,
+   0.742,
+   0.6036,
+   0.8745,
+   0.9781,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 30,
+  "subject": "BIOLOGIA",
+  "ground_truth": "una solución hipertónica provoca la plasmólisis de la célula vegetal",
+  "raw_asr": "una solución hiper tónica provoca la plasmó moisés de la célula vegetal",
+  "word_confidences": [
+   1.0,
+   1.0,
+   0.3893,
+   0.9736,
+   0.9266,
+   1.0,
+   0.6841,
+   0.2718,
+   0.8918,
+   0.7464,
+   0.554,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 31,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el centriolo organiza los microtúbulos durante la división celular",
+  "raw_asr": "el centro y voló organizarnos mi corto puros durante la división celular",
+  "word_confidences": [
+   1.0,
+   0.9812,
+   0.9538,
+   0.3503,
+   0.7958,
+   0.901,
+   0.897,
+   0.231,
+   0.9921,
+   0.8936,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 32,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la cromatina se condensa y forma los cromosomas",
+  "raw_asr": "la cromática se condensa y forma los cromosomas",
+  "word_confidences": [
+   1.0,
+   0.2676,
+   0.5873,
+   0.9874,
+   0.9829,
+   0.8305,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 33,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la gimnosperma tiene semillas desnudas y la angiosperma tiene flores",
+  "raw_asr": "la himnos perma tienes semillas desnudas lange os perma tiene flores",
+  "word_confidences": [
+   0.7135,
+   0.2672,
+   0.7202,
+   0.6555,
+   1.0,
+   1.0,
+   0.6668,
+   0.7117,
+   0.5819,
+   0.5969,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 34,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el pistilo es el órgano femenino de la flor",
+  "raw_asr": "el vestido es el órgano femenino de la flor",
+  "word_confidences": [
+   1.0,
+   0.8157,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 35,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la replicación del adn necesita la enzima polimerasa",
+  "raw_asr": "la explicación de adn necesita la encima poemas",
+  "word_confidences": [
+   0.9603,
+   1.0,
+   0.6335,
+   0.4051,
+   1.0,
+   1.0,
+   0.9282,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 36,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la helicasa separa las dos cadenas del adn",
+  "raw_asr": "la casa separa las dos cadenas de adn",
+  "word_confidences": [
+   0.987,
+   0.8379,
+   0.9374,
+   1.0,
+   1.0,
+   1.0,
+   0.8244,
+   0.8883
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 37,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el codón es un grupo de tres nucleótidos",
+  "raw_asr": "hay con es un grupo de tres núcleo y dos",
+  "word_confidences": [
+   0.3115,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.4939,
+   0.7476,
+   0.9478
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 38,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el mutualismo beneficia a las dos especies",
+  "raw_asr": "el mutual ismos beneficia a las dos especies",
+  "word_confidences": [
+   1.0,
+   0.6682,
+   0.6682,
+   0.5145,
+   0.5539,
+   0.6526,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 39,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el comensalismo beneficia a una especie sin dañar a la otra",
+  "raw_asr": "el comensal istmo beneficia a una especie sin dañar a la otra",
+  "word_confidences": [
+   0.8877,
+   0.9474,
+   0.9912,
+   0.8373,
+   0.7557,
+   1.0,
+   0.7136,
+   1.0,
+   0.758,
+   0.6616,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 40,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la eutrofización ocurre cuando un lago recibe exceso de nutrientes",
+  "raw_asr": "la autorización ocurre cuando un lago recibe el exceso de nutrientes",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.9259,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-ald-medium + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 41,
+  "subject": "BIOLOGIA",
+  "ground_truth": "los leucocitos defienden al organismo contra las infecciones",
+  "raw_asr": "los leucocitos defienden al organismo contra las inspecciones",
+  "word_confidences": [
+   1.0,
+   1.0,
+   0.9742,
+   1.0,
+   1.0,
+   1.0,
+   0.7734,
+   0.7734
+  ],
+  "gap_s": 600,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 42,
+  "subject": "BIOLOGIA",
+  "ground_truth": "los eritrocitos transportan oxígeno gracias a la hemoglobina",
+  "raw_asr": "los ser y trocitos transportan oxígeno operación sala hemoglobina",
+  "word_confidences": [
+   0.9184,
+   0.7069,
+   0.6969,
+   1.0,
+   1.0,
+   1.0,
+   0.2679,
+   0.6296,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 43,
+  "subject": "BIOLOGIA",
+  "ground_truth": "las plaquetas ayudan a la coagulación de la sangre",
+  "raw_asr": "las plaquetas ayudan a la coagulación de la sangre",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 44,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el linfocito produce anticuerpos contra los antígenos",
+  "raw_asr": "el linfocitos produce anticuerpos contra los antígenos",
+  "word_confidences": [
+   0.9726,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 45,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el macrófago destruye las bacterias por fagocitosis",
+  "raw_asr": "el macro fago destruye las bacterias porfa cosito sis",
+  "word_confidences": [
+   1.0,
+   0.6782,
+   0.7722,
+   1.0,
+   1.0,
+   1.0,
+   0.8775,
+   0.9877,
+   0.2032
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 46,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la neurona transmite el impulso nervioso por el axón",
+  "raw_asr": "la neurona transmite el impulso nervioso por el axones",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.9619,
+   0.7979
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 47,
+  "subject": "BIOLOGIA",
+  "ground_truth": "las dendritas reciben la información de otras neuronas",
+  "raw_asr": "las dendritas reciben la formación de otras neuronas",
+  "word_confidences": [
+   1.0,
+   1.0,
+   0.9753,
+   0.9383,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 48,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el neurotransmisor se libera en la sinapsis",
+  "raw_asr": "el negro transmisor se libera en la sinapsis",
+  "word_confidences": [
+   1.0,
+   0.6156,
+   0.6491,
+   0.7234,
+   0.9605,
+   0.9716,
+   0.8547,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 49,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la vaina de mielina acelera el impulso nervioso",
+  "raw_asr": "la vaina de mielina acelera el impulso nervioso",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 50,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la nefrona es la unidad funcional del riñón",
+  "raw_asr": "la neurona es la unidad funcional del riñón",
+  "word_confidences": [
+   1.0,
+   0.9216,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.9688
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 51,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el glomérulo filtra la sangre en el riñón",
+  "raw_asr": "el plomero lo filtra la sangre en el riñón",
+  "word_confidences": [
+   1.0,
+   0.9204,
+   0.9432,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.9049
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 52,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la aurícula y el ventrículo forman parte del corazón",
+  "raw_asr": "la auricular y el ventrículo forman parte del corazón",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   0.9364,
+   0.9738,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 53,
+  "subject": "BIOLOGIA",
+  "ground_truth": "en la sístole el corazón se contrae y en la diástole se relaja",
+  "raw_asr": "en la asisto le el corazón se contrae y en la días tole se relaja",
+  "word_confidences": [
+   0.6253,
+   0.4499,
+   0.7885,
+   0.7775,
+   1.0,
+   0.913,
+   1.0,
+   1.0,
+   1.0,
+   0.9344,
+   0.9595,
+   0.5103,
+   0.4634,
+   0.9339,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 54,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el alvéolo pulmonar realiza la hematosis",
+  "raw_asr": "el al veo lo pulmonar realiza la y mató y",
+  "word_confidences": [
+   0.9496,
+   0.9496,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.4308,
+   0.407,
+   0.2466
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 55,
+  "subject": "BIOLOGIA",
+  "ground_truth": "los organismos autótrofos fabrican su propio alimento",
+  "raw_asr": "los organismos autógrafos fabrican su propio alimentos",
+  "word_confidences": [
+   1.0,
+   1.0,
+   0.7033,
+   0.9797,
+   1.0,
+   1.0,
+   0.7442
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 56,
+  "subject": "BIOLOGIA",
+  "ground_truth": "los heterótrofos se alimentan de otros seres vivos",
+  "raw_asr": "lo sé pero otro fo se alimentan de otros seres vivos",
+  "word_confidences": [
+   0.9009,
+   0.8546,
+   0.9715,
+   0.7786,
+   0.5565,
+   0.8865,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 57,
+  "subject": "BIOLOGIA",
+  "ground_truth": "las bacterias son organismos procariotas sin núcleo definido",
+  "raw_asr": "las bacterias son organismos precario tas sin núcleo definido",
+  "word_confidences": [
+   1.0,
+   0.9262,
+   1.0,
+   1.0,
+   0.9557,
+   0.6761,
+   1.0,
+   0.9485,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 58,
+  "subject": "BIOLOGIA",
+  "ground_truth": "los hongos y las plantas son organismos eucariotas",
+  "raw_asr": "los son cos y las plantas son organismos eucariotas",
+  "word_confidences": [
+   0.9788,
+   0.8039,
+   0.596,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.9534,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 59,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el reino monera agrupa a las bacterias y a las cianobacterias",
+  "raw_asr": "el reino moneda drupa las bacterias y la cia no bacterias",
+  "word_confidences": [
+   1.0,
+   1.0,
+   0.7939,
+   0.8482,
+   0.9519,
+   1.0,
+   0.9708,
+   0.5512,
+   0.5004,
+   0.9804,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 60,
+  "subject": "BIOLOGIA",
+  "ground_truth": "los protozoarios pertenecen al reino protista",
+  "raw_asr": "los proto usuarios pertenecen al reino protesta",
+  "word_confidences": [
+   1.0,
+   0.7338,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 61,
+  "subject": "BIOLOGIA",
+  "ground_truth": "un individuo homocigoto tiene dos alelos iguales para un gen",
+  "raw_asr": "un individuo músico tiene dos alelos iguales para un genio",
+  "word_confidences": [
+   1.0,
+   1.0,
+   0.9416,
+   1.0,
+   1.0,
+   0.7767,
+   1.0,
+   1.0,
+   0.968,
+   0.2564
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 62,
+  "subject": "BIOLOGIA",
+  "ground_truth": "un heterocigoto tiene dos alelos diferentes",
+  "raw_asr": "un éter hocico tiene dos sale los diferentes",
+  "word_confidences": [
+   0.973,
+   0.7642,
+   0.9495,
+   1.0,
+   1.0,
+   0.7091,
+   0.7582,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 63,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el cuadro de punnett permite predecir la descendencia",
+  "raw_asr": "el cuadro deponed permite predecir la descendencia",
+  "word_confidences": [
+   1.0,
+   1.0,
+   0.3883,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 64,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el cariotipo humano tiene veintitrés pares de cromosomas",
+  "raw_asr": "el cario tipo humano tiene veintitrés pares de cromosomas",
+  "word_confidences": [
+   1.0,
+   0.6759,
+   1.0,
+   0.9005,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 65,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la trisomía del par veintiuno produce el síndrome de down",
+  "raw_asr": "la tris homilía del par veintiuno produce el síndrome de down",
+  "word_confidences": [
+   1.0,
+   0.639,
+   0.7369,
+   1.0,
+   0.8808,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 66,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el daltonismo es una herencia ligada al sexo",
+  "raw_asr": "el dalton mismo es una herencia ligada al sexo",
+  "word_confidences": [
+   1.0,
+   1.0,
+   0.9476,
+   1.0,
+   0.9524,
+   1.0,
+   0.906,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 67,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el fosfolípido forma la bicapa de la membrana celular",
+  "raw_asr": "el fósforo lípidos forma la vi capa de la membrana celular",
+  "word_confidences": [
+   1.0,
+   1.0,
+   0.8708,
+   1.0,
+   0.9415,
+   0.4145,
+   0.9009,
+   1.0,
+   1.0,
+   0.8044,
+   0.8044
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 68,
+  "subject": "BIOLOGIA",
+  "ground_truth": "en la endocitosis la célula incorpora sustancias del exterior",
+  "raw_asr": "en la en dosis dosis la célula incorpora sustancias del exterior",
+  "word_confidences": [
+   0.4233,
+   0.8707,
+   0.8617,
+   0.4328,
+   0.702,
+   0.6941,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 69,
+  "subject": "BIOLOGIA",
+  "ground_truth": "en la exocitosis la célula expulsa sustancias al exterior",
+  "raw_asr": "en la expósito sis la célula expulsa sustancias al exterior",
+  "word_confidences": [
+   0.6503,
+   1.0,
+   0.4128,
+   0.4769,
+   0.7549,
+   0.9548,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 70,
+  "subject": "BIOLOGIA",
+  "ground_truth": "una solución hipertónica provoca la plasmólisis de la célula vegetal",
+  "raw_asr": "una solución y ter tónica provoca la plasmó le hiciste la célula vegetal",
+  "word_confidences": [
+   1.0,
+   1.0,
+   0.9152,
+   0.9152,
+   1.0,
+   1.0,
+   1.0,
+   0.9918,
+   0.5109,
+   0.6367,
+   0.7829,
+   0.9591,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 71,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el centriolo organiza los microtúbulos durante la división celular",
+  "raw_asr": "el sentido lo organiza los micro tu bulos durante la división celular",
+  "word_confidences": [
+   1.0,
+   1.0,
+   0.9407,
+   1.0,
+   1.0,
+   1.0,
+   0.7378,
+   0.9424,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 72,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la cromatina se condensa y forma los cromosomas",
+  "raw_asr": "la máquina se condensa y forma los cromosomas",
+  "word_confidences": [
+   1.0,
+   0.7621,
+   1.0,
+   0.9494,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 73,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la gimnosperma tiene semillas desnudas y la angiosperma tiene flores",
+  "raw_asr": "las himnos perma tienes semillas desnudas y lange os perma tiene flores",
+  "word_confidences": [
+   0.5458,
+   0.5098,
+   0.7631,
+   0.702,
+   1.0,
+   1.0,
+   0.9658,
+   0.8843,
+   0.6723,
+   0.7193,
+   1.0,
+   0.9115
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 74,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el pistilo es el órgano femenino de la flor",
+  "raw_asr": "el pis tilo es el órgano femenino de la flor",
+  "word_confidences": [
+   1.0,
+   0.458,
+   0.55,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.8239
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 75,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la replicación del adn necesita la enzima polimerasa",
+  "raw_asr": "la reputación de la de en necesita la encima primeras a",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.9845,
+   0.6397,
+   1.0,
+   1.0,
+   0.9641,
+   0.8762,
+   0.7212
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 76,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la helicasa separa las dos cadenas del adn",
+  "raw_asr": "la casa separa las dos cadenas de la viene",
+  "word_confidences": [
+   0.9872,
+   0.8546,
+   0.9323,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.4217
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 77,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el codón es un grupo de tres nucleótidos",
+  "raw_asr": "el cordones un grupo de tres núcleo tiros",
+  "word_confidences": [
+   0.7549,
+   0.7236,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.96,
+   0.7774
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 78,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el mutualismo beneficia a las dos especies",
+  "raw_asr": "el mutual istmo beneficia a las dos especies",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 79,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el comensalismo beneficia a una especie sin dañar a la otra",
+  "raw_asr": "es comensal istmo beneficia a una especie sin daña a la otra",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.6673,
+   0.8225,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 80,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la eutrofización ocurre cuando un lago recibe exceso de nutrientes",
+  "raw_asr": "la otro fijación ocurre cuando un lago recibe exceso de nutrientes",
+  "word_confidences": [
+   1.0,
+   0.7304,
+   0.9891,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_MX-claude-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 81,
+  "subject": "BIOLOGIA",
+  "ground_truth": "los leucocitos defienden al organismo contra las infecciones",
+  "raw_asr": "las leucocitos defienden el organismo contra las inyecciones",
+  "word_confidences": [
+   1.0,
+   1.0,
+   0.6443,
+   0.7213,
+   1.0,
+   1.0,
+   1.0,
+   0.3979
+  ],
+  "gap_s": 600,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 82,
+  "subject": "BIOLOGIA",
+  "ground_truth": "los eritrocitos transportan oxígeno gracias a la hemoglobina",
+  "raw_asr": "la serie trocitos transportan oxígeno gracias a la hemoglobina",
+  "word_confidences": [
+   0.9843,
+   0.9843,
+   0.5671,
+   1.0,
+   1.0,
+   1.0,
+   0.8626,
+   0.9168,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 83,
+  "subject": "BIOLOGIA",
+  "ground_truth": "las plaquetas ayudan a la coagulación de la sangre",
+  "raw_asr": "las plaquetas ayudan a la coagulación de la sangre",
+  "word_confidences": [
+   0.9695,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 84,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el linfocito produce anticuerpos contra los antígenos",
+  "raw_asr": "ella facilitó produce anticuerpos contra los antígenos",
+  "word_confidences": [
+   0.3686,
+   0.4637,
+   1.0,
+   1.0,
+   1.0,
+   0.5919,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 85,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el macrófago destruye las bacterias por fagocitosis",
+  "raw_asr": "el macro fado destruye las materias por favor psicosis",
+  "word_confidences": [
+   0.9899,
+   0.4265,
+   0.4518,
+   1.0,
+   1.0,
+   0.6605,
+   1.0,
+   1.0,
+   0.9473
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 86,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la neurona transmite el impulso nervioso por el axón",
+  "raw_asr": "la neurona transmite el impulso nervioso por el acción",
+  "word_confidences": [
+   1.0,
+   0.9743,
+   1.0,
+   0.9635,
+   1.0,
+   1.0,
+   1.0,
+   0.7509,
+   0.8832
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 87,
+  "subject": "BIOLOGIA",
+  "ground_truth": "las dendritas reciben la información de otras neuronas",
+  "raw_asr": "las benditas reciben formación de otras neuronas",
+  "word_confidences": [
+   0.9904,
+   0.446,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 88,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el neurotransmisor se libera en la sinapsis",
+  "raw_asr": "el neurotransmisores se liberan la sinapsis",
+  "word_confidences": [
+   1.0,
+   0.7313,
+   0.5685,
+   0.7588,
+   0.8363,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 89,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la vaina de mielina acelera el impulso nervioso",
+  "raw_asr": "la vaina de mielina acelera el impulso nervioso",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.9615,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 90,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la nefrona es la unidad funcional del riñón",
+  "raw_asr": "la frena es la unidad funcional del griñán riñón",
+  "word_confidences": [
+   0.9897,
+   0.5699,
+   0.9464,
+   1.0,
+   1.0,
+   1.0,
+   0.9737,
+   0.4281,
+   0.5719
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 91,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el glomérulo filtra la sangre en el riñón",
+  "raw_asr": "el el amarlo cita la sangre en el riñón",
+  "word_confidences": [
+   0.7195,
+   0.8706,
+   0.5127,
+   0.9622,
+   0.976,
+   1.0,
+   1.0,
+   1.0,
+   0.9688
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 92,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la aurícula y el ventrículo forman parte del corazón",
+  "raw_asr": "la auricular el ventrículo forman parte del corazón",
+  "word_confidences": [
+   1.0,
+   0.9733,
+   0.885,
+   0.7829,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 93,
+  "subject": "BIOLOGIA",
+  "ground_truth": "en la sístole el corazón se contrae y en la diástole se relaja",
+  "raw_asr": "el asisten el corazón se contra y en la días trece relaja",
+  "word_confidences": [
+   0.9948,
+   0.5878,
+   0.9475,
+   0.9079,
+   1.0,
+   1.0,
+   0.9914,
+   0.9914,
+   1.0,
+   0.9817,
+   0.4504,
+   0.9117
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 94,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el alvéolo pulmonar realiza la hematosis",
+  "raw_asr": "el anhelo cumaná realiza la mató asís",
+  "word_confidences": [
+   1.0,
+   0.8215,
+   0.5624,
+   0.9826,
+   0.8936,
+   0.9458,
+   0.7785
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 95,
+  "subject": "BIOLOGIA",
+  "ground_truth": "los organismos autótrofos fabrican su propio alimento",
+  "raw_asr": "las organismos autógrafo fabrican su propio de alimentos",
+  "word_confidences": [
+   0.7153,
+   1.0,
+   0.4733,
+   0.9426,
+   1.0,
+   0.9593,
+   0.4732,
+   0.5938
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 96,
+  "subject": "BIOLOGIA",
+  "ground_truth": "los heterótrofos se alimentan de otros seres vivos",
+  "raw_asr": "la sacar otro fo se alimentan de otros seres dios",
+  "word_confidences": [
+   0.5311,
+   0.3929,
+   0.858,
+   0.6944,
+   0.7161,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.4668
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 97,
+  "subject": "BIOLOGIA",
+  "ground_truth": "las bacterias son organismos procariotas sin núcleo definido",
+  "raw_asr": "las arterias son organismos tocaría ta sin núcleo definido",
+  "word_confidences": [
+   1.0,
+   0.6922,
+   0.8045,
+   0.8426,
+   0.9712,
+   0.4459,
+   0.9381,
+   0.9186,
+   0.8286
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 98,
+  "subject": "BIOLOGIA",
+  "ground_truth": "los hongos y las plantas son organismos eucariotas",
+  "raw_asr": "los hongos y las plantas son organismos o caraotas",
+  "word_confidences": [
+   0.5781,
+   0.8219,
+   1.0,
+   1.0,
+   1.0,
+   0.9686,
+   0.8737,
+   0.8006,
+   0.9425
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 99,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el reino monera agrupa a las bacterias y a las cianobacterias",
+  "raw_asr": "el venga manera agrupa las arterias y al no bacterias",
+  "word_confidences": [
+   1.0,
+   0.484,
+   1.0,
+   0.9735,
+   1.0,
+   1.0,
+   0.9951,
+   0.3506,
+   0.5974,
+   0.9615
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 100,
+  "subject": "BIOLOGIA",
+  "ground_truth": "los protozoarios pertenecen al reino protista",
+  "raw_asr": "las puertas varios pertenecen al reino protesta",
+  "word_confidences": [
+   0.8685,
+   0.3923,
+   0.574,
+   1.0,
+   0.9534,
+   1.0,
+   0.9247
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 101,
+  "subject": "BIOLOGIA",
+  "ground_truth": "un individuo homocigoto tiene dos alelos iguales para un gen",
+  "raw_asr": "un individuo masivo tiene dos sale las iguales para un genio",
+  "word_confidences": [
+   1.0,
+   1.0,
+   0.1856,
+   1.0,
+   1.0,
+   0.5109,
+   0.5022,
+   1.0,
+   1.0,
+   0.9879,
+   0.2887
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 102,
+  "subject": "BIOLOGIA",
+  "ground_truth": "un heterocigoto tiene dos alelos diferentes",
+  "raw_asr": "un entera chivato tiene dos sale las diferentes",
+  "word_confidences": [
+   0.8408,
+   0.6098,
+   0.653,
+   1.0,
+   1.0,
+   0.3291,
+   0.6639,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 103,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el cuadro de punnett permite predecir la descendencia",
+  "raw_asr": "el cuadro únete permite predecir la descendencia",
+  "word_confidences": [
+   0.9947,
+   0.5508,
+   0.5704,
+   0.6146,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 104,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el cariotipo humano tiene veintitrés pares de cromosomas",
+  "raw_asr": "el caria tipo humano tiene veintitrés pares de cromosomas",
+  "word_confidences": [
+   0.6337,
+   0.3014,
+   0.7228,
+   0.927,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 105,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la trisomía del par veintiuno produce el síndrome de down",
+  "raw_asr": "la mira el par veintiuno produce el síndrome de down",
+  "word_confidences": [
+   0.9837,
+   0.5842,
+   0.8387,
+   0.8547,
+   1.0,
+   0.7544,
+   0.6469,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 106,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el daltonismo es una herencia ligada al sexo",
+  "raw_asr": "en la alta mismo es una herencia salida al sexo",
+  "word_confidences": [
+   0.4774,
+   0.6106,
+   1.0,
+   1.0,
+   1.0,
+   0.9445,
+   0.4483,
+   0.4959,
+   0.9226,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 107,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el fosfolípido forma la bicapa de la membrana celular",
+  "raw_asr": "el fofa limpio forma la capa de la membrana celular",
+  "word_confidences": [
+   0.9798,
+   0.7252,
+   0.2712,
+   1.0,
+   0.6103,
+   0.9501,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 108,
+  "subject": "BIOLOGIA",
+  "ground_truth": "en la endocitosis la célula incorpora sustancias del exterior",
+  "raw_asr": "eran citas islas el la incorpora sustancias del exterior",
+  "word_confidences": [
+   0.5004,
+   0.4905,
+   0.7564,
+   0.7145,
+   0.9632,
+   1.0,
+   1.0,
+   0.788,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 109,
+  "subject": "BIOLOGIA",
+  "ground_truth": "en la exocitosis la célula expulsa sustancias al exterior",
+  "raw_asr": "el axa citas islas el la excusa sustancias al exterior",
+  "word_confidences": [
+   0.7351,
+   0.3583,
+   1.0,
+   0.9661,
+   0.7974,
+   0.9027,
+   0.8828,
+   1.0,
+   0.9825,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 110,
+  "subject": "BIOLOGIA",
+  "ground_truth": "una solución hipertónica provoca la plasmólisis de la célula vegetal",
+  "raw_asr": "una solución y tectónica provoca la plasma isis de las el la vegetal",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.4762,
+   0.4664,
+   0.9988,
+   1.0,
+   0.7706,
+   0.7661,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 111,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el centriolo organiza los microtúbulos durante la división celular",
+  "raw_asr": "es sencilla los organiza los micro tu los durante la división celular",
+  "word_confidences": [
+   1.0,
+   0.463,
+   0.3718,
+   0.9949,
+   0.6804,
+   1.0,
+   0.4138,
+   0.9769,
+   1.0,
+   1.0,
+   0.5637,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 112,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la cromatina se condensa y forma los cromosomas",
+  "raw_asr": "la crema tina se condensa y forma los cromosomas",
+  "word_confidences": [
+   1.0,
+   0.7415,
+   0.8452,
+   0.9685,
+   1.0,
+   0.8808,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 113,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la gimnosperma tiene semillas desnudas y la angiosperma tiene flores",
+  "raw_asr": "las perma tienes semillas desnudas y lancaster matiné flores",
+  "word_confidences": [
+   0.7723,
+   0.412,
+   0.3483,
+   1.0,
+   0.4593,
+   0.9855,
+   0.9855,
+   1.0,
+   0.9732
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 114,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el pistilo es el órgano femenino de la flor",
+  "raw_asr": "el pestillo es el órgano femenina de la flor",
+  "word_confidences": [
+   0.4022,
+   0.418,
+   1.0,
+   1.0,
+   0.8164,
+   0.5836,
+   1.0,
+   1.0,
+   0.9548
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 115,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la replicación del adn necesita la enzima polimerasa",
+  "raw_asr": "la aplicación de la de necesita la encima pol melaza",
+  "word_confidences": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.8624,
+   0.7885,
+   0.8043,
+   0.9745,
+   0.5111,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 116,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la helicasa separa las dos cadenas del adn",
+  "raw_asr": "la casa separa las dos cadenas de adn",
+  "word_confidences": [
+   0.9544,
+   0.9271,
+   0.8608,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.5012
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 117,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el codón es un grupo de tres nucleótidos",
+  "raw_asr": "el quedan es un grupo de tres nuclea tíos",
+  "word_confidences": [
+   1.0,
+   0.4523,
+   0.9959,
+   0.9959,
+   1.0,
+   1.0,
+   1.0,
+   0.4284,
+   0.7876
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 118,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el mutualismo beneficia a las dos especies",
+  "raw_asr": "el mutualista beneficia a las dos especies",
+  "word_confidences": [
+   1.0,
+   0.733,
+   0.9072,
+   0.8608,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 119,
+  "subject": "BIOLOGIA",
+  "ground_truth": "el comensalismo beneficia a una especie sin dañar a la otra",
+  "raw_asr": "el comensal y se beneficia una especie sin dañar la otra",
+  "word_confidences": [
+   0.4506,
+   0.4718,
+   0.4899,
+   0.4876,
+   0.9684,
+   1.0,
+   1.0,
+   1.0,
+   0.8751,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ },
+ {
+  "id": 120,
+  "subject": "BIOLOGIA",
+  "ground_truth": "la eutrofización ocurre cuando un lago recibe exceso de nutrientes",
+  "raw_asr": "la autorización ocurre cuando un lado recibe exceso de nutrientes",
+  "word_confidences": [
+   1.0,
+   0.6684,
+   0.9564,
+   1.0,
+   1.0,
+   0.9606,
+   1.0,
+   0.9678,
+   1.0,
+   1.0
+  ],
+  "gap_s": 8,
+  "nota": "TTS es_AR-daniela-high + Vosk vosk-model-small-es-0.42 (prueba)"
+ }
+]

@@ -1,0 +1,4552 @@
+[
+  {
+    "term": "acromático",
+    "lemma": "acromático",
+    "subject": "BIOLOGIA",
+    "category": "ADJ",
+    "phonetic": "akromatiko"
+  },
+  {
+    "term": "acrosoma",
+    "lemma": "acrosoma",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "akrosoma"
+  },
+  {
+    "term": "adaptación",
+    "lemma": "adaptación",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "adaptasion"
+  },
+  {
+    "term": "adenina",
+    "lemma": "adenina",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "adenina"
+  },
+  {
+    "term": "adenosina",
+    "lemma": "adenosina",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "adenosina"
+  },
+  {
+    "term": "adrenalina",
+    "lemma": "adrenalina",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "adrenalina"
+  },
+  {
+    "term": "aldosterona",
+    "lemma": "aldosterona",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "aldosterona"
+  },
+  {
+    "term": "alelo",
+    "lemma": "alelo",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "alelo"
+  },
+  {
+    "term": "alga",
+    "lemma": "alga",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "alga"
+  },
+  {
+    "term": "almidón",
+    "lemma": "almidón",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "almidon"
+  },
+  {
+    "term": "alopátrica",
+    "lemma": "alopátrica",
+    "subject": "BIOLOGIA",
+    "category": "ADJ",
+    "phonetic": "alopatrika"
+  },
+  {
+    "term": "alpaca",
+    "lemma": "alpaca",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "alpaka"
+  },
+  {
+    "term": "alvéolo",
+    "lemma": "alvéolo",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "albeolo"
+  },
+  {
+    "term": "aminoácido",
+    "lemma": "aminoácido",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "aminoasido"
+  },
+  {
+    "term": "anabolismo",
+    "lemma": "anabolismo",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "anabolismo"
+  },
+  {
+    "term": "anafase",
+    "lemma": "anafase",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "anafase"
+  },
+  {
+    "term": "analogía",
+    "lemma": "analogía",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "analogia"
+  },
+  {
+    "term": "ancestro",
+    "lemma": "ancestro",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "ansestro"
+  },
+  {
+    "term": "anchoveta",
+    "lemma": "anchoveta",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "ankobeta"
+  },
+  {
+    "term": "angiosperma",
+    "lemma": "angiosperma",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "angiosperma"
+  },
+  {
+    "term": "animal",
+    "lemma": "animal",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "animal"
+  },
+  {
+    "term": "animalia",
+    "lemma": "animalia",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "animalia"
+  },
+  {
+    "term": "anticodón",
+    "lemma": "anticodón",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "antikodon"
+  },
+  {
+    "term": "anticuerpo",
+    "lemma": "anticuerpo",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "antikuerpo"
+  },
+  {
+    "term": "antígeno",
+    "lemma": "antígeno",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "antigeno"
+  },
+  {
+    "term": "arquea",
+    "lemma": "arquea",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "arkea"
+  },
+  {
+    "term": "arteria",
+    "lemma": "arteria",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "arteria"
+  },
+  {
+    "term": "astrocito",
+    "lemma": "astrocito",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "astrosito"
+  },
+  {
+    "term": "aurícula",
+    "lemma": "aurícula",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "aurikula"
+  },
+  {
+    "term": "autosómico",
+    "lemma": "autosómico",
+    "subject": "BIOLOGIA",
+    "category": "ADJ",
+    "phonetic": "autosomiko"
+  },
+  {
+    "term": "autótrofo",
+    "lemma": "autótrofo",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "autotrofo"
+  },
+  {
+    "term": "axón",
+    "lemma": "axón",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "axon"
+  },
+  {
+    "term": "bacilo",
+    "lemma": "bacilo",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "basilo"
+  },
+  {
+    "term": "bacteria",
+    "lemma": "bacteria",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "bakteria"
+  },
+  {
+    "term": "bicapa",
+    "lemma": "bicapa",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "bikapa"
+  },
+  {
+    "term": "bilis",
+    "lemma": "bilis",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "bilis"
+  },
+  {
+    "term": "biocenosis",
+    "lemma": "biocenosis",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "biosenosis"
+  },
+  {
+    "term": "biodiversidad",
+    "lemma": "biodiversidad",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "biodibersidad"
+  },
+  {
+    "term": "bioelemento",
+    "lemma": "bioelemento",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "bioelemento"
+  },
+  {
+    "term": "bioma",
+    "lemma": "bioma",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "bioma"
+  },
+  {
+    "term": "biomasa",
+    "lemma": "biomasa",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "biomasa"
+  },
+  {
+    "term": "biotecnología",
+    "lemma": "biotecnología",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "bioteknologia"
+  },
+  {
+    "term": "biotopo",
+    "lemma": "biotopo",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "biotopo"
+  },
+  {
+    "term": "bipartición",
+    "lemma": "bipartición",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "bipartision"
+  },
+  {
+    "term": "blástula",
+    "lemma": "blástula",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "blastula"
+  },
+  {
+    "term": "bowman",
+    "lemma": "bowman",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "bowman"
+  },
+  {
+    "term": "bronquio",
+    "lemma": "bronquio",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "bronkio"
+  },
+  {
+    "term": "bulbo",
+    "lemma": "bulbo",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "bulbo"
+  },
+  {
+    "term": "calcitonina",
+    "lemma": "calcitonina",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "kalsitonina"
+  },
+  {
+    "term": "cantuta",
+    "lemma": "cantuta",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "kantuta"
+  },
+  {
+    "term": "capilar",
+    "lemma": "capilar",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "kapilar"
+  },
+  {
+    "term": "cápside",
+    "lemma": "cápside",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "kapside"
+  },
+  {
+    "term": "cápsula",
+    "lemma": "cápsula",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "kapsula"
+  },
+  {
+    "term": "carbohidrato",
+    "lemma": "carbohidrato",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "karboidrato"
+  },
+  {
+    "term": "cariotipo",
+    "lemma": "cariotipo",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "kariotipo"
+  },
+  {
+    "term": "cartílago",
+    "lemma": "cartílago",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "kartilago"
+  },
+  {
+    "term": "catabolismo",
+    "lemma": "catabolismo",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "katabolismo"
+  },
+  {
+    "term": "catalizador",
+    "lemma": "catalizador",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "katalisador"
+  },
+  {
+    "term": "cebador",
+    "lemma": "cebador",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "sebador"
+  },
+  {
+    "term": "célula",
+    "lemma": "célula",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "selula"
+  },
+  {
+    "term": "celulosa",
+    "lemma": "celulosa",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "selulosa"
+  },
+  {
+    "term": "centriolo",
+    "lemma": "centriolo",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "sentriolo"
+  },
+  {
+    "term": "centrómero",
+    "lemma": "centrómero",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "sentromero"
+  },
+  {
+    "term": "centrosoma",
+    "lemma": "centrosoma",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "sentrosoma"
+  },
+  {
+    "term": "cerebelo",
+    "lemma": "cerebelo",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "serebelo"
+  },
+  {
+    "term": "cianobacteria",
+    "lemma": "cianobacteria",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "sianobakteria"
+  },
+  {
+    "term": "cigonema",
+    "lemma": "cigonema",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "sigonema"
+  },
+  {
+    "term": "cigoto",
+    "lemma": "cigoto",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "sigoto"
+  },
+  {
+    "term": "cilio",
+    "lemma": "cilio",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "silio"
+  },
+  {
+    "term": "cinetocoro",
+    "lemma": "cinetocoro",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "sinetokoro"
+  },
+  {
+    "term": "citocinesis",
+    "lemma": "citocinesis",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "sitosinesis"
+  },
+  {
+    "term": "citoesqueleto",
+    "lemma": "citoesqueleto",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "sitoeskeleto"
+  },
+  {
+    "term": "citoplasma",
+    "lemma": "citoplasma",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "sitoplasma"
+  },
+  {
+    "term": "citosina",
+    "lemma": "citosina",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "sitosina"
+  },
+  {
+    "term": "clímax",
+    "lemma": "clímax",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "klimaks"
+  },
+  {
+    "term": "clorofila",
+    "lemma": "clorofila",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "klorofila"
+  },
+  {
+    "term": "cloroplasto",
+    "lemma": "cloroplasto",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "kloroplasto"
+  },
+  {
+    "term": "coco",
+    "lemma": "coco",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "koko"
+  },
+  {
+    "term": "codominancia",
+    "lemma": "codominancia",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "kodominansia"
+  },
+  {
+    "term": "codón",
+    "lemma": "codón",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "kodon"
+  },
+  {
+    "term": "coenzima",
+    "lemma": "coenzima",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "koensima"
+  },
+  {
+    "term": "colénquima",
+    "lemma": "colénquima",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "kolenkima"
+  },
+  {
+    "term": "colesterol",
+    "lemma": "colesterol",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "kolesterol"
+  },
+  {
+    "term": "comensalismo",
+    "lemma": "comensalismo",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "komensalismo"
+  },
+  {
+    "term": "comunidad",
+    "lemma": "comunidad",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "komunidad"
+  },
+  {
+    "term": "cóndor",
+    "lemma": "cóndor",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "kondor"
+  },
+  {
+    "term": "condrocito",
+    "lemma": "condrocito",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "kondrosito"
+  },
+  {
+    "term": "conectivo",
+    "lemma": "conectivo",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "konektibo"
+  },
+  {
+    "term": "consumidor",
+    "lemma": "consumidor",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "konsumidor"
+  },
+  {
+    "term": "corazón",
+    "lemma": "corazón",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "korason"
+  },
+  {
+    "term": "corteza",
+    "lemma": "corteza",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "kortesa"
+  },
+  {
+    "term": "cortisol",
+    "lemma": "cortisol",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "kortisol"
+  },
+  {
+    "term": "criboso",
+    "lemma": "criboso",
+    "subject": "BIOLOGIA",
+    "category": "ADJ",
+    "phonetic": "kriboso"
+  },
+  {
+    "term": "crista",
+    "lemma": "crista",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "krista"
+  },
+  {
+    "term": "cromatina",
+    "lemma": "cromatina",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "kromatina"
+  },
+  {
+    "term": "cromosoma",
+    "lemma": "cromosoma",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "kromosoma"
+  },
+  {
+    "term": "cutícula",
+    "lemma": "cutícula",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "kutikula"
+  },
+  {
+    "term": "daltonismo",
+    "lemma": "daltonismo",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "daltonismo"
+  },
+  {
+    "term": "darwinismo",
+    "lemma": "darwinismo",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "darwinismo"
+  },
+  {
+    "term": "dendrita",
+    "lemma": "dendrita",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "dendrita"
+  },
+  {
+    "term": "depredación",
+    "lemma": "depredación",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "depredasion"
+  },
+  {
+    "term": "descomponedor",
+    "lemma": "descomponedor",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "deskomponedor"
+  },
+  {
+    "term": "desnaturalización",
+    "lemma": "desnaturalización",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "desnaturalisasion"
+  },
+  {
+    "term": "desoxirribonucleico",
+    "lemma": "adn",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "desoxirribonukleiko"
+  },
+  {
+    "term": "despolarización",
+    "lemma": "despolarización",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "despolarisasion"
+  },
+  {
+    "term": "diacinesis",
+    "lemma": "diacinesis",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "diasinesis"
+  },
+  {
+    "term": "diafragma",
+    "lemma": "diafragma",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "diafragma"
+  },
+  {
+    "term": "diástole",
+    "lemma": "diástole",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "diastole"
+  },
+  {
+    "term": "dictiosoma",
+    "lemma": "dictiosoma",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "diktiosoma"
+  },
+  {
+    "term": "difusión",
+    "lemma": "difusión",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "difusion"
+  },
+  {
+    "term": "dihíbrido",
+    "lemma": "dihíbrido",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "diibrido"
+  },
+  {
+    "term": "diploide",
+    "lemma": "diploide",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "diploide"
+  },
+  {
+    "term": "diplonema",
+    "lemma": "diplonema",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "diplonema"
+  },
+  {
+    "term": "disacárido",
+    "lemma": "disacárido",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "disakarido"
+  },
+  {
+    "term": "dominante",
+    "lemma": "dominante",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "dominante"
+  },
+  {
+    "term": "duodeno",
+    "lemma": "duodeno",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "duodeno"
+  },
+  {
+    "term": "ecosistema",
+    "lemma": "ecosistema",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "ekosistema"
+  },
+  {
+    "term": "ecotono",
+    "lemma": "ecotono",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "ekotono"
+  },
+  {
+    "term": "ectodermo",
+    "lemma": "ectodermo",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "ektodermo"
+  },
+  {
+    "term": "electrones",
+    "lemma": "electrones",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "elektrones"
+  },
+  {
+    "term": "elongación",
+    "lemma": "elongación",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "elongasion"
+  },
+  {
+    "term": "embrión",
+    "lemma": "embrión",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "embrion"
+  },
+  {
+    "term": "endémico",
+    "lemma": "endémico",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "endemiko"
+  },
+  {
+    "term": "endocardio",
+    "lemma": "endocardio",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "endokardio"
+  },
+  {
+    "term": "endocitosis",
+    "lemma": "endocitosis",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "endositosis"
+  },
+  {
+    "term": "endodermo",
+    "lemma": "endodermo",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "endodermo"
+  },
+  {
+    "term": "endoplasmático",
+    "lemma": "endoplasmático",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "endoplasmatiko"
+  },
+  {
+    "term": "entrecruzamiento",
+    "lemma": "entrecruzamiento",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "entrekrusamiento"
+  },
+  {
+    "term": "enzima",
+    "lemma": "enzima",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "ensima"
+  },
+  {
+    "term": "epidermis",
+    "lemma": "epidermis",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "epidermis"
+  },
+  {
+    "term": "epiglotis",
+    "lemma": "epiglotis",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "epiglotis"
+  },
+  {
+    "term": "epistasia",
+    "lemma": "epistasia",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "epistasia"
+  },
+  {
+    "term": "epitelial",
+    "lemma": "epitelial",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "epitelial"
+  },
+  {
+    "term": "eritrocito",
+    "lemma": "eritrocito",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "eritrosito"
+  },
+  {
+    "term": "esclerénquima",
+    "lemma": "esclerénquima",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "esklerenkima"
+  },
+  {
+    "term": "esófago",
+    "lemma": "esófago",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "esofago"
+  },
+  {
+    "term": "especiación",
+    "lemma": "especiación",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "espesiasion"
+  },
+  {
+    "term": "especie",
+    "lemma": "especie",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "espesie"
+  },
+  {
+    "term": "espermátida",
+    "lemma": "espermátida",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "espermatida"
+  },
+  {
+    "term": "espermatogénesis",
+    "lemma": "espermatogénesis",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "espermatogenesis"
+  },
+  {
+    "term": "espermatogonia",
+    "lemma": "espermatogonia",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "espermatogonia"
+  },
+  {
+    "term": "espermatozoide",
+    "lemma": "espermatozoide",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "espermatosoide"
+  },
+  {
+    "term": "espiración",
+    "lemma": "espiración",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "espirasion"
+  },
+  {
+    "term": "espora",
+    "lemma": "espora",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "espora"
+  },
+  {
+    "term": "estambre",
+    "lemma": "estambre",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "estambre"
+  },
+  {
+    "term": "esteroide",
+    "lemma": "esteroide",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "esteroide"
+  },
+  {
+    "term": "estoma",
+    "lemma": "estoma",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "estoma"
+  },
+  {
+    "term": "estómago",
+    "lemma": "estómago",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "estomago"
+  },
+  {
+    "term": "estroma",
+    "lemma": "estroma",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "estroma"
+  },
+  {
+    "term": "eucariota",
+    "lemma": "eucariota",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "eukariota"
+  },
+  {
+    "term": "eutrofización",
+    "lemma": "eutrofización",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "eutrofisasion"
+  },
+  {
+    "term": "evolución",
+    "lemma": "evolución",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "ebolusion"
+  },
+  {
+    "term": "exocitosis",
+    "lemma": "exocitosis",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "eksositosis"
+  },
+  {
+    "term": "exón",
+    "lemma": "exón",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "ekson"
+  },
+  {
+    "term": "fagocito",
+    "lemma": "fagocito",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "fagosito"
+  },
+  {
+    "term": "fagocitosis",
+    "lemma": "fagocitosis",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "fagositosis"
+  },
+  {
+    "term": "fauna",
+    "lemma": "fauna",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "fauna"
+  },
+  {
+    "term": "fecundación",
+    "lemma": "fecundación",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "fekundasion"
+  },
+  {
+    "term": "fenotipo",
+    "lemma": "fenotipo",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "fenotipo"
+  },
+  {
+    "term": "fermentación",
+    "lemma": "fermentación",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "fermentasion"
+  },
+  {
+    "term": "filamento",
+    "lemma": "filamento",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "filamento"
+  },
+  {
+    "term": "filo",
+    "lemma": "filo",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "filo"
+  },
+  {
+    "term": "filogenia",
+    "lemma": "filogenia",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "filogenia"
+  },
+  {
+    "term": "fimbria",
+    "lemma": "fimbria",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "fimbria"
+  },
+  {
+    "term": "flagelo",
+    "lemma": "flagelo",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "flagelo"
+  },
+  {
+    "term": "floema",
+    "lemma": "floema",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "floema"
+  },
+  {
+    "term": "flora",
+    "lemma": "flora",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "flora"
+  },
+  {
+    "term": "fosfato",
+    "lemma": "fosfato",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "fosfato"
+  },
+  {
+    "term": "fosfolípido",
+    "lemma": "fosfolípido",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "fosfolipido"
+  },
+  {
+    "term": "fosforilación",
+    "lemma": "fosforilación",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "fosforilasion"
+  },
+  {
+    "term": "fósil",
+    "lemma": "fósil",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "fosil"
+  },
+  {
+    "term": "fotosíntesis",
+    "lemma": "fotosíntesis",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "fotosintesis"
+  },
+  {
+    "term": "fructosa",
+    "lemma": "fructosa",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "fruktosa"
+  },
+  {
+    "term": "fungi",
+    "lemma": "fungi",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "fungi"
+  },
+  {
+    "term": "galactosa",
+    "lemma": "galactosa",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "galaktosa"
+  },
+  {
+    "term": "gameto",
+    "lemma": "gameto",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "gameto"
+  },
+  {
+    "term": "gametogénesis",
+    "lemma": "gametogénesis",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "gametogenesis"
+  },
+  {
+    "term": "gástrula",
+    "lemma": "gástrula",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "gastrula"
+  },
+  {
+    "term": "gemación",
+    "lemma": "gemación",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "gemasion"
+  },
+  {
+    "term": "gen",
+    "lemma": "gen",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "gen"
+  },
+  {
+    "term": "género",
+    "lemma": "género",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "genero"
+  },
+  {
+    "term": "genética",
+    "lemma": "genética",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "genetika"
+  },
+  {
+    "term": "genoma",
+    "lemma": "genoma",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "genoma"
+  },
+  {
+    "term": "genotipo",
+    "lemma": "genotipo",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "genotipo"
+  },
+  {
+    "term": "germinación",
+    "lemma": "germinación",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "germinasion"
+  },
+  {
+    "term": "gimnosperma",
+    "lemma": "gimnosperma",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "gimnosperma"
+  },
+  {
+    "term": "glioxisoma",
+    "lemma": "glioxisoma",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "glioksisoma"
+  },
+  {
+    "term": "glomérulo",
+    "lemma": "glomérulo",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "glomerulo"
+  },
+  {
+    "term": "glucagón",
+    "lemma": "glucagón",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "glukagon"
+  },
+  {
+    "term": "glucógeno",
+    "lemma": "glucógeno",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "glukogeno"
+  },
+  {
+    "term": "glucólisis",
+    "lemma": "glucólisis",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "glukolisis"
+  },
+  {
+    "term": "glucosa",
+    "lemma": "glucosa",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "glukosa"
+  },
+  {
+    "term": "glucosídico",
+    "lemma": "glucosídico",
+    "subject": "BIOLOGIA",
+    "category": "ADJ",
+    "phonetic": "glukosidiko"
+  },
+  {
+    "term": "golgi",
+    "lemma": "golgi",
+    "subject": "BIOLOGIA",
+    "category": "PROPN",
+    "phonetic": "golgi"
+  },
+  {
+    "term": "gonosoma",
+    "lemma": "gonosoma",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "gonosoma"
+  },
+  {
+    "term": "grana",
+    "lemma": "grana",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "grana"
+  },
+  {
+    "term": "guanina",
+    "lemma": "guanina",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "guanina"
+  },
+  {
+    "term": "hábitat",
+    "lemma": "hábitat",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "abitat"
+  },
+  {
+    "term": "haploide",
+    "lemma": "haploide",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "aploide"
+  },
+  {
+    "term": "helicasa",
+    "lemma": "helicasa",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "elikasa"
+  },
+  {
+    "term": "hematosis",
+    "lemma": "hematosis",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "ematosis"
+  },
+  {
+    "term": "hemofilia",
+    "lemma": "hemofilia",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "emofilia"
+  },
+  {
+    "term": "hemoglobina",
+    "lemma": "hemoglobina",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "emoglobina"
+  },
+  {
+    "term": "henle",
+    "lemma": "henle",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "enle"
+  },
+  {
+    "term": "herencia",
+    "lemma": "herencia",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "erensia"
+  },
+  {
+    "term": "heterocigoto",
+    "lemma": "heterocigoto",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "eterosigoto"
+  },
+  {
+    "term": "heterótrofo",
+    "lemma": "heterótrofo",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "eterotrofo"
+  },
+  {
+    "term": "hígado",
+    "lemma": "hígado",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "igado"
+  },
+  {
+    "term": "hipertónico",
+    "lemma": "hipertónico",
+    "subject": "BIOLOGIA",
+    "category": "ADJ",
+    "phonetic": "ipertoniko"
+  },
+  {
+    "term": "hipófisis",
+    "lemma": "hipófisis",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "ipofisis"
+  },
+  {
+    "term": "hipotálamo",
+    "lemma": "hipotálamo",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "ipotalamo"
+  },
+  {
+    "term": "hipotónico",
+    "lemma": "hipotónico",
+    "subject": "BIOLOGIA",
+    "category": "ADJ",
+    "phonetic": "ipotoniko"
+  },
+  {
+    "term": "homeostasis",
+    "lemma": "homeostasis",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "omeostasis"
+  },
+  {
+    "term": "homocigoto",
+    "lemma": "homocigoto",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "omosigoto"
+  },
+  {
+    "term": "homología",
+    "lemma": "homología",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "omologia"
+  },
+  {
+    "term": "hongo",
+    "lemma": "hongo",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "ongo"
+  },
+  {
+    "term": "hormona",
+    "lemma": "hormona",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "ormona"
+  },
+  {
+    "term": "inmunidad",
+    "lemma": "inmunidad",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "inmunidad"
+  },
+  {
+    "term": "inmunoglobulina",
+    "lemma": "inmunoglobulina",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "inmunoglobulina"
+  },
+  {
+    "term": "inspiración",
+    "lemma": "inspiración",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "inspirasion"
+  },
+  {
+    "term": "insulina",
+    "lemma": "insulina",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "insulina"
+  },
+  {
+    "term": "interfase",
+    "lemma": "interfase",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "interfase"
+  },
+  {
+    "term": "interferón",
+    "lemma": "interferón",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "interferon"
+  },
+  {
+    "term": "intestino",
+    "lemma": "intestino",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "intestino"
+  },
+  {
+    "term": "intrón",
+    "lemma": "intrón",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "intron"
+  },
+  {
+    "term": "invernadero",
+    "lemma": "invernadero",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "inbernadero"
+  },
+  {
+    "term": "isotónico",
+    "lemma": "isotónico",
+    "subject": "BIOLOGIA",
+    "category": "ADJ",
+    "phonetic": "isotoniko"
+  },
+  {
+    "term": "krebs",
+    "lemma": "krebs",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "krebs"
+  },
+  {
+    "term": "lactosa",
+    "lemma": "lactosa",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "laktosa"
+  },
+  {
+    "term": "lamarckismo",
+    "lemma": "lamarckismo",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "lamarkkismo"
+  },
+  {
+    "term": "lenticela",
+    "lemma": "lenticela",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "lentisela"
+  },
+  {
+    "term": "leptonema",
+    "lemma": "leptonema",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "leptonema"
+  },
+  {
+    "term": "leucocito",
+    "lemma": "leucocito",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "leukosito"
+  },
+  {
+    "term": "levadura",
+    "lemma": "levadura",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "lebadura"
+  },
+  {
+    "term": "ligamiento",
+    "lemma": "ligamiento",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "ligamiento"
+  },
+  {
+    "term": "ligasa",
+    "lemma": "ligasa",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "ligasa"
+  },
+  {
+    "term": "linfa",
+    "lemma": "linfa",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "linfa"
+  },
+  {
+    "term": "linfocito",
+    "lemma": "linfocito",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "linfosito"
+  },
+  {
+    "term": "lípido",
+    "lemma": "lípido",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "lipido"
+  },
+  {
+    "term": "liso",
+    "lemma": "liso",
+    "subject": "BIOLOGIA",
+    "category": "ADJ",
+    "phonetic": "liso"
+  },
+  {
+    "term": "lisosoma",
+    "lemma": "lisosoma",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "lisosoma"
+  },
+  {
+    "term": "macrófago",
+    "lemma": "macrófago",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "makrofago"
+  },
+  {
+    "term": "maltosa",
+    "lemma": "maltosa",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "maltosa"
+  },
+  {
+    "term": "matriz",
+    "lemma": "matriz",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "matris"
+  },
+  {
+    "term": "médula",
+    "lemma": "médula",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "medula"
+  },
+  {
+    "term": "meiosis",
+    "lemma": "meiosis",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "meiosis"
+  },
+  {
+    "term": "membrana",
+    "lemma": "membrana",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "membrana"
+  },
+  {
+    "term": "mendel",
+    "lemma": "mendel",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "mendel"
+  },
+  {
+    "term": "meristemo",
+    "lemma": "meristemo",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "meristemo"
+  },
+  {
+    "term": "mesodermo",
+    "lemma": "mesodermo",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "mesodermo"
+  },
+  {
+    "term": "metabolismo",
+    "lemma": "metabolismo",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "metabolismo"
+  },
+  {
+    "term": "metafase",
+    "lemma": "metafase",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "metafase"
+  },
+  {
+    "term": "microfilamento",
+    "lemma": "microfilamento",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "mikrofilamento"
+  },
+  {
+    "term": "microglía",
+    "lemma": "microglía",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "mikroglia"
+  },
+  {
+    "term": "microtúbulo",
+    "lemma": "microtúbulo",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "mikrotubulo"
+  },
+  {
+    "term": "mielina",
+    "lemma": "mielina",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "mielina"
+  },
+  {
+    "term": "miocardio",
+    "lemma": "miocardio",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "miokardio"
+  },
+  {
+    "term": "mitocondria",
+    "lemma": "mitocondria",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "mitokondria"
+  },
+  {
+    "term": "mitosis",
+    "lemma": "mitosis",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "mitosis"
+  },
+  {
+    "term": "monera",
+    "lemma": "monera",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "monera"
+  },
+  {
+    "term": "monohíbrido",
+    "lemma": "monohíbrido",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "monoibrido"
+  },
+  {
+    "term": "monosacárido",
+    "lemma": "monosacárido",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "monosakarido"
+  },
+  {
+    "term": "mórula",
+    "lemma": "mórula",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "morula"
+  },
+  {
+    "term": "mutación",
+    "lemma": "mutación",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "mutasion"
+  },
+  {
+    "term": "mutágeno",
+    "lemma": "mutágeno",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "mutageno"
+  },
+  {
+    "term": "mutualismo",
+    "lemma": "mutualismo",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "mutualismo"
+  },
+  {
+    "term": "nefrona",
+    "lemma": "nefrona",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "nefrona"
+  },
+  {
+    "term": "neodarwinismo",
+    "lemma": "neodarwinismo",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "neodarwinismo"
+  },
+  {
+    "term": "neuroglia",
+    "lemma": "neuroglia",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "neuroglia"
+  },
+  {
+    "term": "neurona",
+    "lemma": "neurona",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "neurona"
+  },
+  {
+    "term": "neurotransmisor",
+    "lemma": "neurotransmisor",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "neurotransmisor"
+  },
+  {
+    "term": "nicho",
+    "lemma": "nicho",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "niko"
+  },
+  {
+    "term": "núcleo",
+    "lemma": "núcleo",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "nukleo"
+  },
+  {
+    "term": "nucleolo",
+    "lemma": "nucleolo",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "nukleolo"
+  },
+  {
+    "term": "nucleótido",
+    "lemma": "nucleótido",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "nukleotido"
+  },
+  {
+    "term": "oligodendrocito",
+    "lemma": "oligodendrocito",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "oligodendrosito"
+  },
+  {
+    "term": "oligoelemento",
+    "lemma": "oligoelemento",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "oligoelemento"
+  },
+  {
+    "term": "ósmosis",
+    "lemma": "ósmosis",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "osmosis"
+  },
+  {
+    "term": "osteoblasto",
+    "lemma": "osteoblasto",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "osteoblasto"
+  },
+  {
+    "term": "osteocito",
+    "lemma": "osteocito",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "osteosito"
+  },
+  {
+    "term": "ovogénesis",
+    "lemma": "ovogénesis",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "obogenesis"
+  },
+  {
+    "term": "ovogonia",
+    "lemma": "ovogonia",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "obogonia"
+  },
+  {
+    "term": "óvulo",
+    "lemma": "óvulo",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "obulo"
+  },
+  {
+    "term": "oxidativa",
+    "lemma": "oxidativa",
+    "subject": "BIOLOGIA",
+    "category": "ADJ",
+    "phonetic": "oksidatiba"
+  },
+  {
+    "term": "oxitocina",
+    "lemma": "oxitocina",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "oksitosina"
+  },
+  {
+    "term": "ozono",
+    "lemma": "ozono",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "osono"
+  },
+  {
+    "term": "páncreas",
+    "lemma": "páncreas",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "pankreas"
+  },
+  {
+    "term": "paquinema",
+    "lemma": "paquinema",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "pakinema"
+  },
+  {
+    "term": "parasitismo",
+    "lemma": "parasitismo",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "parasitismo"
+  },
+  {
+    "term": "parásito",
+    "lemma": "parásito",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "parasito"
+  },
+  {
+    "term": "paratohormona",
+    "lemma": "paratohormona",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "paratoormona"
+  },
+  {
+    "term": "parénquima",
+    "lemma": "parénquima",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "parenkima"
+  },
+  {
+    "term": "patógeno",
+    "lemma": "patógeno",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "patogeno"
+  },
+  {
+    "term": "pelúcida",
+    "lemma": "pelúcida",
+    "subject": "BIOLOGIA",
+    "category": "ADJ",
+    "phonetic": "pelusida"
+  },
+  {
+    "term": "peptídico",
+    "lemma": "peptídico",
+    "subject": "BIOLOGIA",
+    "category": "ADJ",
+    "phonetic": "peptidiko"
+  },
+  {
+    "term": "peptidoglicano",
+    "lemma": "peptidoglicano",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "peptidoglikano"
+  },
+  {
+    "term": "pericardio",
+    "lemma": "pericardio",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "perikardio"
+  },
+  {
+    "term": "peristaltismo",
+    "lemma": "peristaltismo",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "peristaltismo"
+  },
+  {
+    "term": "permeabilidad",
+    "lemma": "permeabilidad",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "permeabilidad"
+  },
+  {
+    "term": "peroxisoma",
+    "lemma": "peroxisoma",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "peroxisoma"
+  },
+  {
+    "term": "pili",
+    "lemma": "pili",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "pili"
+  },
+  {
+    "term": "pinocitosis",
+    "lemma": "pinocitosis",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "pinositosis"
+  },
+  {
+    "term": "pistilo",
+    "lemma": "pistilo",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "pistilo"
+  },
+  {
+    "term": "placa",
+    "lemma": "placa",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "plaka"
+  },
+  {
+    "term": "placenta",
+    "lemma": "placenta",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "plasenta"
+  },
+  {
+    "term": "plantae",
+    "lemma": "plantae",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "plantae"
+  },
+  {
+    "term": "plaqueta",
+    "lemma": "plaqueta",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "plaketa"
+  },
+  {
+    "term": "plasma",
+    "lemma": "plasma",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "plasma"
+  },
+  {
+    "term": "plásmido",
+    "lemma": "plásmido",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "plasmido"
+  },
+  {
+    "term": "plasmodesmo",
+    "lemma": "plasmodesmo",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "plasmodesmo"
+  },
+  {
+    "term": "plasmólisis",
+    "lemma": "plasmólisis",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "plasmolisis"
+  },
+  {
+    "term": "pleura",
+    "lemma": "pleura",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "pleura"
+  },
+  {
+    "term": "población",
+    "lemma": "población",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "poblasion"
+  },
+  {
+    "term": "polen",
+    "lemma": "polen",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "polen"
+  },
+  {
+    "term": "polimerasa",
+    "lemma": "polimerasa",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "polimerasa"
+  },
+  {
+    "term": "polinización",
+    "lemma": "polinización",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "polinisasion"
+  },
+  {
+    "term": "polipéptido",
+    "lemma": "polipéptido",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "polipeptido"
+  },
+  {
+    "term": "polisacárido",
+    "lemma": "polisacárido",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "polisakarido"
+  },
+  {
+    "term": "prion",
+    "lemma": "prion",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "prion"
+  },
+  {
+    "term": "procariota",
+    "lemma": "procariota",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "prokariota"
+  },
+  {
+    "term": "productor",
+    "lemma": "productor",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "produktor"
+  },
+  {
+    "term": "profase",
+    "lemma": "profase",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "profase"
+  },
+  {
+    "term": "prolactina",
+    "lemma": "prolactina",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "prolaktina"
+  },
+  {
+    "term": "promotor",
+    "lemma": "promotor",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "promotor"
+  },
+  {
+    "term": "proteína",
+    "lemma": "proteína",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "proteina"
+  },
+  {
+    "term": "protista",
+    "lemma": "protista",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "protista"
+  },
+  {
+    "term": "protozoario",
+    "lemma": "protozoario",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "protosoario"
+  },
+  {
+    "term": "pulmón",
+    "lemma": "pulmón",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "pulmon"
+  },
+  {
+    "term": "puna",
+    "lemma": "puna",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "puna"
+  },
+  {
+    "term": "punnett",
+    "lemma": "punnett",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "punnett"
+  },
+  {
+    "term": "puya",
+    "lemma": "puya",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "puya"
+  },
+  {
+    "term": "quechua",
+    "lemma": "quechua",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "kekua"
+  },
+  {
+    "term": "queñual",
+    "lemma": "queñual",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "kenual"
+  },
+  {
+    "term": "quiasma",
+    "lemma": "quiasma",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "kiasma"
+  },
+  {
+    "term": "quilo",
+    "lemma": "quilo",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "kilo"
+  },
+  {
+    "term": "quimiosíntesis",
+    "lemma": "quimiosíntesis",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "kimiosintesis"
+  },
+  {
+    "term": "quimo",
+    "lemma": "quimo",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "kimo"
+  },
+  {
+    "term": "quina",
+    "lemma": "quina",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "kina"
+  },
+  {
+    "term": "recesivo",
+    "lemma": "recesivo",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "resesibo"
+  },
+  {
+    "term": "reflejo",
+    "lemma": "reflejo",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "reflejo"
+  },
+  {
+    "term": "replicación",
+    "lemma": "replicación",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "replikasion"
+  },
+  {
+    "term": "respiración",
+    "lemma": "respiración",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "respirasion"
+  },
+  {
+    "term": "retículo",
+    "lemma": "retículo",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "retikulo"
+  },
+  {
+    "term": "retrovirus",
+    "lemma": "retrovirus",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "retrobirus"
+  },
+  {
+    "term": "ribonucleico",
+    "lemma": "arn",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "ribonukleiko"
+  },
+  {
+    "term": "ribosoma",
+    "lemma": "ribosoma",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "ribosoma"
+  },
+  {
+    "term": "riñón",
+    "lemma": "riñón",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "rinon"
+  },
+  {
+    "term": "rubisco",
+    "lemma": "rubisco",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "rubisko"
+  },
+  {
+    "term": "rugoso",
+    "lemma": "rugoso",
+    "subject": "BIOLOGIA",
+    "category": "ADJ",
+    "phonetic": "rugoso"
+  },
+  {
+    "term": "sacarosa",
+    "lemma": "sacarosa",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "sakarosa"
+  },
+  {
+    "term": "savia",
+    "lemma": "savia",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "sabia"
+  },
+  {
+    "term": "schwann",
+    "lemma": "schwann",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "skwann"
+  },
+  {
+    "term": "selección",
+    "lemma": "selección",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "seleksion"
+  },
+  {
+    "term": "simbiosis",
+    "lemma": "simbiosis",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "simbiosis"
+  },
+  {
+    "term": "simpátrica",
+    "lemma": "simpátrica",
+    "subject": "BIOLOGIA",
+    "category": "ADJ",
+    "phonetic": "simpatrika"
+  },
+  {
+    "term": "sinapsis",
+    "lemma": "sinapsis",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "sinapsis"
+  },
+  {
+    "term": "sináptica",
+    "lemma": "sináptica",
+    "subject": "BIOLOGIA",
+    "category": "ADJ",
+    "phonetic": "sinaptika"
+  },
+  {
+    "term": "sístole",
+    "lemma": "sístole",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "sistole"
+  },
+  {
+    "term": "splicing",
+    "lemma": "splicing",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "splising"
+  },
+  {
+    "term": "suber",
+    "lemma": "suber",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "suber"
+  },
+  {
+    "term": "sustrato",
+    "lemma": "sustrato",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "sustrato"
+  },
+  {
+    "term": "taruca",
+    "lemma": "taruca",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "taruka"
+  },
+  {
+    "term": "taxonomía",
+    "lemma": "taxonomía",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "taxonomia"
+  },
+  {
+    "term": "tejido",
+    "lemma": "tejido",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "tejido"
+  },
+  {
+    "term": "telofase",
+    "lemma": "telofase",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "telofase"
+  },
+  {
+    "term": "telomerasa",
+    "lemma": "telomerasa",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "telomerasa"
+  },
+  {
+    "term": "telómero",
+    "lemma": "telómero",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "telomero"
+  },
+  {
+    "term": "terminación",
+    "lemma": "terminación",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "terminasion"
+  },
+  {
+    "term": "tilacoide",
+    "lemma": "tilacoide",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "tilakoide"
+  },
+  {
+    "term": "timina",
+    "lemma": "timina",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "timina"
+  },
+  {
+    "term": "tiroides",
+    "lemma": "tiroides",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "tiroides"
+  },
+  {
+    "term": "tiroxina",
+    "lemma": "tiroxina",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "tiroksina"
+  },
+  {
+    "term": "tonoplasto",
+    "lemma": "tonoplasto",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "tonoplasto"
+  },
+  {
+    "term": "topoisomerasa",
+    "lemma": "topoisomerasa",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "topoisomerasa"
+  },
+  {
+    "term": "totora",
+    "lemma": "totora",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "totora"
+  },
+  {
+    "term": "traducción",
+    "lemma": "traducción",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "traduksion"
+  },
+  {
+    "term": "transcripción",
+    "lemma": "transcripción",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "transkripsion"
+  },
+  {
+    "term": "transgénico",
+    "lemma": "transgénico",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "transgeniko"
+  },
+  {
+    "term": "tráquea",
+    "lemma": "tráquea",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "trakea"
+  },
+  {
+    "term": "traqueida",
+    "lemma": "traqueida",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "trakeida"
+  },
+  {
+    "term": "triglicérido",
+    "lemma": "triglicérido",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "trigliserido"
+  },
+  {
+    "term": "trisomía",
+    "lemma": "trisomía",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "trisomia"
+  },
+  {
+    "term": "trófica",
+    "lemma": "trófica",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "trofika"
+  },
+  {
+    "term": "trombocito",
+    "lemma": "trombocito",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "trombosito"
+  },
+  {
+    "term": "turgencia",
+    "lemma": "turgencia",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "turgensia"
+  },
+  {
+    "term": "umbilical",
+    "lemma": "umbilical",
+    "subject": "BIOLOGIA",
+    "category": "ADJ",
+    "phonetic": "umbilikal"
+  },
+  {
+    "term": "uracilo",
+    "lemma": "uracilo",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "urasilo"
+  },
+  {
+    "term": "uréter",
+    "lemma": "uréter",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "ureter"
+  },
+  {
+    "term": "uretra",
+    "lemma": "uretra",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "uretra"
+  },
+  {
+    "term": "vacuna",
+    "lemma": "vacuna",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "bakuna"
+  },
+  {
+    "term": "vacuola",
+    "lemma": "vacuola",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "bakuola"
+  },
+  {
+    "term": "vasopresina",
+    "lemma": "vasopresina",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "basopresina"
+  },
+  {
+    "term": "vegetal",
+    "lemma": "vegetal",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "begetal"
+  },
+  {
+    "term": "vejiga",
+    "lemma": "vejiga",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "bejiga"
+  },
+  {
+    "term": "vena",
+    "lemma": "vena",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "bena"
+  },
+  {
+    "term": "ventrículo",
+    "lemma": "ventrículo",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "bentrikulo"
+  },
+  {
+    "term": "vicuña",
+    "lemma": "vicuña",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "bikuna"
+  },
+  {
+    "term": "villosidad",
+    "lemma": "villosidad",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "biyosidad"
+  },
+  {
+    "term": "virión",
+    "lemma": "virión",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "birion"
+  },
+  {
+    "term": "virus",
+    "lemma": "virus",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "birus"
+  },
+  {
+    "term": "vulnerable",
+    "lemma": "vulnerable",
+    "subject": "BIOLOGIA",
+    "category": "ADJ",
+    "phonetic": "bulnerable"
+  },
+  {
+    "term": "xilema",
+    "lemma": "xilema",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "xilema"
+  },
+  {
+    "term": "yunga",
+    "lemma": "yunga",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "yunga"
+  },
+  {
+    "term": "átomo",
+    "lemma": "átomo",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "atomo"
+  },
+  {
+    "term": "protón",
+    "lemma": "protón",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "proton"
+  },
+  {
+    "term": "neutrón",
+    "lemma": "neutrón",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "neutron"
+  },
+  {
+    "term": "atómico",
+    "lemma": "atómico",
+    "subject": "BIOLOGIA",
+    "category": "ADJ",
+    "phonetic": "atomiko"
+  },
+  {
+    "term": "isótopo",
+    "lemma": "isótopo",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "isotopo"
+  },
+  {
+    "term": "isóbaro",
+    "lemma": "isóbaro",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "isobaro"
+  },
+  {
+    "term": "isótono",
+    "lemma": "isótono",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "isotono"
+  },
+  {
+    "term": "orbital",
+    "lemma": "orbital",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "orbital"
+  },
+  {
+    "term": "subnivel",
+    "lemma": "subnivel",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "subnibel"
+  },
+  {
+    "term": "cuántico",
+    "lemma": "cuántico",
+    "subject": "BIOLOGIA",
+    "category": "ADJ",
+    "phonetic": "kuantiko"
+  },
+  {
+    "term": "cuántica",
+    "lemma": "cuántica",
+    "subject": "BIOLOGIA",
+    "category": "ADJ",
+    "phonetic": "kuantika"
+  },
+  {
+    "term": "configuración",
+    "lemma": "configuración",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "konfigurasion"
+  },
+  {
+    "term": "electronegatividad",
+    "lemma": "electronegatividad",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "elektronegatibidad"
+  },
+  {
+    "term": "electroafinidad",
+    "lemma": "electroafinidad",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "elektroafinidad"
+  },
+  {
+    "term": "ionización",
+    "lemma": "ionización",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "ionisasion"
+  },
+  {
+    "term": "metaloide",
+    "lemma": "metaloide",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "metaloide"
+  },
+  {
+    "term": "halógeno",
+    "lemma": "halógeno",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "alogeno"
+  },
+  {
+    "term": "alcalino",
+    "lemma": "alcalino",
+    "subject": "BIOLOGIA",
+    "category": "ADJ",
+    "phonetic": "alkalino"
+  },
+  {
+    "term": "alcalinotérreo",
+    "lemma": "alcalinotérreo",
+    "subject": "BIOLOGIA",
+    "category": "ADJ",
+    "phonetic": "alkalinoterreo"
+  },
+  {
+    "term": "lantánido",
+    "lemma": "lantánido",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "lantanido"
+  },
+  {
+    "term": "actínido",
+    "lemma": "actínido",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "aktinido"
+  },
+  {
+    "term": "elemento",
+    "lemma": "elemento",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "elemento"
+  },
+  {
+    "term": "hidrógeno",
+    "lemma": "hidrógeno",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "idrogeno"
+  },
+  {
+    "term": "helio",
+    "lemma": "helio",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "elio"
+  },
+  {
+    "term": "litio",
+    "lemma": "litio",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "litio"
+  },
+  {
+    "term": "berilio",
+    "lemma": "berilio",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "berilio"
+  },
+  {
+    "term": "carbono",
+    "lemma": "carbono",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "karbono"
+  },
+  {
+    "term": "nitrógeno",
+    "lemma": "nitrógeno",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "nitrogeno"
+  },
+  {
+    "term": "oxígeno",
+    "lemma": "oxígeno",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "oksigeno"
+  },
+  {
+    "term": "flúor",
+    "lemma": "flúor",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "fluor"
+  },
+  {
+    "term": "magnesio",
+    "lemma": "magnesio",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "magnesio"
+  },
+  {
+    "term": "aluminio",
+    "lemma": "aluminio",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "aluminio"
+  },
+  {
+    "term": "silicio",
+    "lemma": "silicio",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "silisio"
+  },
+  {
+    "term": "fósforo",
+    "lemma": "fósforo",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "fosforo"
+  },
+  {
+    "term": "azufre",
+    "lemma": "azufre",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "asufre"
+  },
+  {
+    "term": "argón",
+    "lemma": "argón",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "argon"
+  },
+  {
+    "term": "potasio",
+    "lemma": "potasio",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "potasio"
+  },
+  {
+    "term": "calcio",
+    "lemma": "calcio",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "kalsio"
+  },
+  {
+    "term": "hierro",
+    "lemma": "hierro",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "ierro"
+  },
+  {
+    "term": "manganeso",
+    "lemma": "manganeso",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "manganeso"
+  },
+  {
+    "term": "níquel",
+    "lemma": "níquel",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "nikel"
+  },
+  {
+    "term": "cobalto",
+    "lemma": "cobalto",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "kobalto"
+  },
+  {
+    "term": "mercurio",
+    "lemma": "mercurio",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "merkurio"
+  },
+  {
+    "term": "uranio",
+    "lemma": "uranio",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "uranio"
+  },
+  {
+    "term": "zinc",
+    "lemma": "zinc",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "sink"
+  },
+  {
+    "term": "molécula",
+    "lemma": "molécula",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "molekula"
+  },
+  {
+    "term": "molecular",
+    "lemma": "molecular",
+    "subject": "BIOLOGIA",
+    "category": "ADJ",
+    "phonetic": "molekular"
+  },
+  {
+    "term": "sustancia",
+    "lemma": "sustancia",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "sustansia"
+  },
+  {
+    "term": "homogénea",
+    "lemma": "homogénea",
+    "subject": "BIOLOGIA",
+    "category": "ADJ",
+    "phonetic": "omogenea"
+  },
+  {
+    "term": "heterogénea",
+    "lemma": "heterogénea",
+    "subject": "BIOLOGIA",
+    "category": "ADJ",
+    "phonetic": "eterogenea"
+  },
+  {
+    "term": "decantación",
+    "lemma": "decantación",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "dekantasion"
+  },
+  {
+    "term": "filtración",
+    "lemma": "filtración",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "filtrasion"
+  },
+  {
+    "term": "destilación",
+    "lemma": "destilación",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "destilasion"
+  },
+  {
+    "term": "tamizado",
+    "lemma": "tamizado",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "tamisado"
+  },
+  {
+    "term": "enlace",
+    "lemma": "enlace",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "enlase"
+  },
+  {
+    "term": "covalente",
+    "lemma": "covalente",
+    "subject": "BIOLOGIA",
+    "category": "ADJ",
+    "phonetic": "kobalente"
+  },
+  {
+    "term": "iónico",
+    "lemma": "iónico",
+    "subject": "BIOLOGIA",
+    "category": "ADJ",
+    "phonetic": "ioniko"
+  },
+  {
+    "term": "metálico",
+    "lemma": "metálico",
+    "subject": "BIOLOGIA",
+    "category": "ADJ",
+    "phonetic": "metaliko"
+  },
+  {
+    "term": "electrovalente",
+    "lemma": "electrovalente",
+    "subject": "BIOLOGIA",
+    "category": "ADJ",
+    "phonetic": "elektrobalente"
+  },
+  {
+    "term": "polar",
+    "lemma": "polar",
+    "subject": "BIOLOGIA",
+    "category": "ADJ",
+    "phonetic": "polar"
+  },
+  {
+    "term": "apolar",
+    "lemma": "apolar",
+    "subject": "BIOLOGIA",
+    "category": "ADJ",
+    "phonetic": "apolar"
+  },
+  {
+    "term": "dipolo",
+    "lemma": "dipolo",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "dipolo"
+  },
+  {
+    "term": "catión",
+    "lemma": "catión",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "kation"
+  },
+  {
+    "term": "anión",
+    "lemma": "anión",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "anion"
+  },
+  {
+    "term": "octeto",
+    "lemma": "octeto",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "okteto"
+  },
+  {
+    "term": "lewis",
+    "lemma": "lewis",
+    "subject": "BIOLOGIA",
+    "category": "PROPN",
+    "phonetic": "lewis"
+  },
+  {
+    "term": "valencia",
+    "lemma": "valencia",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "balensia"
+  },
+  {
+    "term": "intermolecular",
+    "lemma": "intermolecular",
+    "subject": "BIOLOGIA",
+    "category": "ADJ",
+    "phonetic": "intermolekular"
+  },
+  {
+    "term": "órbita",
+    "lemma": "órbita",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "orbita"
+  },
+  {
+    "term": "óxido",
+    "lemma": "óxido",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "oksido"
+  },
+  {
+    "term": "hidróxido",
+    "lemma": "hidróxido",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "idroksido"
+  },
+  {
+    "term": "peróxido",
+    "lemma": "peróxido",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "peroksido"
+  },
+  {
+    "term": "hidruro",
+    "lemma": "hidruro",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "idruro"
+  },
+  {
+    "term": "anhídrido",
+    "lemma": "anhídrido",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "anidrido"
+  },
+  {
+    "term": "oxácido",
+    "lemma": "oxácido",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "oksasido"
+  },
+  {
+    "term": "hidrácido",
+    "lemma": "hidrácido",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "idrasido"
+  },
+  {
+    "term": "oxisal",
+    "lemma": "oxisal",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "oksisal"
+  },
+  {
+    "term": "haloidea",
+    "lemma": "haloidea",
+    "subject": "BIOLOGIA",
+    "category": "ADJ",
+    "phonetic": "aloidea"
+  },
+  {
+    "term": "nomenclatura",
+    "lemma": "nomenclatura",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "nomenklatura"
+  },
+  {
+    "term": "atomicidad",
+    "lemma": "atomicidad",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "atomisidad"
+  },
+  {
+    "term": "ácido",
+    "lemma": "ácido",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "asido"
+  },
+  {
+    "term": "sulfato",
+    "lemma": "sulfato",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "sulfato"
+  },
+  {
+    "term": "nitrato",
+    "lemma": "nitrato",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "nitrato"
+  },
+  {
+    "term": "nitrito",
+    "lemma": "nitrito",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "nitrito"
+  },
+  {
+    "term": "carbonato",
+    "lemma": "carbonato",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "karbonato"
+  },
+  {
+    "term": "bicarbonato",
+    "lemma": "bicarbonato",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "bikarbonato"
+  },
+  {
+    "term": "cloruro",
+    "lemma": "cloruro",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "kloruro"
+  },
+  {
+    "term": "sulfuro",
+    "lemma": "sulfuro",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "sulfuro"
+  },
+  {
+    "term": "hipoclorito",
+    "lemma": "hipoclorito",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "ipoklorito"
+  },
+  {
+    "term": "permanganato",
+    "lemma": "permanganato",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "permanganato"
+  },
+  {
+    "term": "amoníaco",
+    "lemma": "amoníaco",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "amoniako"
+  },
+  {
+    "term": "amonio",
+    "lemma": "amonio",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "amonio"
+  },
+  {
+    "term": "oxidación",
+    "lemma": "oxidación",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "oksidasion"
+  },
+  {
+    "term": "reacción",
+    "lemma": "reacción",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "reaksion"
+  },
+  {
+    "term": "reactante",
+    "lemma": "reactante",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "reaktante"
+  },
+  {
+    "term": "reactivo",
+    "lemma": "reactivo",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "reaktibo"
+  },
+  {
+    "term": "descomposición",
+    "lemma": "descomposición",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "deskomposision"
+  },
+  {
+    "term": "desplazamiento",
+    "lemma": "desplazamiento",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "desplasamiento"
+  },
+  {
+    "term": "combustión",
+    "lemma": "combustión",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "kombustion"
+  },
+  {
+    "term": "neutralización",
+    "lemma": "neutralización",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "neutralisasion"
+  },
+  {
+    "term": "precipitación",
+    "lemma": "precipitación",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "presipitasion"
+  },
+  {
+    "term": "precipitado",
+    "lemma": "precipitado",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "presipitado"
+  },
+  {
+    "term": "reducción",
+    "lemma": "reducción",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "reduksion"
+  },
+  {
+    "term": "redox",
+    "lemma": "redox",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "redoks"
+  },
+  {
+    "term": "oxidante",
+    "lemma": "oxidante",
+    "subject": "BIOLOGIA",
+    "category": "ADJ",
+    "phonetic": "oksidante"
+  },
+  {
+    "term": "reductor",
+    "lemma": "reductor",
+    "subject": "BIOLOGIA",
+    "category": "ADJ",
+    "phonetic": "reduktor"
+  },
+  {
+    "term": "endotérmica",
+    "lemma": "endotérmica",
+    "subject": "BIOLOGIA",
+    "category": "ADJ",
+    "phonetic": "endotermika"
+  },
+  {
+    "term": "endotérmico",
+    "lemma": "endotérmico",
+    "subject": "BIOLOGIA",
+    "category": "ADJ",
+    "phonetic": "endotermiko"
+  },
+  {
+    "term": "exotérmica",
+    "lemma": "exotérmica",
+    "subject": "BIOLOGIA",
+    "category": "ADJ",
+    "phonetic": "eksotermika"
+  },
+  {
+    "term": "exotérmico",
+    "lemma": "exotérmico",
+    "subject": "BIOLOGIA",
+    "category": "ADJ",
+    "phonetic": "eksotermiko"
+  },
+  {
+    "term": "entalpía",
+    "lemma": "entalpía",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "entalpia"
+  },
+  {
+    "term": "balanceo",
+    "lemma": "balanceo",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "balanseo"
+  },
+  {
+    "term": "balance",
+    "lemma": "balance",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "balanse"
+  },
+  {
+    "term": "coeficiente",
+    "lemma": "coeficiente",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "koefisiente"
+  },
+  {
+    "term": "estequiometría",
+    "lemma": "estequiometría",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "estekiometria"
+  },
+  {
+    "term": "molaridad",
+    "lemma": "molaridad",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "molaridad"
+  },
+  {
+    "term": "avogadro",
+    "lemma": "avogadro",
+    "subject": "BIOLOGIA",
+    "category": "PROPN",
+    "phonetic": "abogadro"
+  },
+  {
+    "term": "limitante",
+    "lemma": "limitante",
+    "subject": "BIOLOGIA",
+    "category": "ADJ",
+    "phonetic": "limitante"
+  },
+  {
+    "term": "rendimiento",
+    "lemma": "rendimiento",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "rendimiento"
+  },
+  {
+    "term": "lavoisier",
+    "lemma": "lavoisier",
+    "subject": "BIOLOGIA",
+    "category": "PROPN",
+    "phonetic": "laboisier"
+  },
+  {
+    "term": "solución",
+    "lemma": "solución",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "solusion"
+  },
+  {
+    "term": "soluto",
+    "lemma": "soluto",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "soluto"
+  },
+  {
+    "term": "solvente",
+    "lemma": "solvente",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "solbente"
+  },
+  {
+    "term": "disolución",
+    "lemma": "disolución",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "disolusion"
+  },
+  {
+    "term": "concentración",
+    "lemma": "concentración",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "konsentrasion"
+  },
+  {
+    "term": "saturada",
+    "lemma": "saturada",
+    "subject": "BIOLOGIA",
+    "category": "ADJ",
+    "phonetic": "saturada"
+  },
+  {
+    "term": "insaturada",
+    "lemma": "insaturada",
+    "subject": "BIOLOGIA",
+    "category": "ADJ",
+    "phonetic": "insaturada"
+  },
+  {
+    "term": "sobresaturada",
+    "lemma": "sobresaturada",
+    "subject": "BIOLOGIA",
+    "category": "ADJ",
+    "phonetic": "sobresaturada"
+  },
+  {
+    "term": "solubilidad",
+    "lemma": "solubilidad",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "solubilidad"
+  },
+  {
+    "term": "indicador",
+    "lemma": "indicador",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "indikador"
+  },
+  {
+    "term": "fenolftaleína",
+    "lemma": "fenolftaleína",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "fenolftaleina"
+  },
+  {
+    "term": "tornasol",
+    "lemma": "tornasol",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "tornasol"
+  },
+  {
+    "term": "acidez",
+    "lemma": "acidez",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "asides"
+  },
+  {
+    "term": "alcalinidad",
+    "lemma": "alcalinidad",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "alkalinidad"
+  },
+  {
+    "term": "electrolito",
+    "lemma": "electrolito",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "elektrolito"
+  },
+  {
+    "term": "disociación",
+    "lemma": "disociación",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "disosiasion"
+  },
+  {
+    "term": "hidronio",
+    "lemma": "hidronio",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "idronio"
+  },
+  {
+    "term": "hidroxilo",
+    "lemma": "hidroxilo",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "idroksilo"
+  },
+  {
+    "term": "arrhenius",
+    "lemma": "arrhenius",
+    "subject": "BIOLOGIA",
+    "category": "PROPN",
+    "phonetic": "arrenius"
+  },
+  {
+    "term": "carbón",
+    "lemma": "carbón",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "karbon"
+  },
+  {
+    "term": "tetravalencia",
+    "lemma": "tetravalencia",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "tetrabalensia"
+  },
+  {
+    "term": "tetravalente",
+    "lemma": "tetravalente",
+    "subject": "BIOLOGIA",
+    "category": "ADJ",
+    "phonetic": "tetrabalente"
+  },
+  {
+    "term": "hibridación",
+    "lemma": "hibridación",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "ibridasion"
+  },
+  {
+    "term": "cuaternario",
+    "lemma": "cuaternario",
+    "subject": "BIOLOGIA",
+    "category": "ADJ",
+    "phonetic": "kuaternario"
+  },
+  {
+    "term": "alótropo",
+    "lemma": "alótropo",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "alotropo"
+  },
+  {
+    "term": "grafito",
+    "lemma": "grafito",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "grafito"
+  },
+  {
+    "term": "diamante",
+    "lemma": "diamante",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "diamante"
+  },
+  {
+    "term": "fullereno",
+    "lemma": "fullereno",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "fuyereno"
+  },
+  {
+    "term": "isómero",
+    "lemma": "isómero",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "isomero"
+  },
+  {
+    "term": "isomería",
+    "lemma": "isomería",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "isomeria"
+  },
+  {
+    "term": "hidrocarburo",
+    "lemma": "hidrocarburo",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "idrokarburo"
+  },
+  {
+    "term": "alcano",
+    "lemma": "alcano",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "alkano"
+  },
+  {
+    "term": "alqueno",
+    "lemma": "alqueno",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "alkeno"
+  },
+  {
+    "term": "alquino",
+    "lemma": "alquino",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "alkino"
+  },
+  {
+    "term": "cicloalcano",
+    "lemma": "cicloalcano",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "sikloalkano"
+  },
+  {
+    "term": "aromático",
+    "lemma": "aromático",
+    "subject": "BIOLOGIA",
+    "category": "ADJ",
+    "phonetic": "aromatiko"
+  },
+  {
+    "term": "benceno",
+    "lemma": "benceno",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "benseno"
+  },
+  {
+    "term": "tolueno",
+    "lemma": "tolueno",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "tolueno"
+  },
+  {
+    "term": "naftaleno",
+    "lemma": "naftaleno",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "naftaleno"
+  },
+  {
+    "term": "metano",
+    "lemma": "metano",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "metano"
+  },
+  {
+    "term": "etano",
+    "lemma": "etano",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "etano"
+  },
+  {
+    "term": "propano",
+    "lemma": "propano",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "propano"
+  },
+  {
+    "term": "butano",
+    "lemma": "butano",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "butano"
+  },
+  {
+    "term": "pentano",
+    "lemma": "pentano",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "pentano"
+  },
+  {
+    "term": "hexano",
+    "lemma": "hexano",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "eksano"
+  },
+  {
+    "term": "heptano",
+    "lemma": "heptano",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "eptano"
+  },
+  {
+    "term": "octano",
+    "lemma": "octano",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "oktano"
+  },
+  {
+    "term": "eteno",
+    "lemma": "eteno",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "eteno"
+  },
+  {
+    "term": "etileno",
+    "lemma": "etileno",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "etileno"
+  },
+  {
+    "term": "acetileno",
+    "lemma": "acetileno",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "asetileno"
+  },
+  {
+    "term": "propeno",
+    "lemma": "propeno",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "propeno"
+  },
+  {
+    "term": "metilo",
+    "lemma": "metilo",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "metilo"
+  },
+  {
+    "term": "etilo",
+    "lemma": "etilo",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "etilo"
+  },
+  {
+    "term": "alquilo",
+    "lemma": "alquilo",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "alkilo"
+  },
+  {
+    "term": "saturado",
+    "lemma": "saturado",
+    "subject": "BIOLOGIA",
+    "category": "ADJ",
+    "phonetic": "saturado"
+  },
+  {
+    "term": "insaturado",
+    "lemma": "insaturado",
+    "subject": "BIOLOGIA",
+    "category": "ADJ",
+    "phonetic": "insaturado"
+  },
+  {
+    "term": "parafina",
+    "lemma": "parafina",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "parafina"
+  },
+  {
+    "term": "petróleo",
+    "lemma": "petróleo",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "petroleo"
+  },
+  {
+    "term": "gasolina",
+    "lemma": "gasolina",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "gasolina"
+  },
+  {
+    "term": "octanaje",
+    "lemma": "octanaje",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "oktanaje"
+  },
+  {
+    "term": "craqueo",
+    "lemma": "craqueo",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "krakeo"
+  },
+  {
+    "term": "kekulé",
+    "lemma": "kekulé",
+    "subject": "BIOLOGIA",
+    "category": "PROPN",
+    "phonetic": "kekule"
+  },
+  {
+    "term": "alcohol",
+    "lemma": "alcohol",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "alkool"
+  },
+  {
+    "term": "aldehído",
+    "lemma": "aldehído",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "aldeido"
+  },
+  {
+    "term": "cetona",
+    "lemma": "cetona",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "setona"
+  },
+  {
+    "term": "carboxílico",
+    "lemma": "carboxílico",
+    "subject": "BIOLOGIA",
+    "category": "ADJ",
+    "phonetic": "karboksiliko"
+  },
+  {
+    "term": "etanol",
+    "lemma": "etanol",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "etanol"
+  },
+  {
+    "term": "metanol",
+    "lemma": "metanol",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "metanol"
+  },
+  {
+    "term": "propanol",
+    "lemma": "propanol",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "propanol"
+  },
+  {
+    "term": "fenol",
+    "lemma": "fenol",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "fenol"
+  },
+  {
+    "term": "formaldehído",
+    "lemma": "formaldehído",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "formaldeido"
+  },
+  {
+    "term": "acetona",
+    "lemma": "acetona",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "asetona"
+  },
+  {
+    "term": "glicerol",
+    "lemma": "glicerol",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "gliserol"
+  },
+  {
+    "term": "glicerina",
+    "lemma": "glicerina",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "gliserina"
+  },
+  {
+    "term": "carbonilo",
+    "lemma": "carbonilo",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "karbonilo"
+  },
+  {
+    "term": "carboxilo",
+    "lemma": "carboxilo",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "karboksilo"
+  },
+  {
+    "term": "esterificación",
+    "lemma": "esterificación",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "esterifikasion"
+  },
+  {
+    "term": "saponificación",
+    "lemma": "saponificación",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "saponifikasion"
+  },
+  {
+    "term": "nitrilo",
+    "lemma": "nitrilo",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "nitrilo"
+  },
+  {
+    "term": "urea",
+    "lemma": "urea",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "urea"
+  },
+  {
+    "term": "anilina",
+    "lemma": "anilina",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "anilina"
+  },
+  {
+    "term": "grupo",
+    "lemma": "grupo",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "grupo"
+  },
+  {
+    "term": "polímero",
+    "lemma": "polímero",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "polimero"
+  },
+  {
+    "term": "monómero",
+    "lemma": "monómero",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "monomero"
+  },
+  {
+    "term": "polimerización",
+    "lemma": "polimerización",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "polimerisasion"
+  },
+  {
+    "term": "polietileno",
+    "lemma": "polietileno",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "polietileno"
+  },
+  {
+    "term": "nailon",
+    "lemma": "nailon",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "nailon"
+  },
+  {
+    "term": "caucho",
+    "lemma": "caucho",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "kauko"
+  },
+  {
+    "term": "plástico",
+    "lemma": "plástico",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "plastiko"
+  },
+  {
+    "term": "biodegradable",
+    "lemma": "biodegradable",
+    "subject": "BIOLOGIA",
+    "category": "ADJ",
+    "phonetic": "biodegradable"
+  },
+  {
+    "term": "combustible",
+    "lemma": "combustible",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "kombustible"
+  },
+  {
+    "term": "detergente",
+    "lemma": "detergente",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "detergente"
+  },
+  {
+    "term": "biogeoquímico",
+    "lemma": "biogeoquímico",
+    "subject": "BIOLOGIA",
+    "category": "ADJ",
+    "phonetic": "biogeokimiko"
+  },
+  {
+    "term": "hidrológico",
+    "lemma": "hidrológico",
+    "subject": "BIOLOGIA",
+    "category": "ADJ",
+    "phonetic": "idrologiko"
+  },
+  {
+    "term": "evaporación",
+    "lemma": "evaporación",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "ebaporasion"
+  },
+  {
+    "term": "condensación",
+    "lemma": "condensación",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "kondensasion"
+  },
+  {
+    "term": "infiltración",
+    "lemma": "infiltración",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "infiltrasion"
+  },
+  {
+    "term": "escorrentía",
+    "lemma": "escorrentía",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "eskorrentia"
+  },
+  {
+    "term": "transpiración",
+    "lemma": "transpiración",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "transpirasion"
+  },
+  {
+    "term": "evapotranspiración",
+    "lemma": "evapotranspiración",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "ebapotranspirasion"
+  },
+  {
+    "term": "sublimación",
+    "lemma": "sublimación",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "sublimasion"
+  },
+  {
+    "term": "percolación",
+    "lemma": "percolación",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "perkolasion"
+  },
+  {
+    "term": "acuífero",
+    "lemma": "acuífero",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "akuifero"
+  },
+  {
+    "term": "nitrificación",
+    "lemma": "nitrificación",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "nitrifikasion"
+  },
+  {
+    "term": "desnitrificación",
+    "lemma": "desnitrificación",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "desnitrifikasion"
+  },
+  {
+    "term": "amonificación",
+    "lemma": "amonificación",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "amonifikasion"
+  },
+  {
+    "term": "fijación",
+    "lemma": "fijación",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "fijasion"
+  },
+  {
+    "term": "nitrogenasa",
+    "lemma": "nitrogenasa",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "nitrogenasa"
+  },
+  {
+    "term": "rhizobium",
+    "lemma": "rhizobium",
+    "subject": "BIOLOGIA",
+    "category": "PROPN",
+    "phonetic": "risobium"
+  },
+  {
+    "term": "leguminosa",
+    "lemma": "leguminosa",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "leguminosa"
+  },
+  {
+    "term": "nódulo",
+    "lemma": "nódulo",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "nodulo"
+  },
+  {
+    "term": "reservorio",
+    "lemma": "reservorio",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "reserborio"
+  },
+  {
+    "term": "sedimentación",
+    "lemma": "sedimentación",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "sedimentasion"
+  },
+  {
+    "term": "meteorización",
+    "lemma": "meteorización",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "meteorisasion"
+  },
+  {
+    "term": "erosión",
+    "lemma": "erosión",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "erosion"
+  },
+  {
+    "term": "dióxido",
+    "lemma": "dióxido",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "dioksido"
+  },
+  {
+    "term": "monóxido",
+    "lemma": "monóxido",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "monoksido"
+  },
+  {
+    "term": "fosforita",
+    "lemma": "fosforita",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "fosforita"
+  },
+  {
+    "term": "guano",
+    "lemma": "guano",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "guano"
+  },
+  {
+    "term": "calentamiento",
+    "lemma": "calentamiento",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "kalentamiento"
+  },
+  {
+    "term": "biosfera",
+    "lemma": "biosfera",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "biosfera"
+  },
+  {
+    "term": "atmósfera",
+    "lemma": "atmósfera",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "atmosfera"
+  },
+  {
+    "term": "hidrosfera",
+    "lemma": "hidrosfera",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "idrosfera"
+  },
+  {
+    "term": "litosfera",
+    "lemma": "litosfera",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "litosfera"
+  },
+  {
+    "term": "mineralización",
+    "lemma": "mineralización",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "mineralisasion"
+  },
+  {
+    "term": "gusano",
+    "lemma": "gusano",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "gusano"
+  },
+  {
+    "term": "flor",
+    "lemma": "flor",
+    "subject": "BIOLOGIA",
+    "category": "NOUN",
+    "phonetic": "flor"
+  }
+]

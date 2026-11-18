@@ -1,12 +1,14 @@
 package com.unsa.dhh.captions.presentation
 
+import androidx.activity.compose.BackHandler
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.gestures.detectTapGestures
+import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -21,6 +23,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.unsa.dhh.captions.domain.asr.RawTranscriptionResult
@@ -29,45 +32,127 @@ import com.unsa.dhh.captions.presentation.theme.HighContrastYellow
 import com.unsa.dhh.captions.presentation.theme.PureBlack
 import com.unsa.dhh.captions.presentation.theme.getResponsiveTeleprompterStyle
 import com.unsa.dhh.captions.presentation.viewmodel.CaptionsViewModel
+import com.unsa.dhh.captions.service.AudioInputSource
 
 /**
  * Módulo 5: Interfaz Accesible en Jetpack Compose (WCAG AAA).
- * Proyecta la transcripción continua en pantalla de alto contraste (21:1, #FFFF00 sobre #000000).
+ * Proyecta la transcripción continua en pantalla de alto contraste (19.56:1, #FFFF00 sobre #000000).
  * En modo horizontal (landscape), oculta todos los menús para dar prioridad 100% al texto.
+ *
+ * Modo alumno (panel del investigador → BLOQUEAR PARA EL ALUMNO): siempre la vista horizontal de solo texto;
+ * el alumno solo puede desplazarlo. Atrás no hace nada. Para salir: pulsación larga en la esquina superior
+ * derecha + PIN del investigador. La orientación, la fijación y la pantalla encendida las aplica MainActivity.
  */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun TeleprompterScreen(viewModel: CaptionsViewModel) {
     val configuration = LocalConfiguration.current
-    val isSmartphone = configuration.screenWidthDp < 600
+    // Teléfono o tableta (no cambia al girar el equipo): ver DeviceClass
+    val isSmartphone = DeviceClass.isCompact(configuration)
     val isLandscape = configuration.orientation == android.content.res.Configuration.ORIENTATION_LANDSCAPE
 
-    val selectedSubject by viewModel.selectedSubject.collectAsState()
+    val textScale by viewModel.textScale.collectAsState()
     val isListening by viewModel.isListening.collectAsState()
     val teleprompterLines by viewModel.teleprompterLines.collectAsState()
     val sessionStats by viewModel.sessionStats.collectAsState()
     val exportMsg by viewModel.lastExportMessage.collectAsState()
     val asrStatusMsg by viewModel.asrStatusMessage.collectAsState()
+    val asrModeNotice by viewModel.asrModeNotice.collectAsState()
+    val audioInputSource by viewModel.audioInputSource.collectAsState()
+    val isExternalMicConnected by viewModel.isExternalMicConnected.collectAsState()
+    val audioRecording by viewModel.audioRecordingStatus.collectAsState()
+    val asrEngine by viewModel.asrEngineType.collectAsState()
+    val studentLocked by viewModel.studentLock.collectAsState()
+
+    // En modo alumno, Atrás no cierra la app ni nada de la pantalla
+    BackHandler(enabled = studentLocked) {}
+
+    // Grabación del docente: avisos que no pueden pasar desapercibidos (no hay equipo de respaldo)
+    val recordingWarning = when {
+        audioRecording.error != null -> "⚠ ${audioRecording.error}"
+        isListening && audioRecording.enabled && asrEngine != com.unsa.dhh.captions.domain.asr.AsrEngineType.VOSK ->
+            "⚠ Con el motor Android no se graba el audio de la clase."
+        else -> null
+    }
+
+    // TICKET-MIC-03: aviso breve al conectar/desconectar el receptor (se omite la emisión inicial)
+    val screenContext = androidx.compose.ui.platform.LocalContext.current
+    var previousSource by remember { mutableStateOf<AudioInputSource?>(null) }
+    LaunchedEffect(audioInputSource) {
+        val before = previousSource
+        previousSource = audioInputSource
+        if (before != null && before != audioInputSource) {
+            val msg = when {
+                audioInputSource == AudioInputSource.WIRELESS_USB_MIC ->
+                    "Micrófono de solapa inalámbrico SX26/Maxtron conectado"
+                before == AudioInputSource.WIRELESS_USB_MIC ->
+                    "Dongle USB desconectado. Usando micrófono integrado"
+                else -> "Fuente de audio: ${audioInputSource.displayName}"
+            }
+            android.widget.Toast.makeText(screenContext, msg, android.widget.Toast.LENGTH_LONG).show()
+        }
+    }
 
     var showSusDialog by remember { mutableStateOf(false) }
+    var showTlxDialog by remember { mutableStateOf(false) }
     var showCorrectionsDialog by remember { mutableStateOf(false) }
-    var showSimulationPanel by remember { mutableStateOf(false) }
-    var testSimulatedInput by remember { mutableStateOf("la cedula y la mitocondria realizan fotosintesis") }
+    var showInvestigatorPanel by remember { mutableStateOf(false) }
+    var showUnlockDialog by remember { mutableStateOf(false) }
 
-    val subjects = listOf("BIOLOGIA", "QUIMICA", "HISTORIA", "GEOGRAFIA")
+    if (showUnlockDialog) {
+        UnlockDialog(
+            onUnlock = { pin ->
+                val ok = viewModel.unlockStudent(pin)
+                if (ok) {
+                    showUnlockDialog = false
+                    showInvestigatorPanel = true
+                }
+                ok
+            },
+            onDismiss = { showUnlockDialog = false }
+        )
+    }
+
+    if (showInvestigatorPanel) {
+        InvestigatorPanel(viewModel = viewModel, onDismiss = { showInvestigatorPanel = false })
+    }
+
     val listState = rememberLazyListState()
-    val responsiveTextStyle = getResponsiveTeleprompterStyle(isSmartphone)
+    val baseTextStyle = getResponsiveTeleprompterStyle(isSmartphone)
+    // Tamaño de letra ajustable por el estudiante (A- / A+), aplicado sobre el tamaño base del dispositivo
+    val responsiveTextStyle = baseTextStyle.copy(
+        fontSize = baseTextStyle.fontSize * textScale,
+        lineHeight = baseTextStyle.lineHeight * textScale
+    )
 
-    // Scroll suave automático al final cuando llega una nueva línea
+    // Scroll suave automático al final cuando llega una nueva línea, SALVO que el alumno haya subido a releer:
+    // antes cada frase nueva lo devolvía al final y no podía leer lo anterior mientras el docente hablaba.
     LaunchedEffect(teleprompterLines.size) {
         if (teleprompterLines.isNotEmpty()) {
-            listState.animateScrollToItem(teleprompterLines.size - 1)
+            val lastVisible = listState.layoutInfo.visibleItemsInfo.lastOrNull()?.index ?: -1
+            val wasNearEnd = lastVisible < 0 || lastVisible >= teleprompterLines.size - 3
+            if (wasNearEnd) listState.animateScrollToItem(teleprompterLines.size - 1)
         }
     }
 
     if (showSusDialog) {
         Box(modifier = Modifier.fillMaxSize()) {
-            SUSQuestionnaireScreen(onDismiss = { showSusDialog = false })
+            SUSQuestionnaireScreen(
+                onDismiss = { showSusDialog = false },
+                onSubmit = { responses, complementary ->
+                    viewModel.saveSusResponses(responses, complementary)
+                }
+            )
+        }
+        return
+    }
+
+    if (showTlxDialog) {
+        Box(modifier = Modifier.fillMaxSize()) {
+            NasaTlxScreen(
+                onDismiss = { showTlxDialog = false },
+                onSubmit = { values -> viewModel.saveTlxResponses(values) }
+            )
         }
         return
     }
@@ -82,7 +167,7 @@ fun TeleprompterScreen(viewModel: CaptionsViewModel) {
         return
     }
 
-    if (isLandscape) {
+    if (isLandscape || studentLocked) {
         // ================================================================
         // MODO HORIZONTAL (LANDSCAPE): 100% PANTALLA COMPLETA DE TEXTO
         // ================================================================
@@ -117,10 +202,8 @@ fun TeleprompterScreen(viewModel: CaptionsViewModel) {
                     items(teleprompterLines) { line ->
                         Text(
                             text = line,
-                            style = responsiveTextStyle.copy(
-                                fontSize = if (isSmartphone) 22.sp else 28.sp,
-                                lineHeight = if (isSmartphone) 32.sp else 40.sp
-                            ),
+                            // Mismo tamaño base que en vertical (22 sp teléfono / 30 sp tableta) × escala del estudiante
+                            style = responsiveTextStyle,
                             modifier = Modifier
                                 .fillMaxWidth()
                                 .padding(vertical = 6.dp)
@@ -128,6 +211,51 @@ fun TeleprompterScreen(viewModel: CaptionsViewModel) {
                     }
                 }
             }
+
+            // Avisos para el investigador (sin botones: el alumno no puede tocar nada)
+            (recordingWarning ?: asrStatusMsg)?.let { warning ->
+                Text(
+                    text = warning,
+                    color = Color(0xFFFFD180),
+                    fontSize = 12.sp,
+                    fontWeight = FontWeight.Bold,
+                    maxLines = 1,
+                    overflow = TextOverflow.Ellipsis,
+                    modifier = Modifier
+                        .align(Alignment.BottomStart)
+                        .fillMaxWidth()
+                        .background(Color(0xE04E2A00))
+                        .padding(horizontal = 8.dp, vertical = 4.dp)
+                )
+            }
+
+            // La vista horizontal SIN bloquear es idéntica a la bloqueada: sin este aviso parecía bloqueada
+            // y el alumno podía salir con Atrás o girar a vertical.
+            if (!studentLocked) {
+                Text(
+                    text = "SIN BLOQUEAR",
+                    color = Color(0xFFFF8A80),
+                    fontSize = 11.sp,
+                    fontWeight = FontWeight.Bold,
+                    modifier = Modifier
+                        .align(Alignment.TopStart)
+                        .background(Color(0xCC3A0000))
+                        .padding(horizontal = 6.dp, vertical = 2.dp)
+                )
+            }
+
+            // Acceso oculto del investigador: pulsación larga en la esquina superior derecha.
+            // Bloqueado → pide el PIN; sin bloquear → abre el panel (en horizontal no hay título).
+            Box(
+                modifier = Modifier
+                    .align(Alignment.TopEnd)
+                    .size(56.dp)
+                    .pointerInput(studentLocked) {
+                        detectTapGestures(onLongPress = {
+                            if (studentLocked) showUnlockDialog = true else showInvestigatorPanel = true
+                        })
+                    }
+            )
         }
     } else {
         // ================================================================
@@ -142,7 +270,11 @@ fun TeleprompterScreen(viewModel: CaptionsViewModel) {
                             text = "Prueba",
                             color = HighContrastYellow,
                             fontWeight = FontWeight.Black,
-                            fontSize = if (isSmartphone) 18.sp else 22.sp
+                            fontSize = if (isSmartphone) 18.sp else 22.sp,
+                            // Acceso oculto al panel del investigador: pulsación larga sobre el título
+                            modifier = Modifier.pointerInput(Unit) {
+                                detectTapGestures(onLongPress = { showInvestigatorPanel = true })
+                            }
                         )
                     },
                     actions = {
@@ -155,11 +287,11 @@ fun TeleprompterScreen(viewModel: CaptionsViewModel) {
                         IconButton(onClick = { showCorrectionsDialog = true }) {
                             Icon(Icons.Default.Spellcheck, contentDescription = "Historial de Correcciones", tint = HighContrastYellow)
                         }
+                        IconButton(onClick = { showTlxDialog = true }) {
+                            Icon(Icons.Default.Psychology, contentDescription = "Cuestionario de esfuerzo (NASA-TLX)", tint = HighContrastYellow)
+                        }
                         IconButton(onClick = { showSusDialog = true }) {
                             Icon(Icons.Default.RateReview, contentDescription = "Cuestionario SUS", tint = HighContrastYellow)
-                        }
-                        IconButton(onClick = { showSimulationPanel = !showSimulationPanel }) {
-                            Icon(Icons.Default.Science, contentDescription = "Simulador", tint = HighContrastYellow)
                         }
                     },
                     colors = TopAppBarDefaults.topAppBarColors(containerColor = PureBlack)
@@ -172,39 +304,85 @@ fun TeleprompterScreen(viewModel: CaptionsViewModel) {
                     .padding(paddingValues)
                     .padding(horizontal = if (isSmartphone) 12.dp else 20.dp, vertical = 6.dp)
             ) {
-                // Barra de Selección de Asignatura Compacta
-                if (isSmartphone) {
-                    LazyRow(
-                        modifier = Modifier.fillMaxWidth(),
-                        horizontalArrangement = Arrangement.spacedBy(4.dp)
+                // Área curricular fija (la investigación se limita a Ciencia y Tecnología) y tamaño de letra
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.SpaceBetween,
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
+                    Box(
+                        modifier = Modifier
+                            .clip(RoundedCornerShape(6.dp))
+                            .background(HighContrastYellow)
+                            .padding(horizontal = 10.dp, vertical = 4.dp)
                     ) {
-                        items(subjects) { subject ->
-                            SubjectBadge(
-                                subject = subject,
-                                isSelected = subject == selectedSubject,
-                                onClick = { viewModel.selectSubject(subject) }
-                            )
-                        }
+                        Text(
+                            text = CaptionsViewModel.SUBJECT_DISPLAY_NAME,
+                            color = PureBlack,
+                            fontWeight = FontWeight.Bold,
+                            fontSize = if (isSmartphone) 11.sp else 13.sp
+                        )
                     }
-                } else {
-                    Row(
-                        modifier = Modifier.fillMaxWidth(),
-                        horizontalArrangement = Arrangement.spacedBy(4.dp)
-                    ) {
-                        subjects.forEach { subject ->
-                            Box(modifier = Modifier.weight(1f)) {
-                                SubjectBadge(
-                                    subject = subject,
-                                    isSelected = subject == selectedSubject,
-                                    onClick = { viewModel.selectSubject(subject) },
-                                    modifier = Modifier.fillMaxWidth()
-                                )
-                            }
-                        }
+                    Row(verticalAlignment = Alignment.CenterVertically) {
+                        TextSizeButton(label = "A−", description = "Reducir letra", onClick = { viewModel.decreaseTextSize() })
+                        Text(
+                            text = "${(textScale * 100).toInt()}%",
+                            color = Color.LightGray,
+                            fontSize = 11.sp,
+                            modifier = Modifier.padding(horizontal = 6.dp)
+                        )
+                        TextSizeButton(label = "A+", description = "Aumentar letra", onClick = { viewModel.increaseTextSize() })
                     }
                 }
 
-                Spacer(modifier = Modifier.height(8.dp))
+                Spacer(modifier = Modifier.height(6.dp))
+
+                // Indicador de Fuente de Audio (SX26/Maxtron 2.4G vs Micrófono Interno)
+                Row(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .clip(RoundedCornerShape(6.dp))
+                        .background(if (isExternalMicConnected) Color(0xFF00332C) else Color(0xFF1E1E1E))
+                        .border(
+                            width = 1.dp,
+                            color = if (isExternalMicConnected) Color(0xFF00E676) else Color.DarkGray,
+                            shape = RoundedCornerShape(6.dp)
+                        )
+                        .padding(horizontal = 8.dp, vertical = 2.dp),
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.SpaceBetween
+                ) {
+                    Row(modifier = Modifier.weight(1f), verticalAlignment = Alignment.CenterVertically) {
+                        Icon(
+                            imageVector = Icons.Default.Mic,
+                            contentDescription = null,
+                            tint = if (isExternalMicConnected) Color(0xFF00E676) else HighContrastYellow,
+                            modifier = Modifier.size(14.dp)
+                        )
+                        Spacer(modifier = Modifier.width(6.dp))
+                        Text(
+                            text = audioInputSource.shortName,
+                            maxLines = 1,
+                            overflow = TextOverflow.Ellipsis,
+                            color = if (isExternalMicConnected) Color(0xFFE0F2F1) else Color.LightGray,
+                            fontSize = 11.sp,
+                            fontWeight = if (isExternalMicConnected) FontWeight.Bold else FontWeight.Normal
+                        )
+                    }
+                    Text(
+                        text = when (audioInputSource) {
+                            AudioInputSource.WIRELESS_USB_MIC -> "2.4 GHz RF"
+                            AudioInputSource.WIRED_HEADSET_MIC -> "ALÁMBRICO"
+                            else -> "INTEGRADO"
+                        },
+                        maxLines = 1,
+                        color = if (isExternalMicConnected) Color(0xFF00E676) else Color.Gray,
+                        fontSize = 10.sp,
+                        fontWeight = FontWeight.Bold
+                    )
+                }
+
+                Spacer(modifier = Modifier.height(6.dp))
 
                 // Panel de Control y Telemetría
                 if (isSmartphone) {
@@ -251,6 +429,12 @@ fun TeleprompterScreen(viewModel: CaptionsViewModel) {
                                 Text(
                                     text = "Corr: ${sessionStats.totalSubstitutions}",
                                     color = HighContrastYellow,
+                                    fontSize = 11.sp,
+                                    fontWeight = FontWeight.Bold
+                                )
+                                Text(
+                                    text = "S: ${(sessionStats.averageSemanticScore * 100).toInt()}%",
+                                    color = Color(0xFF64B5F6),
                                     fontSize = 11.sp,
                                     fontWeight = FontWeight.Bold
                                 )
@@ -303,10 +487,36 @@ fun TeleprompterScreen(viewModel: CaptionsViewModel) {
                                 fontSize = 12.sp,
                                 fontWeight = FontWeight.Bold
                             )
+                            Text(
+                                text = "Coherencia Sem. media (S): ${(sessionStats.averageSemanticScore * 100).toInt()}%",
+                                color = Color(0xFF64B5F6),
+                                fontSize = 12.sp,
+                                fontWeight = FontWeight.Bold
+                            )
                             IconButton(onClick = { viewModel.clearTranscription() }) {
                                 Icon(Icons.Default.DeleteOutline, contentDescription = "Limpiar", tint = Color.Gray)
                             }
                         }
+                    }
+                }
+
+                recordingWarning?.let { warning ->
+                    Card(
+                        modifier = Modifier.fillMaxWidth().padding(vertical = 4.dp),
+                        colors = CardDefaults.cardColors(containerColor = Color(0xFF4E2A00))
+                    ) {
+                        Text(warning, color = Color(0xFFFFD180), fontSize = 12.sp, fontWeight = FontWeight.Bold,
+                            modifier = Modifier.padding(8.dp))
+                    }
+                }
+
+                // Aviso de fallo total del reconocimiento (los cambios automáticos de modo no se muestran)
+                asrModeNotice?.let { notice ->
+                    Card(
+                        modifier = Modifier.fillMaxWidth().padding(vertical = 4.dp),
+                        colors = CardDefaults.cardColors(containerColor = Color(0xFF0D2B33))
+                    ) {
+                        Text(notice, color = Color.White, fontSize = 12.sp, modifier = Modifier.padding(8.dp))
                     }
                 }
 
@@ -332,8 +542,7 @@ fun TeleprompterScreen(viewModel: CaptionsViewModel) {
                                 fontWeight = FontWeight.Bold,
                                 fontSize = 11.sp,
                                 modifier = Modifier.clickable {
-                                    viewModel.clearAsrStatusMessage()
-                                    viewModel.toggleListening()
+                                    viewModel.retryListening()
                                 }
                             )
                         }
@@ -362,52 +571,6 @@ fun TeleprompterScreen(viewModel: CaptionsViewModel) {
                                 fontWeight = FontWeight.Bold,
                                 modifier = Modifier.clickable { viewModel.clearExportMessage() }
                             )
-                        }
-                    }
-                }
-
-                // Panel de simulación interactiva
-                AnimatedVisibility(visible = showSimulationPanel) {
-                    Card(
-                        modifier = Modifier
-                            .fillMaxWidth()
-                            .padding(vertical = 4.dp),
-                        colors = CardDefaults.cardColors(containerColor = Color(0xFF161616)),
-                        shape = RoundedCornerShape(8.dp)
-                    ) {
-                        Column(modifier = Modifier.padding(10.dp)) {
-                            Text(
-                                text = "Simulador de Aula Escolar (Ruido C = 0.45)",
-                                color = HighContrastYellow,
-                                fontWeight = FontWeight.Bold,
-                                fontSize = 12.sp
-                            )
-                            Spacer(modifier = Modifier.height(4.dp))
-                            OutlinedTextField(
-                                value = testSimulatedInput,
-                                onValueChange = { testSimulatedInput = it },
-                                modifier = Modifier.fillMaxWidth(),
-                                textStyle = LocalTextStyle.current.copy(color = Color.White, fontSize = 13.sp),
-                                placeholder = { Text("Ej: la cedula y la mitocondria", color = Color.Gray) }
-                            )
-                            Spacer(modifier = Modifier.height(6.dp))
-                            Button(
-                                onClick = {
-                                    val words = testSimulatedInput.split(" ").filter { it.isNotBlank() }
-                                    val confidences = words.map { 0.45f }
-                                    viewModel.processIncomingRawText(
-                                        RawTranscriptionResult(
-                                            rawText = testSimulatedInput,
-                                            words = words,
-                                            wordConfidences = confidences,
-                                            isFinal = true
-                                        )
-                                    )
-                                },
-                                colors = ButtonDefaults.buttonColors(containerColor = Color(0xFF333333))
-                            ) {
-                                Text("Inyectar Frase con Ruido", color = HighContrastYellow, fontSize = 11.sp)
-                            }
                         }
                     }
                 }
@@ -475,37 +638,67 @@ fun TeleprompterScreen(viewModel: CaptionsViewModel) {
                         fontSize = 11.sp,
                         fontWeight = FontWeight.Medium
                     )
+                    // Grabación del docente: visible siempre que se esté escribiendo un WAV
+                    if (audioRecording.activeFile != null) {
+                        Spacer(modifier = Modifier.width(12.dp))
+                        Text(
+                            text = "● Grabando audio",
+                            color = Color(0xFFFF5252),
+                            fontSize = 11.sp,
+                            fontWeight = FontWeight.Medium
+                        )
+                    }
                 }
             }
         }
     }
 }
 
+/** PIN del investigador para salir del modo alumno. */
 @Composable
-private fun SubjectBadge(
-    subject: String,
-    isSelected: Boolean,
-    onClick: () -> Unit,
-    modifier: Modifier = Modifier
-) {
+private fun UnlockDialog(onUnlock: (String) -> Boolean, onDismiss: () -> Unit) {
+    var pin by remember { mutableStateOf("") }
+    var wrong by remember { mutableStateOf(false) }
+    val submit = { if (!onUnlock(pin)) { wrong = true; pin = "" } }
+    AlertDialog(
+        onDismissRequest = onDismiss,
+        title = { Text("Desbloquear (investigador)", fontWeight = FontWeight.Bold) },
+        text = {
+            Column {
+                OutlinedTextField(
+                    value = pin,
+                    onValueChange = { pin = it.filter(Char::isDigit).take(8); wrong = false },
+                    label = { Text("PIN") },
+                    singleLine = true,
+                    visualTransformation = androidx.compose.ui.text.input.PasswordVisualTransformation(),
+                    keyboardOptions = androidx.compose.foundation.text.KeyboardOptions(
+                        keyboardType = androidx.compose.ui.text.input.KeyboardType.NumberPassword,
+                        imeAction = androidx.compose.ui.text.input.ImeAction.Done
+                    ),
+                    // En horizontal el teclado tapa el botón: la tecla ✓ del teclado también desbloquea
+                    keyboardActions = androidx.compose.foundation.text.KeyboardActions(onDone = { submit() })
+                )
+                if (wrong) Text("PIN incorrecto", color = Color(0xFFFF8A80), fontSize = 12.sp)
+            }
+        },
+        confirmButton = {
+            TextButton(onClick = { submit() }) { Text("DESBLOQUEAR") }
+        },
+        dismissButton = { TextButton(onClick = onDismiss) { Text("CANCELAR") } }
+    )
+}
+
+@Composable
+private fun TextSizeButton(label: String, description: String, onClick: () -> Unit) {
     Box(
-        modifier = modifier
+        modifier = Modifier
             .clip(RoundedCornerShape(6.dp))
-            .background(if (isSelected) HighContrastYellow else DarkSurface)
-            .border(
-                width = if (isSelected) 1.5.dp else 1.dp,
-                color = if (isSelected) HighContrastYellow else Color.DarkGray,
-                shape = RoundedCornerShape(6.dp)
-            )
-            .clickable { onClick() }
-            .padding(horizontal = 8.dp, vertical = 4.dp),
+            .background(DarkSurface)
+            .border(1.dp, HighContrastYellow, RoundedCornerShape(6.dp))
+            .clickable(onClickLabel = description) { onClick() }
+            .padding(horizontal = 12.dp, vertical = 4.dp),
         contentAlignment = Alignment.Center
     ) {
-        Text(
-            text = subject,
-            color = if (isSelected) PureBlack else Color.White,
-            fontWeight = FontWeight.Bold,
-            fontSize = 10.sp
-        )
+        Text(text = label, color = HighContrastYellow, fontWeight = FontWeight.Bold, fontSize = 14.sp)
     }
 }
